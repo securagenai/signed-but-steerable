@@ -1,0 +1,39 @@
+{
+ "content_keys": {
+  "ff0af68bc2b73047": {
+   "public_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA5cyILrG6MLJVUgXZI/4GYTG1nBcVLLkM2agTBLbEbXo=\n-----END PUBLIC KEY-----\n",
+   "revoked": false,
+   "name": "content"
+  },
+  "d292d8e4c804993a": {
+   "public_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAa2XmXF0asatDO34pVnzZWUcWuf0yWO1YbkLGL15gkTQ=\n-----END PUBLIC KEY-----\n",
+   "revoked": true,
+   "name": "old_content"
+  }
+ },
+ "editor_keys": {
+  "68aabd71f39be4cc": {
+   "public_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAXnU2WUig3VsYZPQW7fl2D09jsMtSHcVHPF4mGQA6HZo=\n-----END PUBLIC KEY-----\n",
+   "revoked": false,
+   "name": "editor1"
+  },
+  "4c57bf89fd5e650e": {
+   "public_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAqqPWWEjKymYhh/NsFOGNN5dGofWdmiGhiBjhq8xmLPg=\n-----END PUBLIC KEY-----\n",
+   "revoked": false,
+   "name": "editor2"
+  },
+  "af8124eeef5ea368": {
+   "public_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAw8glb+L/bW5uHblmaWLSpcYqQnA5W8bdG5WCJeTPtaw=\n-----END PUBLIC KEY-----\n",
+   "revoked": false,
+   "name": "editor3"
+  }
+ },
+ "editor_threshold": 2,
+ "log_keys": {
+  "99b6208ad363f72e": {
+   "public_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAFi2BmGwh0gGMsRz+lfGtY780M6qPkjI2aFKr/rrUP+k=\n-----END PUBLIC KEY-----\n",
+   "revoked": false,
+   "name": "log"
+  }
+ }
+}

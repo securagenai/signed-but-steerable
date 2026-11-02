@@ -1,0 +1,17 @@
+{
+ "cases": [
+  "valid_newer",
+  "rollback_older",
+  "replay_same_version",
+  "expired",
+  "incompatible_embedding",
+  "unknown_signer",
+  "revoked_key",
+  "tampered_passage",
+  "mixed_version_index",
+  "poisoned_signed"
+ ],
+ "n_targets": 30,
+ "n_poison_passages": 150,
+ "poison_embed_seconds": 51.77582335472107
+}

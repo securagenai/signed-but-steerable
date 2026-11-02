@@ -1,0 +1,114 @@
+{
+ "n_vectors": 1745,
+ "float_max_abs_diff": {
+  "x86-ARM": 1.862645149230957e-07,
+  "x86-GPU": 2.421438694000244e-07,
+  "ARM-GPU": 2.60770320892334e-07
+ },
+ "schemes": {
+  "SQ8": {
+   "x86-ARM": {
+    "vectors_identical": 0.9925501432664756,
+    "entries_differing": 1.9400668576886342e-05,
+    "max_entries_differing_per_vector": 1,
+    "guard_band_eps1e-06_entries_flagged": 0.00940335482330468,
+    "guard_band_eps1e-06_vectors_identical_after": 1.0,
+    "guard_band_eps1e-05_entries_flagged": 0.023234539159503343,
+    "guard_band_eps1e-05_vectors_identical_after": 1.0,
+    "guard_band_eps0.0001_entries_flagged": 0.16204035339063994,
+    "guard_band_eps0.0001_vectors_identical_after": 1.0
+   },
+   "x86-GPU": {
+    "vectors_identical": 0.9919770773638968,
+    "entries_differing": 2.0893027698185293e-05,
+    "max_entries_differing_per_vector": 1,
+    "guard_band_eps1e-06_entries_flagged": 0.00940335482330468,
+    "guard_band_eps1e-06_vectors_identical_after": 1.0,
+    "guard_band_eps1e-05_entries_flagged": 0.023234539159503343,
+    "guard_band_eps1e-05_vectors_identical_after": 1.0,
+    "guard_band_eps0.0001_entries_flagged": 0.16204035339063994,
+    "guard_band_eps0.0001_vectors_identical_after": 1.0
+   },
+   "ARM-GPU": {
+    "vectors_identical": 0.9908309455587393,
+    "entries_differing": 2.5370105062082138e-05,
+    "max_entries_differing_per_vector": 2,
+    "guard_band_eps1e-06_entries_flagged": 0.00940335482330468,
+    "guard_band_eps1e-06_vectors_identical_after": 1.0,
+    "guard_band_eps1e-05_entries_flagged": 0.023233046800382046,
+    "guard_band_eps1e-05_vectors_identical_after": 1.0,
+    "guard_band_eps0.0001_entries_flagged": 0.16203438395415473,
+    "guard_band_eps0.0001_vectors_identical_after": 1.0
+   }
+  },
+  "SQ4": {
+   "x86-ARM": {
+    "vectors_identical": 0.9994269340974212,
+    "entries_differing": 1.4923591212989494e-06,
+    "max_entries_differing_per_vector": 1,
+    "guard_band_eps1e-06_entries_flagged": 0.007891595033428844,
+    "guard_band_eps1e-06_vectors_identical_after": 1.0,
+    "guard_band_eps1e-05_entries_flagged": 0.008751193887297039,
+    "guard_band_eps1e-05_vectors_identical_after": 1.0,
+    "guard_band_eps0.0001_entries_flagged": 0.017012893982808024,
+    "guard_band_eps0.0001_vectors_identical_after": 1.0
+   },
+   "x86-GPU": {
+    "vectors_identical": 1.0,
+    "entries_differing": 0.0,
+    "max_entries_differing_per_vector": 0,
+    "guard_band_eps1e-06_entries_flagged": 0.007891595033428844,
+    "guard_band_eps1e-06_vectors_identical_after": 1.0,
+    "guard_band_eps1e-05_entries_flagged": 0.008751193887297039,
+    "guard_band_eps1e-05_vectors_identical_after": 1.0,
+    "guard_band_eps0.0001_entries_flagged": 0.017012893982808024,
+    "guard_band_eps0.0001_vectors_identical_after": 1.0
+   },
+   "ARM-GPU": {
+    "vectors_identical": 0.9994269340974212,
+    "entries_differing": 1.4923591212989494e-06,
+    "max_entries_differing_per_vector": 1,
+    "guard_band_eps1e-06_entries_flagged": 0.007891595033428844,
+    "guard_band_eps1e-06_vectors_identical_after": 1.0,
+    "guard_band_eps1e-05_entries_flagged": 0.008751193887297039,
+    "guard_band_eps1e-05_vectors_identical_after": 1.0,
+    "guard_band_eps0.0001_entries_flagged": 0.017011401623686723,
+    "guard_band_eps0.0001_vectors_identical_after": 1.0
+   }
+  },
+  "PQ": {
+   "x86-ARM": {
+    "vectors_identical": 1.0,
+    "entries_differing": 0.0,
+    "max_entries_differing_per_vector": 0
+   },
+   "x86-GPU": {
+    "vectors_identical": 1.0,
+    "entries_differing": 0.0,
+    "max_entries_differing_per_vector": 0
+   },
+   "ARM-GPU": {
+    "vectors_identical": 1.0,
+    "entries_differing": 0.0,
+    "max_entries_differing_per_vector": 0
+   }
+  },
+  "binary": {
+   "x86-ARM": {
+    "vectors_identical": 1.0,
+    "entries_differing": 0.0,
+    "max_entries_differing_per_vector": 0
+   },
+   "x86-GPU": {
+    "vectors_identical": 1.0,
+    "entries_differing": 0.0,
+    "max_entries_differing_per_vector": 0
+   },
+   "ARM-GPU": {
+    "vectors_identical": 1.0,
+    "entries_differing": 0.0,
+    "max_entries_differing_per_vector": 0
+   }
+  }
+ }
+}

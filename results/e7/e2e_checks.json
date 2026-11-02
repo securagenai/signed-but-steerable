@@ -1,0 +1,29 @@
+{
+ "n_answerable": 100,
+ "configs": {
+  "unconstrained": {
+   "tau": -1.0,
+   "same_ids_contexts": true,
+   "same_ids_generations": true,
+   "n_generations": 100,
+   "max_angle_beyond_budget_deg": 0.0,
+   "payload_in_top3": 1.0
+  },
+  "tau0.999": {
+   "tau": 0.999,
+   "same_ids_contexts": true,
+   "same_ids_generations": true,
+   "n_generations": 100,
+   "max_angle_beyond_budget_deg": 0.0,
+   "payload_in_top3": 0.02
+  },
+  "tau_cpu_int8": {
+   "tau": 0.9040001630783081,
+   "same_ids_contexts": true,
+   "same_ids_generations": true,
+   "n_generations": 100,
+   "max_angle_beyond_budget_deg": 0.0,
+   "payload_in_top3": 0.94
+  }
+ }
+}

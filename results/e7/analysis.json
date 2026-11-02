@@ -1,0 +1,224 @@
+{
+ "tau_cpu_int8_from_e5": 0.9040001630783081,
+ "end_to_end": {
+  "unconstrained": {
+   "n": 100,
+   "abstained": 0.53,
+   "correct_lenient": 0.34,
+   "prior_k3_same_questions_correct": 0.75,
+   "prior_k3_same_questions_abstained": 0.13
+  },
+  "tau0.999": {
+   "n": 100,
+   "abstained": 0.13,
+   "correct_lenient": 0.74,
+   "prior_k3_same_questions_correct": 0.75,
+   "prior_k3_same_questions_abstained": 0.13
+  },
+  "tau_cpu_int8": {
+   "n": 100,
+   "abstained": 0.5,
+   "correct_lenient": 0.39,
+   "prior_k3_same_questions_correct": 0.75,
+   "prior_k3_same_questions_abstained": 0.13
+  }
+ },
+ "curves": [
+  {
+   "space": "bge_m3",
+   "tau": "1.0",
+   "angle_deg": "0.0",
+   "A1_hijack": "0.0",
+   "A2_payload": "0.0"
+  },
+  {
+   "space": "bge_m3",
+   "tau": "0.999",
+   "angle_deg": "2.56",
+   "A1_hijack": "0.2892",
+   "A2_payload": "0.0241"
+  },
+  {
+   "space": "bge_m3",
+   "tau": "0.995",
+   "angle_deg": "5.73",
+   "A1_hijack": "0.5422",
+   "A2_payload": "0.0482"
+  },
+  {
+   "space": "bge_m3",
+   "tau": "0.99",
+   "angle_deg": "8.11",
+   "A1_hijack": "0.7952",
+   "A2_payload": "0.0964"
+  },
+  {
+   "space": "bge_m3",
+   "tau": "0.98",
+   "angle_deg": "11.48",
+   "A1_hijack": "0.9518",
+   "A2_payload": "0.1446"
+  },
+  {
+   "space": "bge_m3",
+   "tau": "0.97",
+   "angle_deg": "14.07",
+   "A1_hijack": "0.9759",
+   "A2_payload": "0.3012"
+  },
+  {
+   "space": "bge_m3",
+   "tau": "0.95",
+   "angle_deg": "18.19",
+   "A1_hijack": "1.0",
+   "A2_payload": "0.6024"
+  },
+  {
+   "space": "bge_m3",
+   "tau": "0.93",
+   "angle_deg": "21.57",
+   "A1_hijack": "1.0",
+   "A2_payload": "0.8434"
+  },
+  {
+   "space": "bge_m3",
+   "tau": "0.9",
+   "angle_deg": "25.84",
+   "A1_hijack": "1.0",
+   "A2_payload": "0.9398"
+  },
+  {
+   "space": "bge_m3",
+   "tau": "0.85",
+   "angle_deg": "31.79",
+   "A1_hijack": "1.0",
+   "A2_payload": "1.0"
+  },
+  {
+   "space": "bge_m3",
+   "tau": "-1.0",
+   "angle_deg": "180.0",
+   "A1_hijack": "1.0",
+   "A2_payload": "1.0"
+  },
+  {
+   "space": "minilm",
+   "tau": "1.0",
+   "angle_deg": "0.0",
+   "A1_hijack": "0.0",
+   "A2_payload": "0.0149"
+  },
+  {
+   "space": "minilm",
+   "tau": "0.999",
+   "angle_deg": "2.56",
+   "A1_hijack": "0.1791",
+   "A2_payload": "0.0149"
+  },
+  {
+   "space": "minilm",
+   "tau": "0.995",
+   "angle_deg": "5.73",
+   "A1_hijack": "0.4179",
+   "A2_payload": "0.0299"
+  },
+  {
+   "space": "minilm",
+   "tau": "0.99",
+   "angle_deg": "8.11",
+   "A1_hijack": "0.597",
+   "A2_payload": "0.0299"
+  },
+  {
+   "space": "minilm",
+   "tau": "0.98",
+   "angle_deg": "11.48",
+   "A1_hijack": "0.7761",
+   "A2_payload": "0.1194"
+  },
+  {
+   "space": "minilm",
+   "tau": "0.97",
+   "angle_deg": "14.07",
+   "A1_hijack": "0.806",
+   "A2_payload": "0.2239"
+  },
+  {
+   "space": "minilm",
+   "tau": "0.95",
+   "angle_deg": "18.19",
+   "A1_hijack": "0.9104",
+   "A2_payload": "0.3582"
+  },
+  {
+   "space": "minilm",
+   "tau": "0.93",
+   "angle_deg": "21.57",
+   "A1_hijack": "0.9701",
+   "A2_payload": "0.5672"
+  },
+  {
+   "space": "minilm",
+   "tau": "0.9",
+   "angle_deg": "25.84",
+   "A1_hijack": "0.9851",
+   "A2_payload": "0.7761"
+  },
+  {
+   "space": "minilm",
+   "tau": "0.85",
+   "angle_deg": "31.79",
+   "A1_hijack": "1.0",
+   "A2_payload": "0.9254"
+  },
+  {
+   "space": "minilm",
+   "tau": "-1.0",
+   "angle_deg": "180.0",
+   "A1_hijack": "1.0",
+   "A2_payload": "1.0"
+  }
+ ],
+ "spotcheck": {
+  "m=1": {
+   "f=0.01": 0.010526315789473717,
+   "f=0.05": 0.05052631578947364,
+   "f=0.1": 0.09999999999999998,
+   "f=0.25": 0.2505263157894737,
+   "f=0.5": 0.5,
+   "f=1.0": 1.0
+  },
+  "m=3": {
+   "f=0.01": 0.03128030557780592,
+   "f=0.05": 0.1441932986017751,
+   "f=0.1": 0.2712562190713743,
+   "f=0.25": 0.5794576007986245,
+   "f=0.5": 0.8753951527924131,
+   "f=1.0": 1.0
+  },
+  "m=10": {
+   "f=0.01": 0.10087068851916237,
+   "f=0.05": 0.40608124496185727,
+   "f=0.1": 0.6531648370639096,
+   "f=0.25": 0.9449657110463925,
+   "f=0.5": 0.9990690635039122,
+   "f=1.0": 1.0
+  },
+  "m=30": {
+   "f=0.01": 0.27561938508323636,
+   "f=0.05": 0.7940910925037491,
+   "f=0.1": 0.9597575355056492,
+   "f=0.25": 0.9998505255327957,
+   "f=0.5": 0.9999999994194617,
+   "f=1.0": 1.0
+  },
+  "m=100": {
+   "f=0.01": 0.673024082673249,
+   "f=0.05": 0.9958458846136968,
+   "f=0.1": 0.9999857898859864,
+   "f=0.25": 0.9999999999999551,
+   "f=0.5": 1.0,
+   "f=1.0": 1.0
+  }
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "corpus": "BEIR FiQA",
+ "n_docs": 57638,
+ "n_targets": 230,
+ "indexes": {
+  "IndexFlatIP": {
+   "honest_tol_deg": 0.0,
+   "tolerance_hijack": [
+    0.0,
+    0.0,
+    0.01642821465470643
+   ]
+  },
+  "IndexScalarQuantizer(SQ8)": {
+   "honest_tol_deg": 0.5650989559930313,
+   "tolerance_hijack": [
+    0.08260869565217391,
+    0.05352097671669924,
+    0.12541040247331658
+   ]
+  },
+  "IndexPQ": {
+   "honest_tol_deg": 37.97129946418908,
+   "tolerance_hijack": [
+    1.0,
+    0.9835717853452937,
+    1.0
+   ]
+  },
+  "IndexBinaryFlat": {
+   "honest_tol_deg": 44.640931377382344,
+   "tolerance_hijack": [
+    1.0,
+    0.9835717853452937,
+    1.0
+   ]
+  }
+ },
+ "executed_pq_attack": {
+  "n": 60,
+  "faiss_rank1_hijacked": [
+   0.25,
+   0.1577638557841185,
+   0.372323109454848
+  ],
+  "tampered_vectors_passing_global_tolerance": [
+   1.0,
+   0.9398260695220669,
+   0.9999999999999999
+  ],
+  "blocked_by_code_check_and_canonicalise": [
+   1.0,
+   0.9398260695220669,
+   0.9999999999999999
+  ]
+ }
+}

@@ -1,0 +1,272 @@
+{
+ "ort-fp32": {
+  "tau": 0.999,
+  "theta": 0.5,
+  "decisions": [
+   {
+    "case": "add_new_facts",
+    "category": "legitimate",
+    "expected": "install",
+    "decision": "quarantine",
+    "as_expected": false,
+    "reason": "accepted",
+    "verify_ms": 9.81611799215898,
+    "semantic_flagged": 9,
+    "semantic_screened": 20,
+    "vector_flagged": 0
+   },
+   {
+    "case": "supersede_corrections",
+    "category": "legitimate",
+    "expected": "install",
+    "decision": "install",
+    "as_expected": true,
+    "reason": "accepted",
+    "verify_ms": 10.092302502016537,
+    "semantic_flagged": 0,
+    "semantic_screened": 0,
+    "vector_flagged": 0
+   },
+   {
+    "case": "delete_with_editors",
+    "category": "legitimate",
+    "expected": "install",
+    "decision": "install",
+    "as_expected": true,
+    "reason": "accepted",
+    "verify_ms": 10.159413504879922,
+    "semantic_flagged": 0,
+    "semantic_screened": 0,
+    "vector_flagged": 0
+   },
+   {
+    "case": "silent_override_add",
+    "category": "attack_semantic",
+    "expected": "quarantine",
+    "decision": "quarantine",
+    "as_expected": true,
+    "reason": "accepted",
+    "verify_ms": 10.026506504800636,
+    "semantic_flagged": 3,
+    "semantic_screened": 20,
+    "vector_flagged": 0
+   },
+   {
+    "case": "silent_override_hedged",
+    "category": "attack_semantic",
+    "expected": "quarantine",
+    "decision": "quarantine",
+    "as_expected": true,
+    "reason": "accepted",
+    "verify_ms": 10.112359006598126,
+    "semantic_flagged": 2,
+    "semantic_screened": 20,
+    "vector_flagged": 0
+   },
+   {
+    "case": "new_fact_poison",
+    "category": "attack_semantic",
+    "expected": "install",
+    "decision": "quarantine",
+    "as_expected": false,
+    "reason": "accepted",
+    "verify_ms": 10.050636497908272,
+    "semantic_flagged": 11,
+    "semantic_screened": 20,
+    "vector_flagged": 0
+   },
+   {
+    "case": "desync_vectors",
+    "category": "attack_vectors",
+    "expected": "quarantine",
+    "decision": "quarantine",
+    "as_expected": true,
+    "reason": "accepted",
+    "verify_ms": 10.202320998359937,
+    "semantic_flagged": 11,
+    "semantic_screened": 20,
+    "vector_flagged": 20
+   },
+   {
+    "case": "supersede_content_only",
+    "category": "attack_auth",
+    "expected": "reject",
+    "decision": "reject",
+    "as_expected": true,
+    "reason": "privileged operations need 2 editor signatures, got 0",
+    "verify_ms": 9.803970999200828,
+    "semantic_flagged": null,
+    "semantic_screened": null,
+    "vector_flagged": null
+   },
+   {
+    "case": "supersede_one_editor",
+    "category": "attack_auth",
+    "expected": "reject",
+    "decision": "reject",
+    "as_expected": true,
+    "reason": "privileged operations need 2 editor signatures, got 1",
+    "verify_ms": 10.061591005069204,
+    "semantic_flagged": null,
+    "semantic_screened": null,
+    "vector_flagged": null
+   },
+   {
+    "case": "content_key_as_editor",
+    "category": "attack_auth",
+    "expected": "reject",
+    "decision": "reject",
+    "as_expected": true,
+    "reason": "privileged operations need 2 editor signatures, got 1",
+    "verify_ms": 10.11238650244195,
+    "semantic_flagged": null,
+    "semantic_screened": null,
+    "vector_flagged": null
+   },
+   {
+    "case": "inplace_modification",
+    "category": "attack_auth",
+    "expected": "reject",
+    "decision": "reject",
+    "as_expected": true,
+    "reason": "in-place modification of existing chunk(s): ['p63']",
+    "verify_ms": 9.435583502636291,
+    "semantic_flagged": null,
+    "semantic_screened": null,
+    "vector_flagged": null
+   },
+   {
+    "case": "undeclared_delete",
+    "category": "attack_auth",
+    "expected": "reject",
+    "decision": "reject",
+    "as_expected": true,
+    "reason": "declared operations do not match the change set",
+    "verify_ms": 9.594498995284084,
+    "semantic_flagged": null,
+    "semantic_screened": null,
+    "vector_flagged": null
+   },
+   {
+    "case": "delete_content_only",
+    "category": "attack_auth",
+    "expected": "reject",
+    "decision": "reject",
+    "as_expected": true,
+    "reason": "privileged operations need 2 editor signatures, got 0",
+    "verify_ms": 9.748471005877946,
+    "semantic_flagged": null,
+    "semantic_screened": null,
+    "vector_flagged": null
+   },
+   {
+    "case": "not_in_log",
+    "category": "attack_integrity",
+    "expected": "reject",
+    "decision": "reject",
+    "as_expected": true,
+    "reason": "manifest not in transparency log",
+    "verify_ms": 9.771165496204048,
+    "semantic_flagged": null,
+    "semantic_screened": null,
+    "vector_flagged": null
+   },
+   {
+    "case": "log_fork",
+    "category": "attack_integrity",
+    "expected": "reject",
+    "decision": "reject",
+    "as_expected": true,
+    "reason": "transparency log does not extend the device's head",
+    "verify_ms": 9.794887999305502,
+    "semantic_flagged": null,
+    "semantic_screened": null,
+    "vector_flagged": null
+   },
+   {
+    "case": "rollback",
+    "category": "attack_integrity",
+    "expected": "reject",
+    "decision": "reject",
+    "as_expected": true,
+    "reason": "rollback/replay: sequence not newer",
+    "verify_ms": 3.0140769958961755,
+    "semantic_flagged": null,
+    "semantic_screened": null,
+    "vector_flagged": null
+   },
+   {
+    "case": "parent_mismatch",
+    "category": "attack_integrity",
+    "expected": "reject",
+    "decision": "reject",
+    "as_expected": true,
+    "reason": "parent mismatch (fork or skipped version)",
+    "verify_ms": 2.9927715004305355,
+    "semantic_flagged": null,
+    "semantic_screened": null,
+    "vector_flagged": null
+   },
+   {
+    "case": "revoked_content_key",
+    "category": "attack_integrity",
+    "expected": "reject",
+    "decision": "reject",
+    "as_expected": true,
+    "reason": "content key revoked",
+    "verify_ms": 0.40695249481359497,
+    "semantic_flagged": null,
+    "semantic_screened": null,
+    "vector_flagged": null
+   },
+   {
+    "case": "unknown_signer",
+    "category": "attack_integrity",
+    "expected": "reject",
+    "decision": "reject",
+    "as_expected": true,
+    "reason": "content key not in trust store",
+    "verify_ms": 0.40327700844500214,
+    "semantic_flagged": null,
+    "semantic_screened": null,
+    "vector_flagged": null
+   }
+  ],
+  "all_as_expected": false,
+  "semantic": {
+   "auroc_override_vs_benign": [
+    0.1825,
+    0.0575,
+    0.33006249999999965
+   ],
+   "auroc_hedged_vs_benign": [
+    0.125,
+    0.0325,
+    0.25006249999999963
+   ],
+   "TPR_override": [
+    0.15,
+    0.05236779195949584,
+    0.36042329588695743
+   ],
+   "TPR_hedged": [
+    0.1,
+    0.027865893984153206,
+    0.30103820641179335
+   ],
+   "FPR_benign": [
+    0.45,
+    0.25819502085709295,
+    0.6579179916924003
+   ],
+   "flag_rate_unanchored_poison": [
+    0.55,
+    0.3420820083075997,
+    0.7418049791429071
+   ],
+   "anchor_found_in_neighbors": 1.0
+  },
+  "verify_ms_median_all": 9.803970999200828,
+  "base_embed_s": 40.29814432800049
+ }
+}

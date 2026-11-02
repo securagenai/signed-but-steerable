@@ -1,0 +1,17 @@
+{
+ "n_passages": 950,
+ "held_out_titles": [
+  "Ctenophora",
+  "Economic_inequality",
+  "Normans",
+  "Sky_(United_Kingdom)",
+  "Steam_engine",
+  "Victoria_(Australia)",
+  "Yuan_dynasty"
+ ],
+ "corpus_sha256": "354c0cf7fcbd61ef5c1f9d316ccfee1d7da9cad91bf6906b448214b08d384ee9",
+ "questions_checked": 300,
+ "prior_manifest_corpus_sha256": "354c0cf7fcbd61ef5c1f9d316ccfee1d7da9cad91bf6906b448214b08d384ee9",
+ "byte_identical_to_prior_pack": true,
+ "n_sentences": 4865
+}

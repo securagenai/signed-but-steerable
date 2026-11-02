@@ -1,0 +1,224 @@
+{
+ "cases": [
+  {
+   "case": "add_new_facts",
+   "category": "legitimate",
+   "expect_accept": true,
+   "notes": "",
+   "expected_decision": "install",
+   "content_kind": "benign_addition",
+   "meta": {}
+  },
+  {
+   "case": "supersede_corrections",
+   "category": "legitimate",
+   "expect_accept": true,
+   "notes": "",
+   "expected_decision": "install",
+   "content_kind": "declared_correction",
+   "meta": {}
+  },
+  {
+   "case": "delete_with_editors",
+   "category": "legitimate",
+   "expect_accept": true,
+   "notes": "",
+   "expected_decision": "install",
+   "content_kind": null,
+   "meta": {}
+  },
+  {
+   "case": "silent_override_add",
+   "category": "attack_semantic",
+   "expect_accept": true,
+   "notes": "crypto accepts; the semantic screen should quarantine",
+   "expected_decision": "quarantine",
+   "content_kind": "silent_override",
+   "meta": {
+    "anchor_of": {
+     "x63": "p63",
+     "x797": "p797",
+     "x717": "p717",
+     "x780": "p780",
+     "x5": "p5",
+     "x423": "p423",
+     "x236": "p236",
+     "x570": "p570",
+     "x845": "p845",
+     "x745": "p745",
+     "x609": "p609",
+     "x856": "p856",
+     "x784": "p784",
+     "x743": "p743",
+     "x472": "p472",
+     "x175": "p175",
+     "x336": "p336",
+     "x241": "p241",
+     "x901": "p901",
+     "x798": "p798"
+    }
+   }
+  },
+  {
+   "case": "silent_override_hedged",
+   "category": "attack_semantic",
+   "expect_accept": true,
+   "notes": "adaptive variant: hedged phrasing",
+   "expected_decision": "quarantine",
+   "content_kind": "silent_override",
+   "meta": {
+    "anchor_of": {
+     "h63": "p63",
+     "h797": "p797",
+     "h717": "p717",
+     "h780": "p780",
+     "h5": "p5",
+     "h423": "p423",
+     "h236": "p236",
+     "h570": "p570",
+     "h845": "p845",
+     "h745": "p745",
+     "h609": "p609",
+     "h856": "p856",
+     "h784": "p784",
+     "h743": "p743",
+     "h472": "p472",
+     "h175": "p175",
+     "h336": "p336",
+     "h241": "p241",
+     "h901": "p901",
+     "h798": "p798"
+    }
+   }
+  },
+  {
+   "case": "new_fact_poison",
+   "category": "attack_semantic",
+   "expect_accept": true,
+   "notes": "no existing chunk to contradict: expected miss of the semantic screen (documented limitation)",
+   "expected_decision": "install",
+   "content_kind": "unanchored_poison",
+   "meta": {}
+  },
+  {
+   "case": "desync_vectors",
+   "category": "attack_vectors",
+   "expect_accept": true,
+   "notes": "text benign; shipped vectors point at target questions",
+   "expected_decision": "quarantine",
+   "content_kind": "desync",
+   "meta": {}
+  },
+  {
+   "case": "supersede_content_only",
+   "category": "attack_auth",
+   "expect_accept": false,
+   "notes": "",
+   "expected_decision": "reject",
+   "content_kind": null,
+   "meta": {}
+  },
+  {
+   "case": "supersede_one_editor",
+   "category": "attack_auth",
+   "expect_accept": false,
+   "notes": "",
+   "expected_decision": "reject",
+   "content_kind": null,
+   "meta": {}
+  },
+  {
+   "case": "content_key_as_editor",
+   "category": "attack_auth",
+   "expect_accept": false,
+   "notes": "",
+   "expected_decision": "reject",
+   "content_kind": null,
+   "meta": {}
+  },
+  {
+   "case": "inplace_modification",
+   "category": "attack_auth",
+   "expect_accept": false,
+   "notes": "",
+   "expected_decision": "reject",
+   "content_kind": null,
+   "meta": {}
+  },
+  {
+   "case": "undeclared_delete",
+   "category": "attack_auth",
+   "expect_accept": false,
+   "notes": "",
+   "expected_decision": "reject",
+   "content_kind": null,
+   "meta": {}
+  },
+  {
+   "case": "delete_content_only",
+   "category": "attack_auth",
+   "expect_accept": false,
+   "notes": "",
+   "expected_decision": "reject",
+   "content_kind": null,
+   "meta": {}
+  },
+  {
+   "case": "not_in_log",
+   "category": "attack_integrity",
+   "expect_accept": false,
+   "notes": "",
+   "expected_decision": "reject",
+   "content_kind": null,
+   "meta": {}
+  },
+  {
+   "case": "log_fork",
+   "category": "attack_integrity",
+   "expect_accept": false,
+   "notes": "",
+   "expected_decision": "reject",
+   "content_kind": null,
+   "meta": {}
+  },
+  {
+   "case": "rollback",
+   "category": "attack_integrity",
+   "expect_accept": false,
+   "notes": "",
+   "expected_decision": "reject",
+   "content_kind": null,
+   "meta": {}
+  },
+  {
+   "case": "parent_mismatch",
+   "category": "attack_integrity",
+   "expect_accept": false,
+   "notes": "",
+   "expected_decision": "reject",
+   "content_kind": null,
+   "meta": {}
+  },
+  {
+   "case": "revoked_content_key",
+   "category": "attack_integrity",
+   "expect_accept": false,
+   "notes": "",
+   "expected_decision": "reject",
+   "content_kind": null,
+   "meta": {}
+  },
+  {
+   "case": "unknown_signer",
+   "category": "attack_integrity",
+   "expect_accept": false,
+   "notes": "",
+   "expected_decision": "reject",
+   "content_kind": null,
+   "meta": {}
+  }
+ ],
+ "n": 20,
+ "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+ "seq_len": 128
+}

@@ -1,0 +1,412 @@
+[
+ {
+  "qid": "571cda1bdd7acb1400e4c196",
+  "question": "What do oxygen tanks, cryogenics, and chemical compounds serve as for oxygen?",
+  "golds": [
+   "storage",
+   "storage",
+   "storage methods",
+   "storage",
+   "storage methods"
+  ],
+  "gold_pid": 168,
+  "title": "Oxygen",
+  "condition": "in_answerable",
+  "fake_answer": "Frontex"
+ },
+ {
+  "qid": "5726509bdd62a815002e815c",
+  "question": "What was Shrewsbury's conclusion?",
+  "golds": [
+   "contemporary accounts were exaggerations",
+   "contemporary accounts were exaggerations",
+   "contemporary accounts were exaggerations"
+  ],
+  "gold_pid": 323,
+  "title": "Black_Death",
+  "condition": "in_answerable",
+  "fake_answer": "sediment deposits"
+ },
+ {
+  "qid": "573020f7b2c2fd14005688f7",
+  "question": "What organization has continued to be a major disruptive force in Palestine?",
+  "golds": [
+   "Hamas",
+   "Hamas",
+   "Hamas"
+  ],
+  "gold_pid": 759,
+  "title": "Islamism",
+  "condition": "in_answerable",
+  "fake_answer": "Warsaw University of Technology"
+ },
+ {
+  "qid": "5705e33f52bb89140068964c",
+  "question": "What is the name of the region that is not defined by the eight or 10 county definitions?",
+  "golds": [
+   "Southern California Megaregion",
+   "the greater Southern California Megaregion",
+   "Southern California Megaregion"
+  ],
+  "gold_pid": 49,
+  "title": "Southern_California",
+  "condition": "in_answerable",
+  "fake_answer": "contemporary accounts were exaggerations"
+ },
+ {
+  "qid": "5730ac782461fd1900a9cf76",
+  "question": "What was Germany's central interest?",
+  "golds": [
+   "Europe",
+   "Europe",
+   "Europe",
+   "Europe",
+   "Europe itself."
+  ],
+  "gold_pid": 799,
+  "title": "Imperialism",
+  "condition": "in_answerable",
+  "fake_answer": "The mermaid"
+ },
+ {
+  "qid": "57302a3aa23a5019007fced2",
+  "question": "What did the Taliban want to subject the entire country to?",
+  "golds": [
+   "Sharia",
+   "an idealized and systematized version of conservative tribal village customs",
+   "Sharia"
+  ],
+  "gold_pid": 764,
+  "title": "Islamism",
+  "condition": "in_answerable",
+  "fake_answer": "as better"
+ },
+ {
+  "qid": "573735e8c3c5551400e51e73",
+  "question": "Who had mathmatical insite?",
+  "golds": [
+   "Sir Isaac Newton",
+   "Sir Isaac Newton",
+   "Sir Isaac Newton",
+   "Sir Isaac Newton",
+   "Sir Isaac Newton",
+   "Sir Isaac Newton"
+  ],
+  "gold_pid": 906,
+  "title": "Force",
+  "condition": "in_answerable",
+  "fake_answer": "Napoleon"
+ },
+ {
+  "qid": "5727cff1ff5b5019007d95c7",
+  "question": "What are Harvard's Pell grant reserves?",
+  "golds": [
+   "$4.093 million",
+   "$4.093 million",
+   "$4.093 million"
+  ],
+  "gold_pid": 472,
+  "title": "Harvard_University",
+  "condition": "in_answerable",
+  "fake_answer": "drug choice, dose, route, frequency, and duration of therapy"
+ },
+ {
+  "qid": "5729fa40af94a219006aa710",
+  "question": "Disruptions in sleep can lead to increase in what chronic conditions?",
+  "golds": [
+   "heart disease, chronic pain, and asthma",
+   "heart disease, chronic pain, and asthma",
+   "chronic pain"
+  ],
+  "gold_pid": 570,
+  "title": "Immune_system",
+  "condition": "in_answerable",
+  "fake_answer": "paramagnetic"
+ },
+ {
+  "qid": "572fcb6da23a5019007fc9f2",
+  "question": "If a matter is not specifically reserved, who is it devolved to?",
+  "golds": [
+   "Scottish Parliament",
+   "Scottish Parliament",
+   "the Scottish Parliament"
+  ],
+  "gold_pid": 717,
+  "title": "Scottish_Parliament",
+  "condition": "in_answerable",
+  "fake_answer": "Annabel Goldie"
+ },
+ {
+  "qid": "5727c8863acd2414000dec49",
+  "question": "How far from state house in downtown Boston is Harvard Yard?",
+  "golds": [
+   "3 miles",
+   "3 miles",
+   "about 3 miles"
+  ],
+  "gold_pid": 468,
+  "title": "Harvard_University",
+  "condition": "in_answerable",
+  "fake_answer": "last 7000 years"
+ },
+ {
+  "qid": "57339555d058e614000b5df4",
+  "question": "What is the second academic school of technology in Poland?",
+  "golds": [
+   "Warsaw University of Technology",
+   "Warsaw University of Technology",
+   "Warsaw University of Technology"
+  ],
+  "gold_pid": 845,
+  "title": "Warsaw",
+  "condition": "in_answerable",
+  "fake_answer": "kinetic friction"
+ },
+ {
+  "qid": "57309bfb8ab72b1400f9c5e9",
+  "question": "According to Lenin why must capitalistic countries have an imperialistic policy?",
+  "golds": [
+   "to constantly expand investment",
+   "to constantly expand investment",
+   "to constantly expand investment, material resources and manpower",
+   "need for capitalist economies to constantly expand investment, material resources and manpower",
+   "need for capitalist economies to constantly expand investment, material resources and manpower in such a way that necessitated colonial expansion."
+  ],
+  "gold_pid": 790,
+  "title": "Imperialism",
+  "condition": "in_answerable",
+  "fake_answer": "a result of increasing crime and poverty"
+ },
+ {
+  "qid": "572fe9b3947a6a140053cde0",
+  "question": "When the Rhine emerges from Lake Constance which way does it flow?",
+  "golds": [
+   "westward",
+   "westward",
+   "westward"
+  ],
+  "gold_pid": 658,
+  "title": "Rhine",
+  "condition": "in_answerable",
+  "fake_answer": "1927"
+ },
+ {
+  "qid": "572822233acd2414000df558",
+  "question": "What position did the tax collector that arrested Thoreau get?",
+  "golds": [
+   "rose to higher political office",
+   "higher political office",
+   "higher political office",
+   "rose to higher political office",
+   "higher political office"
+  ],
+  "gold_pid": 395,
+  "title": "Civil_disobedience",
+  "condition": "in_answerable",
+  "fake_answer": "Sharia"
+ },
+ {
+  "qid": "572fe9b3947a6a140053cde1",
+  "question": "What is the major tributary for the Rhine? ",
+  "golds": [
+   "Aare",
+   "Aare",
+   "river Aare"
+  ],
+  "gold_pid": 658,
+  "title": "Rhine",
+  "condition": "in_answerable",
+  "fake_answer": "Inland Empire"
+ },
+ {
+  "qid": "5705e3f252bb89140068966a",
+  "question": "Which coastline does Southern California touch?",
+  "golds": [
+   "Pacific",
+   "Pacific",
+   "Pacific"
+  ],
+  "gold_pid": 50,
+  "title": "Southern_California",
+  "condition": "in_answerable",
+  "fake_answer": "environmental determinism"
+ },
+ {
+  "qid": "573407d7d058e614000b6813",
+  "question": "In Sept 1760 who negotiated a capitulation from Montreal?",
+  "golds": [
+   "Governor Vaudreuil",
+   "Governor Vaudreuil",
+   "Governor Vaudreuil",
+   "Governor Vaudreuil",
+   "Governor Vaudreuil"
+  ],
+  "gold_pid": 901,
+  "title": "French_and_Indian_War",
+  "condition": "in_answerable",
+  "fake_answer": "courts of member states and the Court of Justice of the European Union"
+ },
+ {
+  "qid": "57335c20d058e614000b58fd",
+  "question": "What is the edge of the moraine plateau called?",
+  "golds": [
+   "Warsaw Escarpment",
+   "Warsaw Escarpment",
+   "Warsaw Escarpment"
+  ],
+  "gold_pid": 825,
+  "title": "Warsaw",
+  "condition": "in_answerable",
+  "fake_answer": "Frontex"
+ },
+ {
+  "qid": "5730088e947a6a140053cfac",
+  "question": "Who was the ideologue of the Iranian Revolution?",
+  "golds": [
+   "Ali Shariati",
+   "Ali Shariati",
+   "Ali Shariati"
+  ],
+  "gold_pid": 750,
+  "title": "Islamism",
+  "condition": "in_answerable",
+  "fake_answer": "Napoleon"
+ },
+ {
+  "qid": "5733a45d4776f41900660f24",
+  "question": "What is Warsaw's symbol?",
+  "golds": [
+   "The mermaid",
+   "mermaid",
+   "The mermaid"
+  ],
+  "gold_pid": 856,
+  "title": "Warsaw",
+  "condition": "in_answerable",
+  "fake_answer": "gravity"
+ },
+ {
+  "qid": "572750e8dd62a815002e9af2",
+  "question": "What is malum in se considerations?",
+  "golds": [
+   "the desire to prevent things that are indisputably bad",
+   "desire to prevent things that are indisputably bad",
+   "the desire to prevent things that are indisputably bad"
+  ],
+  "gold_pid": 423,
+  "title": "Construction",
+  "condition": "in_answerable",
+  "fake_answer": "the treatment"
+ },
+ {
+  "qid": "57332a734776f41900660728",
+  "question": "Whose army liberated Warsaw in 1806?",
+  "golds": [
+   "Napoleon's",
+   "Napoleon's",
+   "Napoleon's"
+  ],
+  "gold_pid": 818,
+  "title": "Warsaw",
+  "condition": "in_answerable",
+  "fake_answer": "electrostatic force"
+ },
+ {
+  "qid": "57264a8cdd62a815002e808d",
+  "question": "Who is the sole governing authority capable of initiating legislative proposals?",
+  "golds": [
+   "the Commission",
+   "The European Commission",
+   "the Commission",
+   "the Commission"
+  ],
+  "gold_pid": 204,
+  "title": "European_Union_law",
+  "condition": "in_answerable",
+  "fake_answer": "Sir Isaac Newton"
+ },
+ {
+  "qid": "571cb27fdd7acb1400e4c134",
+  "question": "How much heavier is oxygen 18 than oxygen 16?",
+  "golds": [
+   "12%",
+   "12%",
+   "12%",
+   "12%",
+   "12%"
+  ],
+  "gold_pid": 153,
+  "title": "Oxygen",
+  "condition": "in_answerable",
+  "fake_answer": "electrostatic force"
+ },
+ {
+  "qid": "5730aa52069b53140083221f",
+  "question": "Where did France lose a war in the 1950's?",
+  "golds": [
+   "Vietnam",
+   "Vietnam",
+   "Vietnam",
+   "Vietnam",
+   "Vietnam"
+  ],
+  "gold_pid": 797,
+  "title": "Imperialism",
+  "condition": "in_answerable",
+  "fake_answer": "Most went to Cuba,"
+ },
+ {
+  "qid": "57337f6ad058e614000b5bce",
+  "question": "What conviction did many Poles have regarding how the Varsovians thought of themselves?",
+  "golds": [
+   "as better",
+   "thought of themselves as better",
+   "better"
+  ],
+  "gold_pid": 837,
+  "title": "Warsaw",
+  "condition": "in_answerable",
+  "fake_answer": "the Justinian plague that was prevalent in the Eastern Roman Empire from 541 to 700 CE."
+ },
+ {
+  "qid": "573088da069b53140083216e",
+  "question": "Friedrich Ratzel thought imperialism was what for the country?",
+  "golds": [
+   "geographical societies in Europe",
+   "necessary for a state\u2019s survival",
+   "survival",
+   "necessary",
+   "necessary"
+  ],
+  "gold_pid": 779,
+  "title": "Imperialism",
+  "condition": "in_answerable",
+  "fake_answer": "as better"
+ },
+ {
+  "qid": "57337ea24776f41900660bd3",
+  "question": "How many of Warsaw's inhabitants spoke Polish in 1933?",
+  "golds": [
+   "833,500",
+   "833,500",
+   "833,500"
+  ],
+  "gold_pid": 836,
+  "title": "Warsaw",
+  "condition": "in_answerable",
+  "fake_answer": "five"
+ },
+ {
+  "qid": "5705fc3a52bb89140068976a",
+  "question": "What kind of climate does southern California maintain?",
+  "golds": [
+   "Mediterranean",
+   "a Mediterranean climate",
+   "Mediterranean"
+  ],
+  "gold_pid": 64,
+  "title": "Southern_California",
+  "condition": "in_answerable",
+  "fake_answer": "giving her brother Polynices a proper burial"
+ }
+]

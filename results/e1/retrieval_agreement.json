@@ -1,0 +1,8 @@
+{
+ "identical_top5_lists": 1.0,
+ "identical_top1": 1.0,
+ "top5_set_overlap": 1.0,
+ "mean_abs_top1_score_diff": 2.473592758178711e-07,
+ "desktop_passage_embed_s": 4.9747092723846436,
+ "note": "desktop exact search vs Pi HNSW (ef=100); small differences come from HNSW and float kernels"
+}

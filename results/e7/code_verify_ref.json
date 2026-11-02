@@ -1,0 +1,2298 @@
+{
+ "scale": {
+  "minilm": {
+   "gpu_to_cpu": {
+    "n": 57638,
+    "float_max_abs_diff": 4.302710294723511e-07,
+    "schemes": {
+     "SQ8": {
+      "by_eps": {
+       "0": {
+        "accepted": [
+         0.9898504458863944,
+         0.988998880579932,
+         0.9906367180162098
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0
+       },
+       "1e-07": {
+        "accepted": [
+         0.9997571046878795,
+         0.9995922934059577,
+         0.9998553023141622
+        ],
+        "vectors_with_exceptions": 0.00990665880148513,
+        "max_exceptions_in_a_vector": 2,
+        "ambiguous_entry_share": 0.002736864496223556
+       },
+       "3e-07": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.010149554113605607,
+        "max_exceptions_in_a_vector": 2,
+        "ambiguous_entry_share": 0.002987350286847797
+       },
+       "1e-06": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.010149554113605607,
+        "max_exceptions_in_a_vector": 2,
+        "ambiguous_entry_share": 0.003859035416449796
+       },
+       "3e-06": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.010149554113605607,
+        "max_exceptions_in_a_vector": 2,
+        "ambiguous_entry_share": 0.00635458595024116
+       },
+       "1e-05": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.010149554113605607,
+        "max_exceptions_in_a_vector": 2,
+        "ambiguous_entry_share": 0.015102386518731855
+       },
+       "3e-05": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.010149554113605607,
+        "max_exceptions_in_a_vector": 2,
+        "ambiguous_entry_share": 0.04011852532183629
+       }
+      },
+      "smallest_tested_eps_with_all_accepted": 3e-07
+     },
+     "SQ4": {
+      "by_eps": {
+       "0": {
+        "accepted": [
+         0.9993754120545474,
+         0.9991354716231661,
+         0.9995487897068883
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0
+       },
+       "1e-07": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006245879454526528,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.0026121185965277535
+       },
+       "3e-07": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006245879454526528,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.0026267573764993
+       },
+       "1e-06": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006245879454526528,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.0026792581861503407
+       },
+       "3e-06": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006245879454526528,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.00282713697271476
+       },
+       "1e-05": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006245879454526528,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.0033378225591912743
+       },
+       "3e-05": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006245879454526528,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.004818959858658062
+       }
+      },
+      "smallest_tested_eps_with_all_accepted": 1e-07
+     },
+     "PQ": {
+      "by_eps": {
+       "0": {
+        "accepted": [
+         0.999965300669697,
+         0.9998734755932157,
+         0.9999904843396672
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0
+       },
+       "1e-07": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 3.4699330302925156e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 3.4699330302925156e-05
+       },
+       "1e-06": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 3.4699330302925156e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.00040410261748614917
+       },
+       "1e-05": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 3.4699330302925156e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.00412524434111755
+       },
+       "0.0001": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 3.4699330302925156e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.041069549024370496
+       }
+      },
+      "smallest_tested_eps_with_all_accepted": 1e-07
+     },
+     "binary": {
+      "by_eps": {
+       "0": {
+        "accepted": [
+         0.9999132516742427,
+         0.9997969225838084,
+         0.9999629462958841
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0
+       },
+       "1e-07": {
+        "accepted": [
+         0.9999826503348486,
+         0.9999017195203187,
+         0.9999969374302947
+        ],
+        "vectors_with_exceptions": 6.939866060585031e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.007813945805429288
+       },
+       "3e-07": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 8.674832575731288e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.007817063323386192
+       },
+       "1e-06": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 8.674832575731288e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.007827816501266526
+       },
+       "3e-06": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 8.674832575731288e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.007860256760586187
+       },
+       "1e-05": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 8.674832575731288e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.007969008437720485
+       },
+       "3e-05": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 8.674832575731288e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.008276242091444301
+       }
+      },
+      "smallest_tested_eps_with_all_accepted": 3e-07
+     }
+    }
+   },
+   "cpu_to_gpu": {
+    "n": 57638,
+    "float_max_abs_diff": 4.302710294723511e-07,
+    "schemes": {
+     "SQ8": {
+      "by_eps": {
+       "0": {
+        "accepted": [
+         0.9903015371803324,
+         0.9894681339298661,
+         0.9910695871272626
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0
+       },
+       "1e-07": {
+        "accepted": [
+         0.9996009577015164,
+         0.9994012502681385,
+         0.9997340722924092
+        ],
+        "vectors_with_exceptions": 0.00929942052118394,
+        "max_exceptions_in_a_vector": 2,
+        "ambiguous_entry_share": 0.002733430708328996
+       },
+       "3e-07": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.00969846281966758,
+        "max_exceptions_in_a_vector": 2,
+        "ambiguous_entry_share": 0.0029866273841331527
+       },
+       "1e-06": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.00969846281966758,
+        "max_exceptions_in_a_vector": 2,
+        "ambiguous_entry_share": 0.0038586739650924738
+       },
+       "3e-06": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.00969846281966758,
+        "max_exceptions_in_a_vector": 2,
+        "ambiguous_entry_share": 0.006356302844188441
+       },
+       "1e-05": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.00969846281966758,
+        "max_exceptions_in_a_vector": 2,
+        "ambiguous_entry_share": 0.015103290147125161
+       },
+       "3e-05": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.00969846281966758,
+        "max_exceptions_in_a_vector": 2,
+        "ambiguous_entry_share": 0.040118796410354284
+       }
+      },
+      "smallest_tested_eps_with_all_accepted": 3e-07
+     },
+     "SQ4": {
+      "by_eps": {
+       "0": {
+        "accepted": [
+         0.9993927617196988,
+         0.9991556332159709,
+         0.9995633251318136
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0
+       },
+       "1e-07": {
+        "accepted": [
+         0.9999826503348486,
+         0.9999017195203187,
+         0.9999969374302947
+        ],
+        "vectors_with_exceptions": 0.0005898886151497276,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.00261234450362608
+       },
+       "3e-07": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006072382803011902,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.0026266218322403044
+       },
+       "1e-06": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006072382803011902,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.0026787611905340226
+       },
+       "3e-06": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006072382803011902,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.002826956247036099
+       },
+       "1e-05": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006072382803011902,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.0033375062892536172
+       },
+       "3e-05": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006072382803011902,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.004818824314399065
+       }
+      },
+      "smallest_tested_eps_with_all_accepted": 3e-07
+     },
+     "PQ": {
+      "by_eps": {
+       "0": {
+        "accepted": [
+         0.9999479510045456,
+         0.9998469641046037,
+         0.9999822988105491
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0
+       },
+       "1e-07": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 5.204899545438773e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 3.578368437489156e-05
+       },
+       "1e-06": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 5.204899545438773e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.00040482552020079345
+       },
+       "1e-05": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 5.204899545438773e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.004123798535688261
+       },
+       "0.0001": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 5.204899545438773e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.04107930821101819
+       }
+      },
+      "smallest_tested_eps_with_all_accepted": 1e-07
+     },
+     "binary": {
+      "by_eps": {
+       "0": {
+        "accepted": [
+         0.9999132516742427,
+         0.9997969225838084,
+         0.9999629462958841
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0
+       },
+       "1e-07": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 8.674832575731288e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.007813810261170293
+       },
+       "3e-07": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 8.674832575731288e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.00781670187202887
+       },
+       "1e-06": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 8.674832575731288e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.007827726138427195
+       },
+       "3e-06": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 8.674832575731288e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.00786003085348786
+       },
+       "1e-05": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 8.674832575731288e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.007968827712041824
+       },
+       "3e-05": {
+        "accepted": [
+         1.0,
+         0.9999333539683437,
+         1.0
+        ],
+        "vectors_with_exceptions": 8.674832575731288e-05,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.008276196910024637
+       }
+      },
+      "smallest_tested_eps_with_all_accepted": 1e-07
+     }
+    }
+   }
+  },
+  "bge_m3": {
+   "gpu_to_cpu": {
+    "n": 5000,
+    "float_max_abs_diff": 1.0058283805847168e-05,
+    "schemes": {
+     "SQ8": {
+      "by_eps": {
+       "0": {
+        "accepted": [
+         0.9152,
+         0.9071556739713159,
+         0.9226068029224371
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0
+       },
+       "1e-07": {
+        "accepted": [
+         0.9858,
+         0.9821276330450956,
+         0.988726440353231
+        ],
+        "vectors_with_exceptions": 0.0728,
+        "max_exceptions_in_a_vector": 3,
+        "ambiguous_entry_share": 0.000321875
+       },
+       "3e-07": {
+        "accepted": [
+         0.998,
+         0.9963220758236673,
+         0.9989132649593024
+        ],
+        "vectors_with_exceptions": 0.0828,
+        "max_exceptions_in_a_vector": 3,
+        "ambiguous_entry_share": 0.0009357421875
+       },
+       "1e-06": {
+        "accepted": [
+         0.9996,
+         0.9985425830322826,
+         0.9998903010142469
+        ],
+        "vectors_with_exceptions": 0.0846,
+        "max_exceptions_in_a_vector": 4,
+        "ambiguous_entry_share": 0.0031212890625
+       },
+       "3e-06": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0848,
+        "max_exceptions_in_a_vector": 4,
+        "ambiguous_entry_share": 0.0092509765625
+       },
+       "1e-05": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0848,
+        "max_exceptions_in_a_vector": 4,
+        "ambiguous_entry_share": 0.03106171875
+       },
+       "3e-05": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0848,
+        "max_exceptions_in_a_vector": 4,
+        "ambiguous_entry_share": 0.0929306640625
+       }
+      },
+      "smallest_tested_eps_with_all_accepted": 3e-06
+     },
+     "SQ4": {
+      "by_eps": {
+       "0": {
+        "accepted": [
+         0.9954,
+         0.9931065624565739,
+         0.9969327705231111
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0
+       },
+       "1e-07": {
+        "accepted": [
+         0.9992,
+         0.9979446401752298,
+         0.9996888580554096
+        ],
+        "vectors_with_exceptions": 0.0038,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 1.8359375e-05
+       },
+       "3e-07": {
+        "accepted": [
+         0.9996,
+         0.9985425830322826,
+         0.9998903010142469
+        ],
+        "vectors_with_exceptions": 0.0042,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 5.37109375e-05
+       },
+       "1e-06": {
+        "accepted": [
+         0.9998,
+         0.998867881829747,
+         0.9999646951247276
+        ],
+        "vectors_with_exceptions": 0.0044,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.000191015625
+       },
+       "3e-06": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0046,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.0005599609375
+       },
+       "1e-05": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0046,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.001838671875
+       },
+       "3e-05": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0046,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.0054994140625
+       }
+      },
+      "smallest_tested_eps_with_all_accepted": 3e-06
+     },
+     "PQ": {
+      "by_eps": {
+       "0": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0
+       },
+       "1e-07": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 2.96875e-05
+       },
+       "1e-06": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.00030625
+       },
+       "1e-05": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.003440625
+       },
+       "0.0001": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.06563125
+       }
+      },
+      "smallest_tested_eps_with_all_accepted": 0.0
+     },
+     "binary": {
+      "by_eps": {
+       "0": {
+        "accepted": [
+         0.9994,
+         0.99823726209947,
+         0.9997959290391145
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0
+       },
+       "1e-07": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 2.9296875e-06
+       },
+       "3e-07": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 7.421875e-06
+       },
+       "1e-06": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 2.40234375e-05
+       },
+       "3e-06": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 7.91015625e-05
+       },
+       "1e-05": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.000270703125
+       },
+       "3e-05": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.0008189453125
+       }
+      },
+      "smallest_tested_eps_with_all_accepted": 1e-07
+     }
+    }
+   },
+   "cpu_to_gpu": {
+    "n": 5000,
+    "float_max_abs_diff": 1.0058283805847168e-05,
+    "schemes": {
+     "SQ8": {
+      "by_eps": {
+       "0": {
+        "accepted": [
+         0.9132,
+         0.9050753834836989,
+         0.9206901643306045
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0
+       },
+       "1e-07": {
+        "accepted": [
+         0.9876,
+         0.9841366514084037,
+         0.9903146581614278
+        ],
+        "vectors_with_exceptions": 0.0758,
+        "max_exceptions_in_a_vector": 3,
+        "ambiguous_entry_share": 0.000325
+       },
+       "3e-07": {
+        "accepted": [
+         0.9978,
+         0.9960645504871152,
+         0.9987710973879097
+        ],
+        "vectors_with_exceptions": 0.0856,
+        "max_exceptions_in_a_vector": 4,
+        "ambiguous_entry_share": 0.00093828125
+       },
+       "1e-06": {
+        "accepted": [
+         0.9996,
+         0.9985425830322826,
+         0.9998903010142469
+        ],
+        "vectors_with_exceptions": 0.0868,
+        "max_exceptions_in_a_vector": 4,
+        "ambiguous_entry_share": 0.0031259765625
+       },
+       "3e-06": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0868,
+        "max_exceptions_in_a_vector": 4,
+        "ambiguous_entry_share": 0.00925859375
+       },
+       "1e-05": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0868,
+        "max_exceptions_in_a_vector": 4,
+        "ambiguous_entry_share": 0.0310548828125
+       },
+       "3e-05": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0868,
+        "max_exceptions_in_a_vector": 4,
+        "ambiguous_entry_share": 0.092942578125
+       }
+      },
+      "smallest_tested_eps_with_all_accepted": 3e-06
+     },
+     "SQ4": {
+      "by_eps": {
+       "0": {
+        "accepted": [
+         0.9952,
+         0.9928673977037032,
+         0.9967722423680367
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0
+       },
+       "1e-07": {
+        "accepted": [
+         0.999,
+         0.9976610125116303,
+         0.9995727928110643
+        ],
+        "vectors_with_exceptions": 0.0038,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 1.796875e-05
+       },
+       "3e-07": {
+        "accepted": [
+         0.9998,
+         0.998867881829747,
+         0.9999646951247276
+        ],
+        "vectors_with_exceptions": 0.0046,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 5.17578125e-05
+       },
+       "1e-06": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0048,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.00019375
+       },
+       "3e-06": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0048,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.0005583984375
+       },
+       "1e-05": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0048,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.0018373046875
+       },
+       "3e-05": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0048,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.005498828125
+       }
+      },
+      "smallest_tested_eps_with_all_accepted": 1e-06
+     },
+     "PQ": {
+      "by_eps": {
+       "0": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0
+       },
+       "1e-07": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 2.65625e-05
+       },
+       "1e-06": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.000309375
+       },
+       "1e-05": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.003378125
+       },
+       "0.0001": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0655046875
+       }
+      },
+      "smallest_tested_eps_with_all_accepted": 0.0
+     },
+     "binary": {
+      "by_eps": {
+       "0": {
+        "accepted": [
+         0.9994,
+         0.99823726209947,
+         0.9997959290391145
+        ],
+        "vectors_with_exceptions": 0.0,
+        "max_exceptions_in_a_vector": 0,
+        "ambiguous_entry_share": 0.0
+       },
+       "1e-07": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 2.9296875e-06
+       },
+       "3e-07": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 7.03125e-06
+       },
+       "1e-06": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 2.51953125e-05
+       },
+       "3e-06": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 7.890625e-05
+       },
+       "1e-05": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.000270703125
+       },
+       "3e-05": {
+        "accepted": [
+         1.0,
+         0.9992322698624194,
+         1.0
+        ],
+        "vectors_with_exceptions": 0.0006,
+        "max_exceptions_in_a_vector": 1,
+        "ambiguous_entry_share": 0.0008189453125
+       }
+      },
+      "smallest_tested_eps_with_all_accepted": 1e-07
+     }
+    }
+   }
+  }
+ },
+ "arch": {
+  "x86_to_ARM": {
+   "n": 1745,
+   "float_max_abs_diff": 1.862645149230957e-07,
+   "schemes": {
+    "SQ8": {
+     "by_eps": {
+      "0": {
+       "accepted": [
+        0.9925501432664756,
+        0.9872952341594307,
+        0.9956411278301286
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.007449856733524355,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.0027459407831900667
+      },
+      "3e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.007449856733524355,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.003086198662846227
+      },
+      "1e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.007449856733524355,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.0041935291308500475
+      },
+      "3e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.007449856733524355,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.007318529130850048
+      },
+      "1e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.007449856733524355,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.018020236389684814
+      },
+      "3e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.007449856733524355,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.049068767908309455
+      }
+     },
+     "smallest_tested_eps_with_all_accepted": 1e-07
+    },
+    "SQ4": {
+     "by_eps": {
+      "0": {
+       "accepted": [
+        0.9994269340974212,
+        0.9967608965550718,
+        0.9998988352353888
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0005730659025787965,
+       "max_exceptions_in_a_vector": 1,
+       "ambiguous_entry_share": 0.0026041666666666665
+      },
+      "3e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0005730659025787965,
+       "max_exceptions_in_a_vector": 1,
+       "ambiguous_entry_share": 0.002625059694364852
+      },
+      "1e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0005730659025787965,
+       "max_exceptions_in_a_vector": 1,
+       "ambiguous_entry_share": 0.002680276981852913
+      },
+      "3e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0005730659025787965,
+       "max_exceptions_in_a_vector": 1,
+       "ambiguous_entry_share": 0.002866821872015282
+      },
+      "1e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0005730659025787965,
+       "max_exceptions_in_a_vector": 1,
+       "ambiguous_entry_share": 0.003539875835721108
+      },
+      "3e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0005730659025787965,
+       "max_exceptions_in_a_vector": 1,
+       "ambiguous_entry_share": 0.005435171919770773
+      }
+     },
+     "smallest_tested_eps_with_all_accepted": 1e-07
+    },
+    "PQ": {
+     "by_eps": {
+      "0": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.00014326647564469913
+      },
+      "0.0001": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0017311365807067814
+      }
+     },
+     "smallest_tested_eps_with_all_accepted": 0.0
+    },
+    "binary": {
+     "by_eps": {
+      "0": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0078139923591213
+      },
+      "3e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007821454154727793
+      },
+      "1e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007830408309455587
+      },
+      "3e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007858763132760268
+      },
+      "1e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007975167144221586
+      },
+      "3e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.008288562559694365
+      }
+     },
+     "smallest_tested_eps_with_all_accepted": 0.0
+    }
+   }
+  },
+  "ARM_to_x86": {
+   "n": 1745,
+   "float_max_abs_diff": 1.862645149230957e-07,
+   "schemes": {
+    "SQ8": {
+     "by_eps": {
+      "0": {
+       "accepted": [
+        0.994269340974212,
+        0.9894829313427508,
+        0.9968842730970339
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0057306590257879654,
+       "max_exceptions_in_a_vector": 1,
+       "ambiguous_entry_share": 0.0027578796561604584
+      },
+      "3e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0057306590257879654,
+       "max_exceptions_in_a_vector": 1,
+       "ambiguous_entry_share": 0.0030817215854823305
+      },
+      "1e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0057306590257879654,
+       "max_exceptions_in_a_vector": 1,
+       "ambiguous_entry_share": 0.004187559694364852
+      },
+      "3e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0057306590257879654,
+       "max_exceptions_in_a_vector": 1,
+       "ambiguous_entry_share": 0.007314052053486151
+      },
+      "1e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0057306590257879654,
+       "max_exceptions_in_a_vector": 1,
+       "ambiguous_entry_share": 0.01802769818529131
+      },
+      "3e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0057306590257879654,
+       "max_exceptions_in_a_vector": 1,
+       "ambiguous_entry_share": 0.049071752626552056
+      }
+     },
+     "smallest_tested_eps_with_all_accepted": 1e-07
+    },
+    "SQ4": {
+     "by_eps": {
+      "0": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0026056590257879657
+      },
+      "3e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.002622074976122254
+      },
+      "1e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.002681769340974212
+      },
+      "3e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0028653295128939827
+      },
+      "1e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0035428605539637057
+      },
+      "3e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0054366642788920725
+      }
+     },
+     "smallest_tested_eps_with_all_accepted": 0.0
+    },
+    "PQ": {
+     "by_eps": {
+      "0": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.00014326647564469913
+      },
+      "0.0001": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0017311365807067814
+      }
+     },
+     "smallest_tested_eps_with_all_accepted": 0.0
+    },
+    "binary": {
+     "by_eps": {
+      "0": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0078139923591213
+      },
+      "3e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007821454154727793
+      },
+      "1e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007830408309455587
+      },
+      "3e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007858763132760268
+      },
+      "1e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007975167144221586
+      },
+      "3e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.008287070200573066
+      }
+     },
+     "smallest_tested_eps_with_all_accepted": 0.0
+    }
+   }
+  },
+  "GPU_to_ARM": {
+   "n": 1745,
+   "float_max_abs_diff": 2.60770320892334e-07,
+   "schemes": {
+    "SQ8": {
+     "by_eps": {
+      "0": {
+       "accepted": [
+        0.9919770773638968,
+        0.9865777962779815,
+        0.9952149515615026
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.008022922636103151,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.002747433142311366
+      },
+      "3e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.008022922636103151,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.0030772445081184334
+      },
+      "1e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.008022922636103151,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.004192036771728749
+      },
+      "3e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.008022922636103151,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.007320021489971347
+      },
+      "1e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.008022922636103151,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.018033667621776505
+      },
+      "3e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.008022922636103151,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.04905981375358166
+      }
+     },
+     "smallest_tested_eps_with_all_accepted": 1e-07
+    },
+    "SQ4": {
+     "by_eps": {
+      "0": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0026056590257879657
+      },
+      "3e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.002625059694364852
+      },
+      "1e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.002681769340974212
+      },
+      "3e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.002866821872015282
+      },
+      "1e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.003541368194842407
+      },
+      "3e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.005433679560649475
+      }
+     },
+     "smallest_tested_eps_with_all_accepted": 0.0
+    },
+    "PQ": {
+     "by_eps": {
+      "0": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.00014326647564469913
+      },
+      "0.0001": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0017550143266475645
+      }
+     },
+     "smallest_tested_eps_with_all_accepted": 0.0
+    },
+    "binary": {
+     "by_eps": {
+      "0": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0078139923591213
+      },
+      "3e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007821454154727793
+      },
+      "1e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007830408309455587
+      },
+      "3e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007858763132760268
+      },
+      "1e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007975167144221586
+      },
+      "3e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.008288562559694365
+      }
+     },
+     "smallest_tested_eps_with_all_accepted": 0.0
+    }
+   }
+  },
+  "ARM_to_GPU": {
+   "n": 1745,
+   "float_max_abs_diff": 2.60770320892334e-07,
+   "schemes": {
+    "SQ8": {
+     "by_eps": {
+      "0": {
+       "accepted": [
+        0.9914040114613181,
+        0.9858652730898382,
+        0.9947838605995708
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.008595988538681949,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.0027519102196752626
+      },
+      "3e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.008595988538681949,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.0030817215854823305
+      },
+      "1e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.008595988538681949,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.004186067335243553
+      },
+      "3e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.008595988538681949,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.007323006208213944
+      },
+      "1e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.008595988538681949,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.01802172874880611
+      },
+      "3e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.008595988538681949,
+       "max_exceptions_in_a_vector": 2,
+       "ambiguous_entry_share": 0.04906578319006686
+      }
+     },
+     "smallest_tested_eps_with_all_accepted": 1e-07
+    },
+    "SQ4": {
+     "by_eps": {
+      "0": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0026041666666666665
+      },
+      "3e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.002625059694364852
+      },
+      "1e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.002681769340974212
+      },
+      "3e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0028653295128939827
+      },
+      "1e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0035428605539637057
+      },
+      "3e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.005435171919770773
+      }
+     },
+     "smallest_tested_eps_with_all_accepted": 0.0
+    },
+    "PQ": {
+     "by_eps": {
+      "0": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.00014326647564469913
+      },
+      "0.0001": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0017311365807067814
+      }
+     },
+     "smallest_tested_eps_with_all_accepted": 0.0
+    },
+    "binary": {
+     "by_eps": {
+      "0": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.0
+      },
+      "1e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007815484718242598
+      },
+      "3e-07": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007821454154727793
+      },
+      "1e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007830408309455587
+      },
+      "3e-06": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007858763132760268
+      },
+      "1e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.007973674785100287
+      },
+      "3e-05": {
+       "accepted": [
+        1.0,
+        0.9978033459405357,
+        0.9999999999999999
+       ],
+       "vectors_with_exceptions": 0.0,
+       "max_exceptions_in_a_vector": 0,
+       "ambiguous_entry_share": 0.008287070200573066
+      }
+     },
+     "smallest_tested_eps_with_all_accepted": 0.0
+    }
+   }
+  }
+ }
+}

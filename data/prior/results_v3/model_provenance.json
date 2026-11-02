@@ -1,0 +1,18 @@
+{
+ "gguf_sha256": {
+  "qwen2.5-1.5b-instruct-q4_k_m.gguf": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+  "qwen2.5-3b-instruct-q4_k_m.gguf": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+  "qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf": "dfce12e3862a5283ccfb88221b48480e58745165de856439950d0f22590580db",
+  "qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf": "539cf93f78e887edea1c04e2d7d8cdaca9d01dae9c9025bcb8accbe29df3d72a"
+ },
+ "hf_revisions": {
+  "BAAI/bge-m3": "5617a9f61b028005a4858fdac845db406aefb181",
+  "cross-encoder/nli-deberta-v3-base": "6c749ce3425cd33b46d187e45b92bbf96ee12ec7"
+ },
+ "nli_model.txt": "cross-encoder/nli-deberta-v3-base",
+ "embedding_model.txt": "BAAI/bge-m3",
+ "models_v2_q15.txt": "/home/raspberry/edge_rag_experiment/models/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+ "models_v2_q3.txt": "/home/raspberry/edge_rag_experiment/models/qwen2.5-3b-instruct-q4_k_m.gguf",
+ "models_v2_q7.txt": "/home/raspberry/edge_rag_experiment/models/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf",
+ "llama_cpp_commit.txt": "098ce526b546b5a190327c1da82929cee051b9ac"
+}

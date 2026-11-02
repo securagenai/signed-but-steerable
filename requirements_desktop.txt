@@ -1,0 +1,17 @@
+# Desktop (x86-64 Linux or WSL2). PyTorch is installed separately by desktop/setup_desktop.sh
+# (CPU wheel by default; set TORCH_INDEX for CUDA). Model and tool revisions are pinned in pins.json.
+transformers>=4.45
+sentence-transformers>=3.0
+tokenizers>=0.20
+huggingface_hub>=0.24
+onnx>=1.16
+onnxruntime>=1.20
+numpy>=1.26
+scikit-learn>=1.4
+cryptography>=42
+requests>=2.31
+psutil>=5.9
+matplotlib>=3.8
+tqdm>=4.66
+faiss-cpu>=1.8
+datasets>=2.19

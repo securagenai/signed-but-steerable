@@ -1,0 +1,12 @@
+{
+ "network_during_run": "offline (isolated)",
+ "pack_verify_ms_median": 4.370774500785046,
+ "pack_verify_ms_max": 6.442598001740407,
+ "pack_load_ms": 2738.8814900004945,
+ "tamper_corpus_rejected": true,
+ "tamper_corpus_reason": "hash mismatch: corpus.json",
+ "tamper_manifest_rejected": true,
+ "tamper_manifest_reason": "bad signature",
+ "n_passages": 950,
+ "n_questions": 300
+}

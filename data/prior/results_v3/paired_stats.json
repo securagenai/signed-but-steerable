@@ -1,0 +1,111 @@
+{
+ "7B-3B lenient": [
+  0.0,
+  -0.115,
+  0.11
+ ],
+ "7B-3B strict": [
+  0.43,
+  0.302,
+  0.557
+ ],
+ "7B-3B risk M+V+G": [
+  -0.129,
+  -0.221,
+  -0.037
+ ],
+ "k5-k3 lenient": [
+  -0.23,
+  -0.319,
+  -0.144
+ ],
+ "3B_only_correct": 16,
+ "7B_only_correct": 16,
+ "q15_k3 +V risk change": [
+  -0.347,
+  -0.455,
+  -0.253
+ ],
+ "q7_k3 +V risk change": [
+  -0.079,
+  -0.125,
+  -0.04
+ ],
+ "q3_k3 +G risk change": [
+  -0.006,
+  -0.04,
+  0.025
+ ],
+ "q3_k3 +G correct change": [
+  -0.08,
+  -0.137,
+  -0.031
+ ],
+ "q3_k3 +G unans change": [
+  0.06,
+  0.019,
+  0.109
+ ],
+ "q7_k3 +G risk change": [
+  -0.041,
+  -0.087,
+  -0.001
+ ],
+ "q7_k3 +G correct change": [
+  -0.07,
+  -0.126,
+  -0.023
+ ],
+ "q7_k3 +G unans change": [
+  0.07,
+  0.027,
+  0.125
+ ],
+ "q3_k3 +E unans change": [
+  0.05,
+  0.01,
+  0.097
+ ],
+ "q3_k3 +E correct change": [
+  -0.05,
+  -0.096,
+  -0.01
+ ],
+ "q7_k3 +E unans change": [
+  0.03,
+  0.0,
+  0.067
+ ],
+ "q7_k3 +E correct change": [
+  -0.07,
+  -0.124,
+  -0.025
+ ],
+ "q15_k3 breakdown": {
+  "substantive_correct": 27,
+  "substantive_incorrect": 23,
+  "explicit_abstain": 160,
+  "empty": 90
+ },
+ "q3_k3 breakdown": {
+  "substantive_correct": 75,
+  "substantive_incorrect": 46,
+  "explicit_abstain": 178,
+  "empty": 1
+ },
+ "q7_k3 breakdown": {
+  "substantive_correct": 75,
+  "substantive_incorrect": 30,
+  "explicit_abstain": 182,
+  "empty": 13
+ },
+ "split_gate": {
+  "tau_mean": 0.5009361316263675,
+  "tau_sd": 0.016099506006745735,
+  "ret_mean": 0.9083407314077281,
+  "ret_p2_5": 0.7735634648370497,
+  "frac_ret_ge_90": 0.605,
+  "ooc_mean": 0.8811499158998694,
+  "unans_mean": 0.28383391461623764
+ }
+}

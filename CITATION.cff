@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper."
+title: "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation"
+authors:
+  - family-names: Feretzakis
+    given-names: Georgios
+    affiliation: securagen.ai
+  - family-names: Papaspyridis
+    given-names: Alexandros
+    affiliation: securagen.ai
+license: MIT
+version: 1.0.0
+repository-code: "https://github.com/securagenai/signed-but-steerable"

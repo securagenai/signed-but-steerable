@@ -1,0 +1,99 @@
+{
+ "n": 256,
+ "model": "sentence-transformers/all-MiniLM-L6-v2",
+ "seq_len": 128,
+ "torch": "2.15.0+cu132",
+ "cuda_matmul_allow_tf32": false,
+ "cudnn_deterministic": false,
+ "families": {
+  "gpu_fp32": {
+   "batch1_vs_32": {
+    "bit_identical": false,
+    "rows_identical": 0.0,
+    "max_abs_diff": 1.2945383787155151e-07,
+    "min_cosine": 0.9999998807907104
+   },
+   "batch8_vs_32": {
+    "bit_identical": false,
+    "rows_identical": 0.0,
+    "max_abs_diff": 1.2014061212539673e-07,
+    "min_cosine": 0.9999998807907104
+   },
+   "batch256_vs_32": {
+    "bit_identical": false,
+    "rows_identical": 0.0,
+    "max_abs_diff": 1.5832483768463135e-07,
+    "min_cosine": 0.9999998807907104
+   },
+   "maxlen_padding_vs_longest": {
+    "bit_identical": true,
+    "rows_identical": 1.0,
+    "max_abs_diff": 0.0,
+    "min_cosine": 0.9999997615814209
+   },
+   "repeat_same_config": {
+    "bit_identical": true,
+    "rows_identical": 1.0,
+    "max_abs_diff": 0.0,
+    "min_cosine": 0.9999997615814209
+   }
+  },
+  "gpu_fp16": {
+   "batch1_vs_32": {
+    "bit_identical": false,
+    "rows_identical": 0.0,
+    "max_abs_diff": 0.00013215187937021255,
+    "min_cosine": 0.9999997019767761
+   },
+   "repeat_same_config": {
+    "bit_identical": true,
+    "rows_identical": 1.0,
+    "max_abs_diff": 0.0,
+    "min_cosine": 0.9999998211860657
+   }
+  },
+  "cpu_torch_fp32": {
+   "batch1_vs_32": {
+    "bit_identical": false,
+    "rows_identical": 0.0,
+    "max_abs_diff": 1.1548399925231934e-07,
+    "min_cosine": 0.9999998211860657
+   },
+   "repeat_same_config": {
+    "bit_identical": true,
+    "rows_identical": 1.0,
+    "max_abs_diff": 0.0,
+    "min_cosine": 0.9999997615814209
+   }
+  },
+  "cpu_ort_fp32": {
+   "batch1_vs_32": {
+    "bit_identical": true,
+    "rows_identical": 1.0,
+    "max_abs_diff": 0.0,
+    "min_cosine": 0.9999997615814209
+   },
+   "maxlen_padding_vs_longest": {
+    "bit_identical": true,
+    "rows_identical": 1.0,
+    "max_abs_diff": 0.0,
+    "min_cosine": 0.9999997615814209
+   }
+  },
+  "cpu_ort_int8": {
+   "batch1_vs_32": {
+    "bit_identical": false,
+    "rows_identical": 0.0,
+    "max_abs_diff": 0.030185898765921593,
+    "min_cosine": 0.9794074296951294
+   },
+   "maxlen_padding_vs_longest": {
+    "bit_identical": false,
+    "rows_identical": 0.875,
+    "max_abs_diff": 0.009392619132995605,
+    "min_cosine": 0.9990153312683105
+   }
+  }
+ },
+ "gpu": "NVIDIA GeForce RTX 4090"
+}

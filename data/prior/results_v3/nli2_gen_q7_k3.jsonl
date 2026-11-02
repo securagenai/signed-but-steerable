@@ -1,0 +1,300 @@
+{"qid": "5726c002708984140094d073", "hypothesis": "Treaty on the Functioning of the European Union protects the freedom of establishment and the freedom to provide services.", "entail_max": 0.006598467007279396, "entail": [0.006598467007279396, 0.0010180968092754483, 0.0001523800747236237], "verify_ms": 5160.024365992285, "span_support": true, "span_ms": 0.41649999911896884, "mean_power_w": 7.150011865550155}
+{"qid": "56e181d9e3433e1400422fa0", "hypothesis": "The answer to the question \"In a computational problem, what can be described as a string over an alphabet?\" is Problem instance.", "entail_max": 0.9856696724891663, "entail": [0.9856696724891663, 0.0034507736563682556, 0.010188271291553974], "verify_ms": 1946.859461007989, "span_support": true, "span_ms": 0.11322200589347631, "mean_power_w": 6.077466980024104}
+{"qid": "572905ce1d04691400778f84", "hypothesis": "The answer to the question \"Phagocytes can be called to a specific location by what?\" is cytokines.", "entail_max": 0.000842362002003938, "entail": [0.0005287841195240617, 0.0002991865621879697, 0.000842362002003938], "verify_ms": 2026.2907919968711, "span_support": true, "span_ms": 0.183295996976085, "mean_power_w": 8.43840778179335}
+{"qid": "5a550b52134fea001a0e1847", "hypothesis": "The answer to the question \"Where is the data reassembled?\" is At the destination.", "entail_max": 0.9120871424674988, "entail": [0.00012114845594624057, 0.0004324372566770762, 0.9120871424674988], "verify_ms": 2621.0475400002906, "span_support": true, "span_ms": 0.46331500925589353, "mean_power_w": 7.564778230960664}
+{"qid": "570d391fb3d812140066d577", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "570d30fdfed7b91900d45ce5", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57286ead2ca10214002da346", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad02d3077cf76001a686cf9", "hypothesis": "Roman empire used cultural imperialism to sway non-local elites.", "entail_max": 0.6706950068473816, "entail": [0.6706950068473816, 0.00011285160144325346, 8.234717097366229e-05], "verify_ms": 2174.425228004111, "span_support": true, "span_ms": 0.21166699298191816, "mean_power_w": 8.623370806322814}
+{"qid": "5ad23fded7d075001a4288fc", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad3a8fe604f3c001a3feb08", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5733a45d4776f41900660f24", "hypothesis": "Warsaw's symbol is The mermaid.", "entail_max": 0.008725227788090706, "entail": [0.008725227788090706, 9.615274029783905e-05, 0.00016495127056259662], "verify_ms": 1860.4751370003214, "span_support": true, "span_ms": 0.1315179979428649, "mean_power_w": 6.20111263223907}
+{"qid": "5a667dae846392001a1e1c53", "hypothesis": "developed for the RAND Corporation was Distributed Adaptive Message Block Switching.", "entail_max": 0.998272180557251, "entail": [0.9971832633018494, 0.998272180557251, 0.0014442203100770712], "verify_ms": 1914.0480229980312, "span_support": true, "span_ms": 0.19764799799304456, "mean_power_w": 7.852206929256834}
+{"qid": "5729f1c13f37b319004785e9", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57097b50200fba140036804e", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a2eb95ca83784001a7d242b", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57339555d058e614000b5df4", "hypothesis": "the second academic school of technology in Poland is Warsaw University of Technology.", "entail_max": 0.997788667678833, "entail": [0.997788667678833, 0.0002281389752170071, 0.00015295168850570917], "verify_ms": 1920.190780001576, "span_support": true, "span_ms": 0.20685201161541045, "mean_power_w": 6.2165303260951426}
+{"qid": "57115f652419e314009555b9", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57094d489928a8140047150c", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad3ade2604f3c001a3fec17", "hypothesis": "The answer to the question \"Where was Marin's first fort constructed?\" is Fort Presque Isle.", "entail_max": 0.009264269843697548, "entail": [0.009264269843697548, 0.000645433843601495, 0.00020075908105354756], "verify_ms": 2882.531628012657, "span_support": true, "span_ms": 0.24461100110784173, "mean_power_w": 7.511201648666303}
+{"qid": "572a13841d0469140077973c", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57309bfb8ab72b1400f9c5e9", "hypothesis": "The answer to the question \"According to Lenin why must capitalistic countries have an imperialistic policy?\" is Because it is necessary for the constant expansion of investment, material resources and manpower .", "entail_max": 0.02381620556116104, "entail": [0.0003841354919131845, 0.02381620556116104, 0.0006197339971549809], "verify_ms": 4277.585850999458, "span_support": false, "span_ms": 1.042463001795113, "mean_power_w": 6.04127340300097}
+{"qid": "571156152419e3140095559e", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5728804b4b864d1900164a48", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5705e33f52bb89140068964c", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5729fa40af94a219006aa710", "hypothesis": "The answer to the question \"Disruptions in sleep can lead to increase in what chronic conditions?\" is heart disease, chronic pain, and asthma.", "entail_max": 0.3014878034591675, "entail": [0.3014878034591675, 0.00013237229723017663, 0.00015280659135896713], "verify_ms": 3109.831573005067, "span_support": true, "span_ms": 0.14362900401465595, "mean_power_w": 6.291531860312354}
+{"qid": "572a1f086aef0514001552c1", "hypothesis": "population density be lower if there were fewer people.", "entail_max": 0.021115940064191818, "entail": [0.00027609089738689363, 0.0029413134325295687, 0.021115940064191818], "verify_ms": 1918.0466170073487, "span_support": true, "span_ms": 0.3222769882995635, "mean_power_w": 7.941634465433093}
+{"qid": "5726c3da708984140094d0dc", "hypothesis": "the Dutch health authorities regard as unnecessary in Geraets-Smits v Stichting Ziekenfonds treatment in Germany.", "entail_max": 0.0030269925482571125, "entail": [0.00026431967853568494, 0.0030269925482571125, 0.0014221459859982133], "verify_ms": 6278.60628599592, "span_support": true, "span_ms": 0.7004450017120689, "mean_power_w": 7.811448678951522}
+{"qid": "5730ac782461fd1900a9cf76", "hypothesis": "Germany's central interest was Europe itself.", "entail_max": 0.02842751331627369, "entail": [0.02842751331627369, 1.8112708858097903e-05, 0.00010670818301150575], "verify_ms": 2173.3039149985416, "span_support": true, "span_ms": 0.24605599173810333, "mean_power_w": 7.426811159978275}
+{"qid": "5726dcbddd62a815002e9320", "hypothesis": "tasks like those of today's pharmacists viewed in Japan in the Asuka and Nara periods highly respected.", "entail_max": 0.9971189498901367, "entail": [0.9971189498901367, 8.435051859123632e-05, 0.0007717997068539262], "verify_ms": 5695.57755200367, "span_support": true, "span_ms": 0.1888519909698516, "mean_power_w": 7.086044519760368}
+{"qid": "56de3d594396321400ee26ca", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad031ef77cf76001a686df2", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57286fa83acd2414000df9e7", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572659ea5951b619008f7054", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5725c57a89a1e219009abe61", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a679cc7f038b7001ab0c346", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57378c9b1c456719005744aa", "hypothesis": "The answer to the question \"Whatare the electrostatic and magnetic force awritten as the sum of?\" is electrostatic force (due to the electric field) and the magnetic force (due to the magnetic field).", "entail_max": 0.22435466945171356, "entail": [0.22435466945171356, 7.509762508561835e-05, 0.00012306906864978373], "verify_ms": 3461.1548760003643, "span_support": true, "span_ms": 0.14857400674372911, "mean_power_w": 6.459026855360297}
+{"qid": "571156152419e3140095559b", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57377862c3c5551400e51ef5", "hypothesis": "kinetic friction to accounted for that causes no net force being the cause of constant velocity motion.", "entail_max": 0.0013117389753460884, "entail": [0.0008101521525532007, 0.0010919213527813554, 0.0013117389753460884], "verify_ms": 2526.2963129935088, "span_support": true, "span_ms": 0.12829600018449128, "mean_power_w": 6.882610916174956}
+{"qid": "5728fb6a1d04691400778ef5", "hypothesis": "general disobedience to be avoided with civil disobedience.", "entail_max": 0.0022934372536838055, "entail": [0.0007569996523670852, 0.0022934372536838055, 0.0014119819970801473], "verify_ms": 2895.10757199605, "span_support": true, "span_ms": 0.5538709956454113, "mean_power_w": 6.4708916842288575}
+{"qid": "57297547af94a219006aa45b", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572863c72ca10214002da2d6", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a75066297ca42001a521dea", "hypothesis": "Syria and Egypt launch an attack Yom Kippur.", "entail_max": 0.9963022470474243, "entail": [0.9963022470474243, 0.0001851190027082339, 0.00014668656513094902], "verify_ms": 2062.1657130104722, "span_support": true, "span_ms": 0.19788900681305677, "mean_power_w": 7.737860141543646}
+{"qid": "5728e3c33acd2414000e0133", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a7b064b21c2de001afe9ce4", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad043a977cf76001a686f39", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "573735e8c3c5551400e51e73", "hypothesis": "Sir Isaac Newton had mathmatical insite.", "entail_max": 0.9972432851791382, "entail": [7.497701881220564e-05, 0.00740224402397871, 0.9972432851791382], "verify_ms": 1912.3981059965445, "span_support": true, "span_ms": 0.4234450025251135, "mean_power_w": 7.446085695751037}
+{"qid": "5a38cd93a4b263001a8c192d", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "570d2417fed7b91900d45c40", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57377ec7c3c5551400e51f09", "hypothesis": "The answer to the question \"Matter particles are shown as what kind of lines in a Feynman diagram?\" is straight lines.", "entail_max": 0.0014892948092892766, "entail": [0.0014892948092892766, 0.00018189314869232476, 0.001012281863950193], "verify_ms": 3869.603424987872, "span_support": false, "span_ms": 0.7156849897000939, "mean_power_w": 6.126372190614242}
+{"qid": "57268f05dd62a815002e8992", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "570961aa200fba1400367f15", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "571cb27fdd7acb1400e4c134", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad25878d7d075001a428dc9", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a8944653b2508001a72a57e", "hypothesis": "an additional meaning intended when the word component is used is essentially uniquely, decomposes into its prime components.", "entail_max": 0.9631086587905884, "entail": [0.0010156448697671294, 0.000411986286053434, 0.9631086587905884], "verify_ms": 2519.1488309937995, "span_support": false, "span_ms": 0.5013890040572733, "mean_power_w": 6.558273385307844}
+{"qid": "5705e3f252bb89140068966a", "hypothesis": "Southern California touch Pacific Ocean.", "entail_max": 0.9881948232650757, "entail": [0.9553850293159485, 0.0031924904324114323, 0.9881948232650757], "verify_ms": 2261.9948020001175, "span_support": true, "span_ms": 0.09901900193654001, "mean_power_w": 7.9366803354029765}
+{"qid": "5ad26235d7d075001a429080", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57265aaf5951b619008f706d", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57308cf88ab72b1400f9c576", "hypothesis": "Environmental determinism suggested people in the tropics were uncivilized.", "entail_max": 0.9977288842201233, "entail": [0.9977288842201233, 0.00570293515920639, 0.00046249807928688824], "verify_ms": 1925.512963993242, "span_support": true, "span_ms": 0.1557220093673095, "mean_power_w": 6.598569033641285}
+{"qid": "57265746dd62a815002e821b", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a2ec77ba83784001a7d2463", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572a135daf94a219006aa7a1", "hypothesis": "The answer to the question \"The idea of acquired immunity in jawed vertebrates is the basis of what medical treatment?\" is vaccination.", "entail_max": 0.004602623172104359, "entail": [0.0004088020941708237, 0.004602623172104359, 0.0015630637062713504], "verify_ms": 2008.7296790006803, "span_support": true, "span_ms": 0.3183330118190497, "mean_power_w": 6.846643472112982}
+{"qid": "5733a1854776f41900660f0c", "hypothesis": "stereoscopic theatre of theatre is the Warsaw Fotoplastikon.", "entail_max": 0.016059646382927895, "entail": [0.0036372593604028225, 0.016059646382927895, 0.0004230233025737107], "verify_ms": 1424.56763300288, "span_support": true, "span_ms": 0.14222199388314039, "mean_power_w": 8.50298640717925}
+{"qid": "5ad14573645df0001a2d14b4", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5726509bdd62a815002e815c", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57096b66200fba1400367fa9", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad157cf645df0001a2d1814", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57115ac550c2381900b54a77", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "570960cf200fba1400367f04", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572a05eb3f37b31900478655", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572a0d21af94a219006aa787", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57287338ff5b5019007da234", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57300a25a23a5019007fcc9b", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad146c0645df0001a2d1508", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "570953a7efce8f15003a7e01", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5727f7523acd2414000df10d", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "571156152419e3140095559c", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a3e3de4378766001a002516", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "56de179dcffd8e1900b4b5db", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad4caf45b96ef001a10a0d6", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad241c7d7d075001a428978", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad03c2977cf76001a686eb4", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5acfecc577cf76001a686513", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad4d9be5b96ef001a10a3b0", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a3e42de378766001a002529", "hypothesis": "Karlen and Singer present to the US senate Karl\u00e9n and Singer argued against the graph .", "entail_max": 0.37822163105010986, "entail": [0.37822163105010986, 5.823986793984659e-05, 0.022752292454242706], "verify_ms": 3551.1617079901043, "span_support": true, "span_ms": 0.32488899887539446, "mean_power_w": 6.234309619120851}
+{"qid": "5ad50fe55b96ef001a10ab4e", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a8209f831013a001a335134", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5725b5a689a1e219009abd28", "hypothesis": "the European nations and Japan separated themselves from United States during the crisis To avoid being targeted by the boycott .", "entail_max": 0.9972203969955444, "entail": [0.9972203969955444, 0.0010440894402563572, 9.691648301668465e-05], "verify_ms": 1669.2249119951157, "span_support": true, "span_ms": 0.1771300012478605, "mean_power_w": 7.5712838499254005}
+{"qid": "5729f3883f37b319004785f5", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad279e5d7d075001a4295c4", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad0322877cf76001a686dfe", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57265aaf5951b619008f706b", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57281bb84b864d190016449b", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5727b0892ca10214002d93e9", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5726e5c95951b619008f81cd", "hypothesis": "the components of drug therapy are drug choice, dose, route, frequency, and duration of therapy.", "entail_max": 0.7653820514678955, "entail": [0.7653820514678955, 0.0002016290818573907, 0.0001990162127185613], "verify_ms": 1712.1131119929487, "span_support": true, "span_ms": 0.14566699974238873, "mean_power_w": 7.254384403933227}
+{"qid": "57097b50200fba1400368050", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad3ae4f604f3c001a3fec4b", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57266193dd62a815002e832e", "hypothesis": "The answer to the question \"Recently a more detailed model of the Earth was developed. Seismologists were able to create this using images of what from the interior of the Earth?\" is seismic waves.", "entail_max": 0.012830582447350025, "entail": [0.012830582447350025, 0.0003197578771505505, 0.00010594810009934008], "verify_ms": 2130.273995004245, "span_support": true, "span_ms": 0.17325900262221694, "mean_power_w": 5.997822048989095}
+{"qid": "5a7b44ae21c2de001afe9e21", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad0313b77cf76001a686dd2", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad4d91d5b96ef001a10a384", "hypothesis": "the loss of the thymus at an early age prevent preventing autoimmunity.", "entail_max": 0.0012074767146259546, "entail": [0.0009532507974654436, 0.00042505149031057954, 0.0012074767146259546], "verify_ms": 1680.636796008912, "span_support": true, "span_ms": 0.38222200237214565, "mean_power_w": 7.547212486230062}
+{"qid": "57294279af94a219006aa20c", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a2ebaada83784001a7d243f", "hypothesis": "The answer to the question \"In what year did the Black Death spread into Iceland?\" is 1349.", "entail_max": 0.8182938694953918, "entail": [0.0001620439870748669, 0.8182938694953918, 0.000501523376442492], "verify_ms": 1721.6470139974263, "span_support": true, "span_ms": 0.2915740042226389, "mean_power_w": 9.070914583095027}
+{"qid": "572684365951b619008f7542", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "570d26efb3d812140066d492", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad0392577cf76001a686e51", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57113be3a58dae1900cd6d29", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad4b0f25b96ef001a109dbe", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5730ab63396df91900096263", "hypothesis": "the only region in Europe not conquered by the Germanic tribes was Muslim Iberia.", "entail_max": 0.9967151880264282, "entail": [0.9967151880264282, 0.0016609400045126677, 0.00036329266731627285], "verify_ms": 2227.6504449982895, "span_support": true, "span_ms": 0.18924099276773632, "mean_power_w": 6.0197397458003685}
+{"qid": "572fe4a304bcaa1900d76e57", "hypothesis": "Alter Rhein the delta of the Rhine in the west.", "entail_max": 0.011841229163110256, "entail": [0.005591869819909334, 0.002654386917129159, 0.011841229163110256], "verify_ms": 1862.4278539937222, "span_support": true, "span_ms": 0.1457780017517507, "mean_power_w": 7.814888041459341}
+{"qid": "57281edd3acd2414000df4ef", "hypothesis": "the Better Jacksonville Plan generate money a half-penny sales tax.", "entail_max": 0.9962772727012634, "entail": [0.9962772727012634, 0.00034005878842435777, 7.913003355497494e-05], "verify_ms": 1883.039758002269, "span_support": true, "span_ms": 0.1859259937191382, "mean_power_w": 8.633702997959972}
+{"qid": "5a82025a31013a001a3350b9", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a2ed42fa83784001a7d24f7", "hypothesis": "The answer to the question \"In what country is Seville located?\" is Spain.", "entail_max": 0.0008375643519684672, "entail": [0.00015149377577472478, 0.0001438123290427029, 0.0008375643519684672], "verify_ms": 2546.676104000653, "span_support": true, "span_ms": 0.18396299856249243, "mean_power_w": 6.9984528274504045}
+{"qid": "5729f1283f37b319004785da", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572822233acd2414000df558", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5727c8863acd2414000dec49", "hypothesis": "The answer to the question \"How far from state house in downtown Boston is Harvard Yard?\" is 3 miles (5 km) west-northwest.", "entail_max": 0.021828196942806244, "entail": [0.021828196942806244, 0.0005817642668262124, 0.00032795939478091896], "verify_ms": 2319.902725997963, "span_support": true, "span_ms": 0.21448101324494928, "mean_power_w": 8.476814559968405}
+{"qid": "5727e6cbff5b5019007d97f2", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad5316b5b96ef001a10ab73", "hypothesis": "Computational complexity theory of theoretical computer class deals with broadly classifying computational problems by difficulty and class of relationship.", "entail_max": 0.9694817066192627, "entail": [0.9694817066192627, 0.07174066454172134, 9.58649834501557e-05], "verify_ms": 1557.2452539927326, "span_support": true, "span_ms": 0.11746300151571631, "mean_power_w": 8.754372799452}
+{"qid": "57265360dd62a815002e819a", "hypothesis": "The answer to the question \"Which country is the most dependent on Arab oil?\" is Japan.", "entail_max": 0.9867042303085327, "entail": [0.9867042303085327, 7.145293784560636e-05, 0.0002991226501762867], "verify_ms": 2159.030268987408, "span_support": true, "span_ms": 0.15233400336001068, "mean_power_w": 5.326351470038546}
+{"qid": "5728eef92ca10214002daab3", "hypothesis": "plea of no contest of plea is sometimes taken as an act of disobedience.", "entail_max": 0.9726293087005615, "entail": [0.9726293087005615, 0.0023845720570534468, 0.0032107604201883078], "verify_ms": 3000.45172899263, "span_support": true, "span_ms": 0.24831500195432454, "mean_power_w": 8.456916977749604}
+{"qid": "5ad2424cd7d075001a42898b", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57377083c3c5551400e51ee1", "hypothesis": "force of gravity the spring reaction force on an object suspended on a spring reaction scale.", "entail_max": 0.8494677543640137, "entail": [0.8494677543640137, 0.0007277848199009895, 0.0004800938186235726], "verify_ms": 3780.8965039876057, "span_support": true, "span_ms": 0.17644499894231558, "mean_power_w": 6.646371027875395}
+{"qid": "57300137b2c2fd1400568718", "hypothesis": "The answer to the question \"Though trained as a lawyer, what profession did Maududi pursue instead?\" is journalism.", "entail_max": 0.9726402759552002, "entail": [0.9726402759552002, 0.00010253632353851572, 3.337987436680123e-05], "verify_ms": 1791.0964140028227, "span_support": true, "span_ms": 0.1660000125411898, "mean_power_w": 7.537386349469096}
+{"qid": "572a0bfaaf94a219006aa77a", "hypothesis": "The answer to the question \"Analysis of what kind of deposits from the Amazon Fan indicates a change in rainfall in the Amazon basin?\" is sediment.", "entail_max": 0.0008175481925718486, "entail": [0.0008175481925718486, 0.0004884176305495203, 0.0001832752168411389], "verify_ms": 2246.38726899866, "span_support": true, "span_ms": 0.20542601123452187, "mean_power_w": 6.436983591413122}
+{"qid": "5ad0331877cf76001a686e19", "hypothesis": "Santa Maria and San Luis Obispo near Kern-Bakersfield County was population growth high.", "entail_max": 0.9934710264205933, "entail": [0.9934710264205933, 0.0010845514480024576, 0.00046896282583475113], "verify_ms": 2047.7508549956838, "span_support": true, "span_ms": 0.19894499564543366, "mean_power_w": 6.708095807814567}
+{"qid": "5729d44b1d04691400779613", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "571166352419e314009555f2", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572fffb1b2c2fd14005686fb", "hypothesis": "he encourage ending in nationalist differences.", "entail_max": 0.1310904622077942, "entail": [0.1310904622077942, 0.0015523458132520318, 0.00025972261209972203], "verify_ms": 1815.5198879976524, "span_support": true, "span_ms": 0.1720000000204891, "mean_power_w": 6.248050685538636}
+{"qid": "572a11663f37b31900478694", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a8917433b2508001a72a4b6", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad569c05b96ef001a10ae38", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "571cc3dedd7acb1400e4c146", "hypothesis": "triplet O2 have paramagnetic.", "entail_max": 0.9947208166122437, "entail": [0.9947208166122437, 0.006509019527584314, 0.0002909564645960927], "verify_ms": 1855.4230489971815, "span_support": true, "span_ms": 0.11755499872379005, "mean_power_w": 8.4679944328205}
+{"qid": "5725c69738643c19005accba", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5729d36b1d04691400779609", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "571ce7f25efbb31900334e41", "hypothesis": "mantle of the Earth's geological structure is larger than the crust.", "entail_max": 0.21087992191314697, "entail": [0.21087992191314697, 0.001074167899787426, 0.0012712226016446948], "verify_ms": 1852.8050300083123, "span_support": true, "span_ms": 0.13590799062512815, "mean_power_w": 5.4249791764271444}
+{"qid": "5ad4a049ba00c4001a268e43", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57335c20d058e614000b58fd", "hypothesis": "the edge of the moraine plateau called is Warsaw Escarpment.", "entail_max": 0.9944105744361877, "entail": [0.9944105744361877, 0.00013864542415831238, 9.400252565683331e-06], "verify_ms": 2112.6457119971747, "span_support": true, "span_ms": 0.16961099754553288, "mean_power_w": 6.068960786942162}
+{"qid": "5727fd123acd2414000df188", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a669ee5f038b7001ab0c068", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57287fec4b864d1900164a3e", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5729e4291d04691400779655", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57288428ff5b5019007da28f", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad55fe75b96ef001a10ad0c", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57293d6d1d046914007791b8", "hypothesis": "an IPCC report chapter have Ten to fifteen \"lead authors\".", "entail_max": 0.0028736661188304424, "entail": [4.992556932847947e-05, 0.0028736661188304424, 7.152773468988016e-05], "verify_ms": 1458.8713889970677, "span_support": true, "span_ms": 0.2725369995459914, "mean_power_w": 6.271586258822893}
+{"qid": "571142b3a58dae1900cd6d5e", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57332a734776f41900660728", "hypothesis": "The answer to the question \"Whose army liberated Warsaw in 1806?\" is Napoleon's army.", "entail_max": 0.8959517478942871, "entail": [0.0006186505197547376, 0.8959517478942871, 6.113314884714782e-05], "verify_ms": 3547.7509300108068, "span_support": true, "span_ms": 0.43705500138457865, "mean_power_w": 7.263933850270054}
+{"qid": "572647d0708984140094c14e", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5711669550c2381900b54ae1", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "573088da069b53140083216e", "hypothesis": "The answer to the question \"Friedrich Ratzel thought imperialism was what for the country?\" is necessary.", "entail_max": 0.0036362006794661283, "entail": [0.0036362006794661283, 0.0014461964601650834, 0.0005307007231749594], "verify_ms": 3928.6844489979558, "span_support": true, "span_ms": 0.13975899491924793, "mean_power_w": 6.27990315160072}
+{"qid": "5725bbec271a42140099d0d1", "hypothesis": "Courts of member states and the Court of Justice of the European Union applies European Union law.", "entail_max": 0.7756233215332031, "entail": [0.7756233215332031, 0.0010154248448088765, 0.00160406029317528], "verify_ms": 3922.3164790018927, "span_support": true, "span_ms": 0.16914799925871193, "mean_power_w": 6.717909342175037}
+{"qid": "5a6696d0f038b7001ab0c021", "hypothesis": "The answer to the question \"The Australian Tax Office used AUSTPAC to access what remotely?\" is academic institutions.", "entail_max": 0.6606640815734863, "entail": [0.6606640815734863, 0.0004134188639000058, 0.000535936385858804], "verify_ms": 2159.8053780035116, "span_support": true, "span_ms": 0.14988800103310496, "mean_power_w": 7.529046760388951}
+{"qid": "57287ddf3acd2414000dfa40", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5726400589a1e219009ac5f0", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "573028fa04bcaa1900d7728a", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a59002d3e1742001a15cf3c", "hypothesis": "fossil sequences applied to are rock units.", "entail_max": 0.02746943198144436, "entail": [0.0003269716107752174, 0.0002394071052549407, 0.02746943198144436], "verify_ms": 1536.6622790024849, "span_support": true, "span_ms": 0.2608700015116483, "mean_power_w": 9.389732360573644}
+{"qid": "5730aa52069b53140083221f", "hypothesis": "France lose a war in the 1950's in Vietnam.", "entail_max": 0.11428716778755188, "entail": [0.11428716778755188, 1.2431676623236854e-05, 0.00017480111273471266], "verify_ms": 1662.1584899985464, "span_support": true, "span_ms": 0.17377799667883664, "mean_power_w": 6.133834311464433}
+{"qid": "571cda1bdd7acb1400e4c196", "hypothesis": "oxygen tanks, cryogenics, and chemical compounds serve as for oxygen Oxygen storage methods.", "entail_max": 0.9978272318840027, "entail": [0.9978272318840027, 9.140883048530668e-05, 0.00020815424795728177], "verify_ms": 2706.181009998545, "span_support": true, "span_ms": 0.1868149993242696, "mean_power_w": 7.445229546276655}
+{"qid": "57300761947a6a140053cf9b", "hypothesis": "The answer to the question \"The Rhine first formed a boundary between Gaul and what else?\" is Germania.", "entail_max": 0.05274838209152222, "entail": [0.05274838209152222, 0.0014099911786615849, 0.00045511775533668697], "verify_ms": 2228.275992994895, "span_support": true, "span_ms": 0.21246299729682505, "mean_power_w": 7.783698111906811}
+{"qid": "5ad2a58bd7d075001a429dcd", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5733f410d058e614000b6665", "hypothesis": "King Louis XV respond to British plans King Louis XV dispatched six regiments to New France under the command of Baron Dieskau in 1755.", "entail_max": 0.9965875148773193, "entail": [0.9965875148773193, 9.144611976807937e-05, 0.0001445071102352813], "verify_ms": 1820.6642660079524, "span_support": true, "span_ms": 0.1799629972083494, "mean_power_w": 8.002243946702134}
+{"qid": "570d50a5fed7b91900d45e80", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad03aa977cf76001a686e88", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a82370631013a001a3352e5", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad3ad60604f3c001a3fec05", "hypothesis": "300 weren't in Langlades expedition.", "entail_max": 0.028796883299946785, "entail": [0.028796883299946785, 4.7274264943553135e-05, 0.0005261552287265658], "verify_ms": 2106.0856849944685, "span_support": true, "span_ms": 0.3373520012246445, "mean_power_w": 5.227931594744129}
+{"qid": "57284618ff5b5019007da0a9", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad2b882d7d075001a42a042", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572fdc34a23a5019007fca96", "hypothesis": "Annabel Goldie announced she would step down as leader of the Conservatives.", "entail_max": 0.9979967474937439, "entail": [0.9979967474937439, 6.676615885226056e-05, 0.00011179591820109636], "verify_ms": 1985.1306740019936, "span_support": true, "span_ms": 0.11827799607999623, "mean_power_w": 6.748725278819324}
+{"qid": "5a0c6d26f5590b0018dab40e", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5727cff1ff5b5019007d95c7", "hypothesis": "Harvard's Pell grant reserves are $4.093 million.", "entail_max": 0.0009030387154780328, "entail": [0.0009030387154780328, 0.00015188816178124398, 0.00011148320481879637], "verify_ms": 2669.5304800086888, "span_support": true, "span_ms": 0.2147960040019825, "mean_power_w": 7.517883051841582}
+{"qid": "570d2f5bfed7b91900d45ccf", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572699db5951b619008f779d", "hypothesis": "the EU's legitimacy rest on the ultimate authority of member states, its factual commitment to human rights, and the democratic will of the people.", "entail_max": 0.0003701520327012986, "entail": [0.0003701520327012986, 0.0003181903448421508, 3.7204237742116675e-05], "verify_ms": 4607.698944993899, "span_support": true, "span_ms": 0.3895739937433973, "mean_power_w": 6.996221375388377}
+{"qid": "5a0c6d26f5590b0018dab40a", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57263eaa38643c19005ad372", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "573776eec3c5551400e51eed", "hypothesis": "a canonball dropped from the crow's nest of a ship actually land in at the foot of the mast.", "entail_max": 0.14307866990566254, "entail": [0.14307866990566254, 5.106659955345094e-05, 0.0002691949193831533], "verify_ms": 2943.8442420068895, "span_support": true, "span_ms": 0.2620919985929504, "mean_power_w": 7.448380283133742}
+{"qid": "57287ccb2ca10214002da3da", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "56dde0ba66d3e219004dad75", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5acfeba077cf76001a6864c7", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5727ef664b864d1900164063", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572fbb04a23a5019007fc8f9", "hypothesis": "five seats must a political party have to be represented on the Parliamentary Bureau.", "entail_max": 0.004102174658328295, "entail": [0.0010845685610547662, 0.000165006349561736, 0.004102174658328295], "verify_ms": 2182.4151990003884, "span_support": true, "span_ms": 0.17314800061285496, "mean_power_w": 7.88514143904762}
+{"qid": "57337f6ad058e614000b5bce", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5730ac782461fd1900a9cf77", "hypothesis": "Napoleon caused the dissolution of the Holy Roman Empire.", "entail_max": 0.005112618673592806, "entail": [3.721903340192512e-05, 0.005112618673592806, 2.7900621716980822e-05], "verify_ms": 2177.3783460084815, "span_support": true, "span_ms": 0.3899260045727715, "mean_power_w": 6.403755985287387}
+{"qid": "5729da0faf94a219006aa675", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57113f83b654c5140001fc2b", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a551492134fea001a0e18e0", "hypothesis": "The answer to the question \"State educational and economic development where helped by what?\" is Private sector.", "entail_max": 0.012353597208857536, "entail": [0.012353597208857536, 0.0018968416843563318, 0.001001726370304823], "verify_ms": 1821.7114709987072, "span_support": true, "span_ms": 0.2729260013438761, "mean_power_w": 7.010789845663872}
+{"qid": "5acf8bbd77cf76001a6851b5", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57097b50200fba1400368051", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "573020f7b2c2fd14005688f7", "hypothesis": "Hamas has continued to be a major disruptive force in Palestine.", "entail_max": 0.9652430415153503, "entail": [0.9652430415153503, 2.7527890779310837e-05, 0.0003066296048928052], "verify_ms": 1647.7074129943503, "span_support": true, "span_ms": 0.13759300054516643, "mean_power_w": 5.395425464683747}
+{"qid": "5730042804bcaa1900d77013", "hypothesis": "the Rhine continue to rise during the holocene Netherlands.", "entail_max": 0.007951359264552593, "entail": [0.0005768724367953837, 0.007951359264552593, 0.00019542658992577344], "verify_ms": 1549.3669760035118, "span_support": true, "span_ms": 0.14913000632077456, "mean_power_w": 9.27056280444004}
+{"qid": "5a6ce9ab4eec6b001a80a6c2", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57376828c3c5551400e51ebd", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad286b4d7d075001a4298fa", "hypothesis": "the Lek change its name to Noord.", "entail_max": 0.0009537712903693318, "entail": [0.0003940009046345949, 0.00029988534515723586, 0.0009537712903693318], "verify_ms": 3148.4043710079277, "span_support": true, "span_ms": 0.11836999328806996, "mean_power_w": 8.219564578471967}
+{"qid": "572681c1dd62a815002e8799", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "573312fcd058e614000b56ea", "hypothesis": "the name of the European Union agency for external border security is Frontex.", "entail_max": 0.9266331791877747, "entail": [0.00023514771601185203, 0.9266331791877747, 0.00019217582303099334], "verify_ms": 6199.490867991699, "span_support": true, "span_ms": 0.7598520023748279, "mean_power_w": 6.851998140711095}
+{"qid": "573003dd947a6a140053cf44", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572750e8dd62a815002e9af2", "hypothesis": "malum in se considerations is malum in se considerations are the desire to prevent things that are indisputably bad.", "entail_max": 0.0007305772742256522, "entail": [0.0007305772742256522, 9.177163883578032e-05, 0.00039170944364741445], "verify_ms": 3095.86354799103, "span_support": false, "span_ms": 0.6619259947910905, "mean_power_w": 7.713910588509269}
+{"qid": "56de4a474396321400ee2787", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5acfe8e777cf76001a686424", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad3ade2604f3c001a3fec18", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad15d77645df0001a2d18c3", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57112686b654c5140001fbd3", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572881022ca10214002da416", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a75028897ca42001a521db3", "hypothesis": "Price controls the crisis.", "entail_max": 0.9952148199081421, "entail": [5.948719262960367e-05, 0.00035000438219867647, 0.9952148199081421], "verify_ms": 1435.855571005959, "span_support": true, "span_ms": 0.3295189962955192, "mean_power_w": 5.9797344909343995}
+{"qid": "573368044776f41900660a2d", "hypothesis": "The answer to the question \"When was a zoological garden established in the Praga Park?\" is 1927.", "entail_max": 0.06135382130742073, "entail": [0.06135382130742073, 0.0007273537921719253, 0.00028028912493027747], "verify_ms": 4080.8446400042158, "span_support": true, "span_ms": 0.19525899551808834, "mean_power_w": 6.264844947993014}
+{"qid": "5705fc3a52bb89140068976a", "hypothesis": "southern California maintain Mediterranean climate.", "entail_max": 0.9922381043434143, "entail": [0.9922381043434143, 4.1114777559414506e-05, 0.00011019867088180035], "verify_ms": 1664.9626540020108, "span_support": true, "span_ms": 0.10553700849413872, "mean_power_w": 7.250135312061488}
+{"qid": "57337ea24776f41900660bd3", "hypothesis": "833,500 out of 1,178,914 inhabitants of Warsaw's inhabitants spoke Polish in 1933.", "entail_max": 0.001092950813472271, "entail": [0.001092950813472271, 0.00013036886230111122, 0.0001735981204546988], "verify_ms": 1851.06229899975, "span_support": false, "span_ms": 0.410888998885639, "mean_power_w": 6.449565220101593}
+{"qid": "57115e532419e314009555b0", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57287e512ca10214002da3f8", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad251d6d7d075001a428ce9", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572fadcbb2c2fd140056832a", "hypothesis": "40% of the Scottish electorate would need to for it on the referendum.", "entail_max": 0.9184921383857727, "entail": [0.9184921383857727, 0.0005833878531120718, 0.00044832448475062847], "verify_ms": 2557.920664010453, "span_support": true, "span_ms": 0.13166699500288814, "mean_power_w": 5.354310783544451}
+{"qid": "5729e1101d04691400779645", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5730bd00069b5314008322da", "hypothesis": "Turkey today is a remnant of the Ottoman empire.", "entail_max": 0.027014659717679024, "entail": [0.0001273542584385723, 0.027014659717679024, 0.00022499621263705194], "verify_ms": 1683.6519250064157, "span_support": true, "span_ms": 0.2531480131438002, "mean_power_w": 7.427587701583862}
+{"qid": "5711651050c2381900b54acc", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a665870846392001a1e1af6", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57286dfa2ca10214002da332", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572fe53104bcaa1900d76e6d", "hypothesis": "continuous input of sediment into the lake cause the lake near the Rhine to silt up.", "entail_max": 0.0008654674747958779, "entail": [0.0008654674747958779, 4.858802640228532e-05, 9.974473505280912e-05], "verify_ms": 1949.3357649917016, "span_support": true, "span_ms": 0.15233299927785993, "mean_power_w": 7.406894637264247}
+{"qid": "57097c8fed30961900e841f5", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad27697d7d075001a429518", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "571077ecb654c5140001f90c", "hypothesis": "Dutch East India Company company helped settle Huguenots near the Cape.", "entail_max": 0.520949125289917, "entail": [0.520949125289917, 0.000737083493731916, 0.0009978546295315027], "verify_ms": 3118.6346499889623, "span_support": true, "span_ms": 0.19944400992244482, "mean_power_w": 6.180765406968877}
+{"qid": "570d2f5bfed7b91900d45cd0", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad2866ed7d075001a4298e8", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "56de1563cffd8e1900b4b5c2", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5728710c3acd2414000df9f2", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57340d124776f419006617c3", "hypothesis": "many Spanish Catholic move after British takeover in Florida in Cuba.", "entail_max": 0.3110409379005432, "entail": [0.3110409379005432, 7.569048466393724e-05, 3.8216962821024936e-06], "verify_ms": 2521.065473003546, "span_support": true, "span_ms": 0.19779599097091705, "mean_power_w": 6.618989417708988}
+{"qid": "571142b3a58dae1900cd6d5d", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad031cf77cf76001a686dec", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57113639a58dae1900cd6d1a", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5705fb7f52bb891400689751", "hypothesis": "The answer to the question \"Other than the San Diego metropolitan area, what other area are the communities along Interstates 15 and 215 connected with?\" is Temecula and Murrieta have as much connection with the San Diego metropolitan area as they do with the Inland Empire.", "entail_max": 0.001858937437646091, "entail": [0.001858937437646091, 0.0014163806336000562, 0.0004711379879154265], "verify_ms": 2780.394385001273, "span_support": true, "span_ms": 0.22398099827114493, "mean_power_w": 6.112648229777588}
+{"qid": "5ad25e99d7d075001a428f32", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572659ea5951b619008f7052", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad2895bd7d075001a429985", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad5719f5b96ef001a10aef0", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57264cc6dd62a815002e80e8", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57287f6a3acd2414000dfa54", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57264e66dd62a815002e811c", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad53e615b96ef001a10abde", "hypothesis": "The answer to the question \"Is the output of a functional solution typically characterized by a simple or complex answer?\" is complex.", "entail_max": 0.0055900146253407, "entail": [0.0055900146253407, 0.0035223180893808603, 0.0034949874971061945], "verify_ms": 1924.326092004776, "span_support": true, "span_ms": 0.07918599294498563, "mean_power_w": 7.339426240877335}
+{"qid": "571144d1a58dae1900cd6d70", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57286bb84b864d19001649cc", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a1c8d0bb4fb5d00187146bc", "hypothesis": "Jacksonville's highest recorded monthly temperature is 82 F.", "entail_max": 0.0008574331295676529, "entail": [0.00024253960873465985, 0.0008574331295676529, 0.00015217787586152554], "verify_ms": 1952.1731800050475, "span_support": true, "span_ms": 0.24261100043077022, "mean_power_w": 7.755532211593919}
+{"qid": "572759dbdd62a815002e9b96", "hypothesis": "Groton School private school has an endowment of several hundred million dollars.", "entail_max": 0.9625334739685059, "entail": [0.9625334739685059, 0.00013995113840792328, 0.0002961795835290104], "verify_ms": 1952.0181419939036, "span_support": true, "span_ms": 0.14190700312610716, "mean_power_w": 7.3598960546461}
+{"qid": "5ad03b4677cf76001a686ea5", "hypothesis": "The answer to the question \"The Ottoman empire controlled territory on four continents, Africa, Asia and which other?\" is Europe.", "entail_max": 0.000871327705681324, "entail": [0.000871327705681324, 0.0001383215276291594, 0.0001395216677337885], "verify_ms": 1848.5424670070643, "span_support": true, "span_ms": 0.13105499965604395, "mean_power_w": 7.356245895194335}
+{"qid": "572f5875947a6a140053c89e", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572a11663f37b31900478697", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "571c4132dd7acb1400e4c0b0", "hypothesis": "Priestley use in his experiments on oxygen mercuric oxide.", "entail_max": 0.0012719890801236033, "entail": [0.00021464283054228872, 0.0012719890801236033, 4.095232725376263e-05], "verify_ms": 2081.608103995677, "span_support": true, "span_ms": 0.36077799450140446, "mean_power_w": 7.796342178763119}
+{"qid": "5a7b093b21c2de001afe9d0a", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5acfa29c77cf76001a685667", "hypothesis": "David Axelrod serves as Attorney General as well as top political advisor to the President.", "entail_max": 0.05343654006719589, "entail": [0.05343654006719589, 0.01124537643045187, 0.00012385047739371657], "verify_ms": 3732.334254993475, "span_support": true, "span_ms": 0.1504259998910129, "mean_power_w": 7.247276706360715}
+{"qid": "57287ddf3acd2414000dfa41", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5730088e947a6a140053cfac", "hypothesis": "the ideologue of the Iranian Revolution was Ali Shariati.", "entail_max": 0.9983386993408203, "entail": [0.9983386993408203, 5.97821781411767e-05, 7.621092663612217e-05], "verify_ms": 1555.4975150007522, "span_support": true, "span_ms": 0.14014799671713263, "mean_power_w": 7.594647715613}
+{"qid": "56e1b754cd28a01900c67abd", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "570d29c2b3d812140066d4bd", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "573407d7d058e614000b6813", "hypothesis": "The answer to the question \"In Sept 1760 who negotiated a capitulation from Montreal?\" is Governor Vaudreuil.", "entail_max": 0.9908798933029175, "entail": [0.9908798933029175, 0.0002294774749316275, 0.0001738472346914932], "verify_ms": 3030.6962780014146, "span_support": true, "span_ms": 0.1412410056218505, "mean_power_w": 6.9496422263288755}
+{"qid": "5acfee4777cf76001a68655d", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5728661e2ca10214002da2eb", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a580070770dc0001aeeff3a", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572fe9b3947a6a140053cde1", "hypothesis": "the major tributary for the Rhine is Aare.", "entail_max": 0.99736088514328, "entail": [0.99736088514328, 0.0002265182847622782, 0.0026847932022064924], "verify_ms": 1886.627044994384, "span_support": true, "span_ms": 0.17112999921664596, "mean_power_w": 5.46082474589144}
+{"qid": "572fcb6da23a5019007fc9f2", "hypothesis": "The answer to the question \"If a matter is not specifically reserved, who is it devolved to?\" is Scottish Parliament.", "entail_max": 0.5380050539970398, "entail": [0.5380050539970398, 0.0012907270574942231, 0.00036237359745427966], "verify_ms": 2716.020218009362, "span_support": true, "span_ms": 0.19449999672360718, "mean_power_w": 6.555927458694313}
+{"qid": "5728d5793acd2414000dffb6", "hypothesis": "the protest in Antigone about was burial.", "entail_max": 0.9251998066902161, "entail": [0.9251998066902161, 0.00011905797146027908, 9.970503742806613e-05], "verify_ms": 2050.884076001239, "span_support": true, "span_ms": 0.12320400855969638, "mean_power_w": 7.7998111530527465}
+{"qid": "5ad55ee35b96ef001a10ace8", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572fe9b3947a6a140053cde0", "hypothesis": "it flow in generally westward.", "entail_max": 0.996738851070404, "entail": [0.996738851070404, 0.0008665764471516013, 0.0001128397707361728], "verify_ms": 1870.1486899954034, "span_support": true, "span_ms": 0.17318499158136547, "mean_power_w": 6.969238939776196}
+{"qid": "5a7b33b821c2de001afe9dbe", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5726400589a1e219009ac5ee", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57112686b654c5140001fbd5", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572fbf21a23a5019007fc93a", "hypothesis": "Queen presented the mac to the Scottish Parliament when it was initially opened.", "entail_max": 0.9974823594093323, "entail": [0.9974823594093323, 0.0007988482830114663, 0.00024838291574269533], "verify_ms": 1815.1123440038646, "span_support": true, "span_ms": 0.1738700084388256, "mean_power_w": 6.97319891892054}
+{"qid": "572646655951b619008f6ec0", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a2eb84ba83784001a7d241f", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57286192ff5b5019007da1dc", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad24eb1d7d075001a428c64", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5acff36377cf76001a6865ee", "hypothesis": "The answer to the question \"The word imperialism has it's origins in which modern language?\" is Latin.", "entail_max": 0.0008721769554540515, "entail": [0.0004523287934716791, 0.0004778113798238337, 0.0008721769554540515], "verify_ms": 4070.2955720043974, "span_support": true, "span_ms": 0.16240699915215373, "mean_power_w": 6.404277224887129}
+{"qid": "5ad500e95b96ef001a10a914", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57113ba6b654c5140001fc20", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57287c2bff5b5019007da26c", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "56de15104396321400ee25b7", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5726449f1125e71900ae192b", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57283f014b864d19001647e9", "hypothesis": "John D. Rockefeller helped establish the school with a donation.", "entail_max": 0.9969419836997986, "entail": [0.9965469241142273, 9.711690654512495e-05, 0.9969419836997986], "verify_ms": 2147.765036992496, "span_support": true, "span_ms": 0.2128329942934215, "mean_power_w": 7.970122436606023}
+{"qid": "5ad4f0675b96ef001a10a6ea", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a581adb770dc0001aeefff6", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5728827b2ca10214002da42e", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57264a8cdd62a815002e808d", "hypothesis": "the sole governing authority capable of initiating legislative proposals is The European Commission.", "entail_max": 0.041899893432855606, "entail": [0.041899893432855606, 0.0010609179735183716, 0.00012339006934780627], "verify_ms": 3886.528806993738, "span_support": true, "span_ms": 0.3339630056871101, "mean_power_w": 6.218120644010012}
+{"qid": "572a0bf96aef051400155207", "hypothesis": "the chemical that mediates Type 1 hypersensitivity is IgE.", "entail_max": 0.0004294742248021066, "entail": [0.0004294742248021066, 0.00010223394929198548, 0.00030764375696890056], "verify_ms": 2447.4510850122897, "span_support": true, "span_ms": 0.25922199711203575, "mean_power_w": 7.670942270622008}
+{"qid": "57302a3aa23a5019007fced2", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "572a0e0e1d04691400779709", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "57300200b2c2fd140056872a", "hypothesis": "The answer to the question \"Maududi believed that Islam needed what to be established?\" is Sharia.", "entail_max": 0.9864310622215271, "entail": [0.9864310622215271, 0.13714152574539185, 0.0004402495105750859], "verify_ms": 1778.9045789977536, "span_support": true, "span_ms": 0.12325900024734437, "mean_power_w": 7.076279196658963}
+{"qid": "5733a2a9d058e614000b5f28", "hypothesis": "Ujazd\u00f3w Castle currently houses the Centre for Contemporary Art.", "entail_max": 0.7633641362190247, "entail": [0.7633641362190247, 0.00022242915292736143, 0.0005351838190108538], "verify_ms": 2366.3678510056343, "span_support": true, "span_ms": 0.14059200475458056, "mean_power_w": 7.0825846180683}
+{"qid": "5727aa413acd2414000de922", "hypothesis": "the undergraduate program become coeducational in 1977.", "entail_max": 0.9690905809402466, "entail": [0.0004434370493981987, 6.82511308696121e-05, 0.9690905809402466], "verify_ms": 3476.9011620082892, "span_support": true, "span_ms": 0.6700559897581115, "mean_power_w": 7.533480776045751}
+{"qid": "5ad4d55f5b96ef001a10a275", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a7b32e621c2de001afe9db2", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5711651050c2381900b54ace", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "571cd88ddd7acb1400e4c18f", "hypothesis": "exothermic reaction of reaction is present in the emergency oxygen generator of an airplane.", "entail_max": 0.9750524163246155, "entail": [0.9750524163246155, 0.0001405433431500569, 0.001058037974871695], "verify_ms": 2578.453113004798, "span_support": true, "span_ms": 0.13407399819698185, "mean_power_w": 8.752807955907919}
+{"qid": "5ad5719f5b96ef001a10aeee", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5711669550c2381900b54ae0", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad4dd325b96ef001a10a49f", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "573092088ab72b1400f9c598", "hypothesis": "older the British Empire or the Ethiopian Empire is Ethiopian Empire.", "entail_max": 0.0008745827944949269, "entail": [0.0008597568375989795, 9.303956176154315e-05, 0.0008745827944949269], "verify_ms": 3921.504462006851, "span_support": true, "span_ms": 0.15542500477749854, "mean_power_w": 7.677267988535402}
+{"qid": "5ad510be5b96ef001a10ab5a", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a1c8a1eb4fb5d0018714698", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5ad268a9d7d075001a429281", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "56e1bd4acd28a01900c67aff", "hypothesis": "The answer to the question \"Big O notation provides autonomy to upper and lower bounds with relationship to what?\" is computational model.", "entail_max": 0.008907697163522243, "entail": [0.008907697163522243, 0.0001279260468436405, 0.00024258084886241704], "verify_ms": 2021.7870170017704, "span_support": true, "span_ms": 0.08455499482806772, "mean_power_w": 6.9201903948369665}
+{"qid": "572a07a86aef0514001551d6", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5730005db2c2fd1400568705", "hypothesis": "Maududi found the Jamaat-e-Islami party in 1941.", "entail_max": 0.9943854808807373, "entail": [0.9943854808807373, 6.704713086946867e-06, 5.429518932942301e-05], "verify_ms": 1685.5882660020143, "span_support": true, "span_ms": 0.15288899885490537, "mean_power_w": 6.32326970521018}
+{"qid": "5ad275ccd7d075001a429510", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a89464f3b2508001a72a58e", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a0c7edcf5590b0018dab43a", "entail_max": null, "span_support": null, "verify_ms": 0.0}
+{"qid": "5a234eef82b03a001a4aa76c", "entail_max": null, "span_support": null, "verify_ms": 0.0}

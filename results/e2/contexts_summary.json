@@ -1,0 +1,26 @@
+{
+ "k3_full": {
+  "mean_context_chars": 2732.6466666666665,
+  "gold_passage_kept": 0.98
+ },
+ "k5_full": {
+  "mean_context_chars": 4486.956666666667,
+  "gold_passage_kept": 0.98
+ },
+ "k5_ce3": {
+  "mean_context_chars": 540.2633333333333,
+  "gold_passage_kept": 0.98
+ },
+ "k10_ce3": {
+  "mean_context_chars": 525.1633333333333,
+  "gold_passage_kept": 0.99
+ },
+ "k10_ce5": {
+  "mean_context_chars": 858.6566666666666,
+  "gold_passage_kept": 0.99
+ },
+ "k5_bi3": {
+  "mean_context_chars": 508.8233333333333,
+  "gold_passage_kept": 0.92
+ }
+}

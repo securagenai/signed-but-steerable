@@ -1,0 +1,194 @@
+{
+ "corpus": "BEIR FiQA",
+ "n_docs": 57638,
+ "models": {
+  "minilm": {
+   "n_vectors": 57638,
+   "float_max_abs_diff": 4.302710294723511e-07,
+   "schemes": {
+    "SQ8": {
+     "identical": [
+      0.9898330962212429,
+      0.9889808407684568,
+      0.9906200608099549
+     ],
+     "entries_differing": 2.6657037602507604e-05,
+     "guard_eps1e-06": {
+      "entries_flagged": 0.009065019315960536,
+      "identical_after": [
+       1.0,
+       0.9999333539683437,
+       1.0
+      ]
+     },
+     "guard_eps1e-05": {
+      "entries_flagged": 0.020313069285887782,
+      "identical_after": [
+       1.0,
+       0.9999333539683437,
+       1.0
+      ]
+     }
+    },
+    "SQ4": {
+     "identical": [
+      0.9992713140636386,
+      0.9990152486173993,
+      0.9994608306062733
+     ],
+     "entries_differing": 1.8976196259412194e-06,
+     "guard_eps1e-06": {
+      "entries_flagged": 0.007887230068126352,
+      "identical_after": [
+       1.0,
+       0.9999333539683437,
+       1.0
+      ]
+     },
+     "guard_eps1e-05": {
+      "entries_flagged": 0.008546381799622934,
+      "identical_after": [
+       1.0,
+       0.9999333539683437,
+       1.0
+      ]
+     }
+    },
+    "PQ": {
+     "identical": [
+      0.9999479510045456,
+      0.9998469641046037,
+      0.9999822988105491
+     ],
+     "entries_differing": 1.0843540719664111e-06,
+     "guard_eps1e-06": {
+      "entries_flagged": 0.000390367465907908,
+      "identical_after": [
+       1.0,
+       0.9999333539683437,
+       1.0
+      ]
+     },
+     "guard_eps1e-05": {
+      "entries_flagged": 0.004085846143169437,
+      "identical_after": [
+       1.0,
+       0.9999333539683437,
+       1.0
+      ]
+     }
+    },
+    "binary": {
+     "identical": [
+      0.9999132516742427,
+      0.9997969225838084,
+      0.9999629462958841
+     ],
+     "entries_differing": 2.2590709832633564e-07,
+     "guard_eps1e-06": {
+      "entries_flagged": 0.007827726138427195,
+      "identical_after": [
+       1.0,
+       0.9999333539683437,
+       1.0
+      ]
+     }
+    }
+   }
+  },
+  "bge_m3": {
+   "n_vectors": 5000,
+   "float_max_abs_diff": 1.0058283805847168e-05,
+   "schemes": {
+    "SQ8": {
+     "identical": [
+      0.9178,
+      0.9098619676995838,
+      0.9250965169974537
+     ],
+     "entries_differing": 8.7109375e-05,
+     "guard_eps1e-06": {
+      "entries_flagged": 0.0031267578125,
+      "identical_after": [
+       0.9998,
+       0.998867881829747,
+       0.9999646951247276
+      ]
+     },
+     "guard_eps1e-05": {
+      "entries_flagged": 0.0310626953125,
+      "identical_after": [
+       1.0,
+       0.9992322698624194,
+       1.0
+      ]
+     }
+    },
+    "SQ4": {
+     "identical": [
+      0.9954,
+      0.9931065624565739,
+      0.9969327705231111
+     ],
+     "entries_differing": 4.4921875e-06,
+     "guard_eps1e-06": {
+      "entries_flagged": 0.0001916015625,
+      "identical_after": [
+       1.0,
+       0.9992322698624194,
+       1.0
+      ]
+     },
+     "guard_eps1e-05": {
+      "entries_flagged": 0.0018373046875,
+      "identical_after": [
+       1.0,
+       0.9992322698624194,
+       1.0
+      ]
+     }
+    },
+    "PQ": {
+     "identical": [
+      0.9996,
+      0.9985425830322826,
+      0.9998903010142469
+     ],
+     "entries_differing": 3.125e-06,
+     "guard_eps1e-06": {
+      "entries_flagged": 0.000290625,
+      "identical_after": [
+       1.0,
+       0.9992322698624194,
+       1.0
+      ]
+     },
+     "guard_eps1e-05": {
+      "entries_flagged": 0.0034828125,
+      "identical_after": [
+       1.0,
+       0.9992322698624194,
+       1.0
+      ]
+     }
+    },
+    "binary": {
+     "identical": [
+      0.9994,
+      0.99823726209947,
+      0.9997959290391145
+     ],
+     "entries_differing": 5.859375e-07,
+     "guard_eps1e-06": {
+      "entries_flagged": 2.51953125e-05,
+      "identical_after": [
+       1.0,
+       0.9992322698624194,
+       1.0
+      ]
+     }
+    }
+   }
+  }
+ }
+}

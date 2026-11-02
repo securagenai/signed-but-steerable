@@ -1,0 +1,141 @@
+{
+ "n_windows": 1745,
+ "seq_len": 128,
+ "backends": {
+  "ort-fp32": {
+   "seconds": 72.92487249100304,
+   "windows_per_s": 23.92873570283288,
+   "cpu_cores_used": 3.9890367999736878,
+   "stage_ms": {
+    "tokenize_ms": 644.7290409741981,
+    "backend_ms": 74229.62328401627,
+    "head_ms": 172.53634402004536
+   },
+   "telemetry": {
+    "w_mean": 7.3186358564030325,
+    "w_max": 9.65675774149265,
+    "temp_mean": 63.84379562043796,
+    "temp_max": 68.3,
+    "mhz_mean": 2400.0,
+    "mhz_max": 2400.0,
+    "cpu_mean": 99.8963503649635,
+    "cpu_max": 100.0,
+    "n_samples": 137
+   },
+   "throttled": "throttled=0x0",
+   "retrieval_symmetric": {
+    "recall@1": 0.67,
+    "recall@3": 0.87,
+    "recall@5": 0.92,
+    "auroc_answerable_vs_unanswerable": 0.6633,
+    "auroc_answerable_vs_ooc": 0.9803
+   },
+   "retrieval_asymmetric_fp32_queries": {
+    "recall@1": 0.67,
+    "recall@3": 0.87,
+    "recall@5": 0.92,
+    "auroc_answerable_vs_unanswerable": 0.6633,
+    "auroc_answerable_vs_ooc": 0.9803
+   }
+  },
+  "ort-int8": {
+   "seconds": 41.597941266001726,
+   "windows_per_s": 41.949191399676316,
+   "cpu_cores_used": 3.9860145707623658,
+   "stage_ms": {
+    "tokenize_ms": 585.9964399860473,
+    "backend_ms": 41894.46899101313,
+    "head_ms": 185.01662199923885
+   },
+   "telemetry": {
+    "w_mean": 6.421168382034387,
+    "w_max": 8.15039732681469,
+    "temp_mean": 64.85897435897435,
+    "temp_max": 66.1,
+    "mhz_mean": 2400.0,
+    "mhz_max": 2400.0,
+    "cpu_mean": 99.85384615384616,
+    "cpu_max": 100.0,
+    "n_samples": 78
+   },
+   "throttled": "throttled=0x0",
+   "retrieval_symmetric": {
+    "recall@1": 0.65,
+    "recall@3": 0.87,
+    "recall@5": 0.92,
+    "auroc_answerable_vs_unanswerable": 0.6755,
+    "auroc_answerable_vs_ooc": 0.9793
+   },
+   "retrieval_asymmetric_fp32_queries": {
+    "recall@1": 0.65,
+    "recall@3": 0.86,
+    "recall@5": 0.9,
+    "auroc_answerable_vs_unanswerable": 0.6659,
+    "auroc_answerable_vs_ooc": 0.9811
+   }
+  }
+ },
+ "fidelity": {
+  "ort-fp32": {
+   "cos_vs_device_fp32": {
+    "min": 0.9999997615814209,
+    "p001": 0.9999997615814209,
+    "p01": 0.9999998211860657,
+    "median": 1.0
+   },
+   "cos_vs_desktop_fp32": {
+    "min": 0.9999998807907104,
+    "median": 1.0
+   },
+   "cos_p001": 0.9999997615814209
+  },
+  "ort-int8": {
+   "cos_vs_device_fp32": {
+    "min": 0.8975571393966675,
+    "p001": 0.9040001630783081,
+    "p01": 0.9280073642730713,
+    "median": 0.9560538530349731
+   },
+   "cos_vs_desktop_fp32": {
+    "min": 0.8975571393966675,
+    "median": 0.9560538530349731
+   },
+   "cos_p001": 0.9040001630783081
+  }
+ },
+ "prior_bge_m3": {
+  "embed_seconds": 1725.3942201137543,
+  "retrieval": {
+   "auroc_vs_ooc": [
+    0.9685,
+    0.943695,
+    0.9883025
+   ],
+   "auroc_vs_unans": [
+    0.6798,
+    0.604695,
+    0.7550049999999999
+   ],
+   "top1_mean_sd": {
+    "in_answerable": [
+     0.6044796389341355,
+     0.07249606342600196
+    ],
+    "in_unanswerable": [
+     0.5558885830640793,
+     0.07759022774392867
+    ],
+    "out_of_corpus": [
+     0.442951597571373,
+     0.04620988851111789
+    ]
+   },
+   "recall_at": {
+    "1": 0.83,
+    "3": 0.98,
+    "5": 0.98
+   },
+   "retrieval_ms_median": 724.2412100004003
+  }
+ }
+}

@@ -1,0 +1,6 @@
+config,answerable_retained_model,answerable_retained_combined,unans_abstained_model,unans_abstained_combined,ooc_abstained_model,ooc_abstained_combined,risk_model,risk_combined,acc_lenient,acc_strict,latency_median_s,latency_p95_s,prefill_share,energy_J_median,rss_max_MB
+q15_k3,0.78,0.68,0.47,0.56,0.91,0.96,0.807,0.793,0.27,0.17,10.126,17.806,0.945,77.184,6459.656
+q3_k1,0.61,0.57,0.8,0.84,1.0,1.0,0.444,0.425,0.45,0.19,7.996,17.354,0.709,61.573,5945.344
+q3_k3,0.87,0.79,0.66,0.72,0.99,0.99,0.385,0.38,0.75,0.31,22.229,36.992,0.892,174.372,9601.281
+q3_k5,0.69,0.64,0.68,0.75,0.99,0.99,0.49,0.444,0.52,0.2,35.654,57.934,0.935,286.027,12130.219
+q7_k3,0.88,0.8,0.71,0.78,0.99,1.0,0.364,0.333,0.75,0.74,49.982,84.679,0.952,398.931,13909.359

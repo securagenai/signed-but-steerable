@@ -1,0 +1,92 @@
+[
+ {
+  "case": "valid_newer",
+  "should_accept": true,
+  "signature_only": true,
+  "signature_only_reason": "accepted",
+  "layered": true,
+  "layered_reason": "accepted",
+  "layered_ms_median": 4.511884500971064
+ },
+ {
+  "case": "rollback_older",
+  "should_accept": false,
+  "signature_only": true,
+  "signature_only_reason": "accepted",
+  "layered": false,
+  "layered_reason": "rollback/replay: sequence not newer",
+  "layered_ms_median": 4.626051500963513
+ },
+ {
+  "case": "replay_same_version",
+  "should_accept": false,
+  "signature_only": true,
+  "signature_only_reason": "accepted",
+  "layered": false,
+  "layered_reason": "rollback/replay: sequence not newer",
+  "layered_ms_median": 4.620532999979332
+ },
+ {
+  "case": "expired",
+  "should_accept": false,
+  "signature_only": true,
+  "signature_only_reason": "accepted",
+  "layered": false,
+  "layered_reason": "expired",
+  "layered_ms_median": 4.638857004465535
+ },
+ {
+  "case": "incompatible_embedding",
+  "should_accept": false,
+  "signature_only": true,
+  "signature_only_reason": "accepted",
+  "layered": false,
+  "layered_reason": "incompatible: embedding model/dimension",
+  "layered_ms_median": 4.6399674974964
+ },
+ {
+  "case": "unknown_signer",
+  "should_accept": false,
+  "signature_only": false,
+  "signature_only_reason": "bad signature",
+  "layered": false,
+  "layered_reason": "bad signature",
+  "layered_ms_median": 0.3914159970008768
+ },
+ {
+  "case": "revoked_key",
+  "should_accept": false,
+  "signature_only": true,
+  "signature_only_reason": "accepted",
+  "layered": false,
+  "layered_reason": "signing key revoked or unknown",
+  "layered_ms_median": 4.769291495904326
+ },
+ {
+  "case": "tampered_passage",
+  "should_accept": false,
+  "signature_only": false,
+  "signature_only_reason": "hash mismatch: corpus.json",
+  "layered": false,
+  "layered_reason": "hash mismatch: corpus.json",
+  "layered_ms_median": 0.9119904934777878
+ },
+ {
+  "case": "mixed_version_index",
+  "should_accept": false,
+  "signature_only": false,
+  "signature_only_reason": "hash mismatch: index.hnsw",
+  "layered": false,
+  "layered_reason": "hash mismatch: index.hnsw",
+  "layered_ms_median": 4.531782498816028
+ },
+ {
+  "case": "poisoned_signed",
+  "should_accept": false,
+  "signature_only": true,
+  "signature_only_reason": "accepted",
+  "layered": true,
+  "layered_reason": "accepted",
+  "layered_ms_median": 5.2831250068265945
+ }
+]

@@ -1,0 +1,822 @@
+{
+ "arguana/bge_m3": {
+  "fp16": {
+   "bits_per_dim": 16,
+   "honest_angle_deg_median": 0.0,
+   "honest_angle_deg_max": 0.027976454840372228,
+   "honest_angle_deg_p999": 0.027976454840372228,
+   "hijack_at_max_tolerance": [
+    0.05238095238095238,
+    0.03484269800278783,
+    0.07803343308014504
+   ],
+   "hijack_at_p999_tolerance": [
+    0.05238095238095238,
+    0.03484269800278783,
+    0.07803343308014504
+   ]
+  },
+  "sq8": {
+   "bits_per_dim": 8,
+   "honest_angle_deg_median": 0.3494263291358948,
+   "honest_angle_deg_max": 0.3695652609292583,
+   "honest_angle_deg_p999": 0.3644076676931053,
+   "hijack_at_max_tolerance": [
+    0.14523809523809525,
+    0.11475563462885298,
+    0.18215151181453537
+   ],
+   "hijack_at_p999_tolerance": [
+    0.14285714285714285,
+    0.11262291305851216,
+    0.17956548940127473
+   ]
+  },
+  "sq4": {
+   "bits_per_dim": 4,
+   "honest_angle_deg_median": 5.921754837036133,
+   "honest_angle_deg_max": 6.231964917123069,
+   "honest_angle_deg_p999": 6.1941218271397895,
+   "hijack_at_max_tolerance": [
+    0.8928571428571429,
+    0.8596358282687754,
+    0.9189569290254592
+   ],
+   "hijack_at_p999_tolerance": [
+    0.8928571428571429,
+    0.8596358282687754,
+    0.9189569290254592
+   ]
+  },
+  "pq": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 21.459964752197266,
+   "honest_angle_deg_max": 30.424801035160414,
+   "honest_angle_deg_p999": 26.879039808689818,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9909362365562984,
+    1.0
+   ],
+   "hijack_at_p999_tolerance": [
+    0.9952380952380953,
+    0.9828055800816636,
+    0.998693168507432
+   ]
+  },
+  "binary": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 39.86365509033203,
+   "honest_angle_deg_max": 42.069095362400326,
+   "honest_angle_deg_p999": 41.79968879587293,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9909362365562984,
+    1.0
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.9909362365562984,
+    1.0
+   ]
+  }
+ },
+ "arguana/minilm": {
+  "fp16": {
+   "bits_per_dim": 16,
+   "honest_angle_deg_median": 0.0,
+   "honest_angle_deg_max": 0.027976454840372228,
+   "honest_angle_deg_p999": 0.027976454840372228,
+   "hijack_at_max_tolerance": [
+    0.04289544235924933,
+    0.02657333280238348,
+    0.06853718578155206
+   ],
+   "hijack_at_p999_tolerance": [
+    0.04289544235924933,
+    0.02657333280238348,
+    0.06853718578155206
+   ]
+  },
+  "sq8": {
+   "bits_per_dim": 8,
+   "honest_angle_deg_median": 0.4467492699623108,
+   "honest_angle_deg_max": 0.48173292199588197,
+   "honest_angle_deg_p999": 0.478197018439931,
+   "hijack_at_max_tolerance": [
+    0.12064343163538874,
+    0.09139807003190942,
+    0.15762326943804297
+   ],
+   "hijack_at_p999_tolerance": [
+    0.12064343163538874,
+    0.09139807003190942,
+    0.15762326943804297
+   ]
+  },
+  "sq4": {
+   "bits_per_dim": 4,
+   "honest_angle_deg_median": 7.55222749710083,
+   "honest_angle_deg_max": 8.234970398308553,
+   "honest_angle_deg_p999": 8.12217494680767,
+   "hijack_at_max_tolerance": [
+    0.8766756032171582,
+    0.8394156982650637,
+    0.9062556925792594
+   ],
+   "hijack_at_p999_tolerance": [
+    0.871313672922252,
+    0.8335083586603853,
+    0.9015484928124884
+   ]
+  },
+  "pq": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 28.019367218017578,
+   "honest_angle_deg_max": 37.37568989309104,
+   "honest_angle_deg_p999": 34.4074945854786,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.98980579638766,
+    1.0
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.98980579638766,
+    1.0
+   ]
+  },
+  "binary": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 37.44209671020508,
+   "honest_angle_deg_max": 41.20539062109553,
+   "honest_angle_deg_p999": 40.734380775931456,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.98980579638766,
+    1.0
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.98980579638766,
+    1.0
+   ]
+  }
+ },
+ "fiqa/bge_m3": {
+  "fp16": {
+   "bits_per_dim": 16,
+   "honest_angle_deg_median": 0.0,
+   "honest_angle_deg_max": 0.03426402083239251,
+   "honest_angle_deg_p999": 0.027976454840372228,
+   "hijack_at_max_tolerance": [
+    0.007434944237918215,
+    0.0020412607015241543,
+    0.02669922462036224
+   ],
+   "hijack_at_p999_tolerance": [
+    0.007434944237918215,
+    0.0020412607015241543,
+    0.02669922462036224
+   ]
+  },
+  "sq8": {
+   "bits_per_dim": 8,
+   "honest_angle_deg_median": 0.41021621227264404,
+   "honest_angle_deg_max": 0.43431241269236437,
+   "honest_angle_deg_p999": 0.42887192689461123,
+   "hijack_at_max_tolerance": [
+    0.055762081784386616,
+    0.034080025769991806,
+    0.08995384589767177
+   ],
+   "hijack_at_p999_tolerance": [
+    0.055762081784386616,
+    0.034080025769991806,
+    0.08995384589767177
+   ]
+  },
+  "sq4": {
+   "bits_per_dim": 4,
+   "honest_angle_deg_median": 6.947207927703857,
+   "honest_angle_deg_max": 7.3811847992259105,
+   "honest_angle_deg_p999": 7.263344399249327,
+   "hijack_at_max_tolerance": [
+    0.8698884758364313,
+    0.82442217792069,
+    0.9049387406489122
+   ],
+   "hijack_at_p999_tolerance": [
+    0.8698884758364313,
+    0.82442217792069,
+    0.9049387406489122
+   ]
+  },
+  "pq": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 23.83917236328125,
+   "honest_angle_deg_max": 34.23801710160308,
+   "honest_angle_deg_p999": 31.071073534427022,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9859200356543868,
+    0.9999999999999999
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.9859200356543868,
+    0.9999999999999999
+   ]
+  },
+  "binary": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 40.083900451660156,
+   "honest_angle_deg_max": 47.466505504935746,
+   "honest_angle_deg_p999": 42.46530439086901,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9859200356543868,
+    0.9999999999999999
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.9859200356543868,
+    0.9999999999999999
+   ]
+  }
+ },
+ "fiqa/minilm": {
+  "fp16": {
+   "bits_per_dim": 16,
+   "honest_angle_deg_median": 0.0,
+   "honest_angle_deg_max": 0.03426402083239251,
+   "honest_angle_deg_p999": 0.027976454840372228,
+   "hijack_at_max_tolerance": [
+    0.0,
+    1.734723475976807e-18,
+    0.016787157579740745
+   ],
+   "hijack_at_p999_tolerance": [
+    0.0,
+    1.734723475976807e-18,
+    0.016787157579740745
+   ]
+  },
+  "sq8": {
+   "bits_per_dim": 8,
+   "honest_angle_deg_median": 0.5169987678527832,
+   "honest_angle_deg_max": 0.5640592197744555,
+   "honest_angle_deg_p999": 0.553554335470123,
+   "hijack_at_max_tolerance": [
+    0.05333333333333334,
+    0.030768515164315127,
+    0.09089467894025327
+   ],
+   "hijack_at_p999_tolerance": [
+    0.04888888888888889,
+    0.027514732768936137,
+    0.08540879162522996
+   ]
+  },
+  "sq4": {
+   "bits_per_dim": 4,
+   "honest_angle_deg_median": 8.72353744506836,
+   "honest_angle_deg_max": 9.602221444662426,
+   "honest_angle_deg_p999": 9.363971639807687,
+   "hijack_at_max_tolerance": [
+    0.7822222222222223,
+    0.7237988677197582,
+    0.8311701588907883
+   ],
+   "hijack_at_p999_tolerance": [
+    0.7733333333333333,
+    0.7143053685989139,
+    0.8231843185908277
+   ]
+  },
+  "pq": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 31.45865821838379,
+   "honest_angle_deg_max": 39.61091369520732,
+   "honest_angle_deg_p999": 37.8990019118245,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9832128424202591,
+    0.9999999999999998
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.9832128424202591,
+    0.9999999999999998
+   ]
+  },
+  "binary": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 37.50507354736328,
+   "honest_angle_deg_max": 44.640938207571516,
+   "honest_angle_deg_p999": 41.09571827359264,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9832128424202591,
+    0.9999999999999998
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.9832128424202591,
+    0.9999999999999998
+   ]
+  }
+ },
+ "nfcorpus/bge_m3": {
+  "fp16": {
+   "bits_per_dim": 16,
+   "honest_angle_deg_median": 0.0,
+   "honest_angle_deg_max": 0.027976454840372228,
+   "honest_angle_deg_p999": 0.027976454840372228,
+   "hijack_at_max_tolerance": [
+    0.014184397163120567,
+    0.003898449814560761,
+    0.05024069253128463
+   ],
+   "hijack_at_p999_tolerance": [
+    0.014184397163120567,
+    0.003898449814560761,
+    0.05024069253128463
+   ]
+  },
+  "sq8": {
+   "bits_per_dim": 8,
+   "honest_angle_deg_median": 0.3351345658302307,
+   "honest_angle_deg_max": 0.35277022596659363,
+   "honest_angle_deg_p999": 0.34907215877870773,
+   "hijack_at_max_tolerance": [
+    0.07092198581560284,
+    0.03897621274287337,
+    0.12562843122681494
+   ],
+   "hijack_at_p999_tolerance": [
+    0.07092198581560284,
+    0.03897621274287337,
+    0.12562843122681494
+   ]
+  },
+  "sq4": {
+   "bits_per_dim": 4,
+   "honest_angle_deg_median": 5.683341026306152,
+   "honest_angle_deg_max": 5.969888424235564,
+   "honest_angle_deg_p999": 5.934403457063231,
+   "hijack_at_max_tolerance": [
+    0.75177304964539,
+    0.6744269919511744,
+    0.8157636715046283
+   ],
+   "hijack_at_p999_tolerance": [
+    0.7446808510638298,
+    0.6668825936842737,
+    0.8094998820685486
+   ]
+  },
+  "pq": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 20.566884994506836,
+   "honest_angle_deg_max": 26.774896499320047,
+   "honest_angle_deg_p999": 25.56751371445314,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9734772330601154,
+    1.0
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.9734772330601154,
+    1.0
+   ]
+  },
+  "binary": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 39.783363342285156,
+   "honest_angle_deg_max": 41.897353670814944,
+   "honest_angle_deg_p999": 41.695733316705336,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9734772330601154,
+    1.0
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.9734772330601154,
+    1.0
+   ]
+  }
+ },
+ "nfcorpus/minilm": {
+  "fp16": {
+   "bits_per_dim": 16,
+   "honest_angle_deg_median": 0.0,
+   "honest_angle_deg_max": 0.027976454840372228,
+   "honest_angle_deg_p999": 0.027976454840372228,
+   "hijack_at_max_tolerance": [
+    0.022058823529411766,
+    0.0075297889199087455,
+    0.06284698022460905
+   ],
+   "hijack_at_p999_tolerance": [
+    0.022058823529411766,
+    0.0075297889199087455,
+    0.06284698022460905
+   ]
+  },
+  "sq8": {
+   "bits_per_dim": 8,
+   "honest_angle_deg_median": 0.40830373764038086,
+   "honest_angle_deg_max": 0.44367276006304374,
+   "honest_angle_deg_p999": 0.4394041853164767,
+   "hijack_at_max_tolerance": [
+    0.03676470588235294,
+    0.015803853341031543,
+    0.08317670752211648
+   ],
+   "hijack_at_p999_tolerance": [
+    0.03676470588235294,
+    0.015803853341031543,
+    0.08317670752211648
+   ]
+  },
+  "sq4": {
+   "bits_per_dim": 4,
+   "honest_angle_deg_median": 6.914435863494873,
+   "honest_angle_deg_max": 7.485638028429269,
+   "honest_angle_deg_p999": 7.414540881811314,
+   "hijack_at_max_tolerance": [
+    0.6029411764705882,
+    0.5189673559831905,
+    0.6812591860472209
+   ],
+   "hijack_at_p999_tolerance": [
+    0.5955882352941176,
+    0.5115764551936605,
+    0.6743481909774359
+   ]
+  },
+  "pq": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 24.962068557739258,
+   "honest_angle_deg_max": 34.2322046106194,
+   "honest_angle_deg_p999": 33.1753523648704,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9725289184334275,
+    0.9999999999999999
+   ],
+   "hijack_at_p999_tolerance": [
+    0.9926470588235294,
+    0.9595261451733299,
+    0.9987008774007824
+   ]
+  },
+  "binary": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 37.41020584106445,
+   "honest_angle_deg_max": 41.39304665344705,
+   "honest_angle_deg_p999": 40.505200608520845,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9725289184334275,
+    0.9999999999999999
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.9725289184334275,
+    0.9999999999999999
+   ]
+  }
+ },
+ "scifact/bge_m3": {
+  "fp16": {
+   "bits_per_dim": 16,
+   "honest_angle_deg_median": 0.0,
+   "honest_angle_deg_max": 0.027976454840372228,
+   "honest_angle_deg_p999": 0.027976454840372228,
+   "hijack_at_max_tolerance": [
+    0.0,
+    0.0,
+    0.0244935017240324
+   ],
+   "hijack_at_p999_tolerance": [
+    0.0,
+    0.0,
+    0.0244935017240324
+   ]
+  },
+  "sq8": {
+   "bits_per_dim": 8,
+   "honest_angle_deg_median": 0.35387781262397766,
+   "honest_angle_deg_max": 0.3722031813723377,
+   "honest_angle_deg_p999": 0.3700943604660963,
+   "hijack_at_max_tolerance": [
+    0.0196078431372549,
+    0.0066903672665462426,
+    0.05605829125262214
+   ],
+   "hijack_at_p999_tolerance": [
+    0.0196078431372549,
+    0.0066903672665462426,
+    0.05605829125262214
+   ]
+  },
+  "sq4": {
+   "bits_per_dim": 4,
+   "honest_angle_deg_median": 6.005311489105225,
+   "honest_angle_deg_max": 6.311431179908405,
+   "honest_angle_deg_p999": 6.267055440870832,
+   "hijack_at_max_tolerance": [
+    0.6078431372549019,
+    0.528745878190091,
+    0.6816574841831567
+   ],
+   "hijack_at_p999_tolerance": [
+    0.6078431372549019,
+    0.528745878190091,
+    0.6816574841831567
+   ]
+  },
+  "pq": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 22.122591018676758,
+   "honest_angle_deg_max": 28.811356673947078,
+   "honest_angle_deg_p999": 26.75001924281557,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9755064982759676,
+    1.0
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.9755064982759676,
+    1.0
+   ]
+  },
+  "binary": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 39.74631118774414,
+   "honest_angle_deg_max": 41.83292449637421,
+   "honest_angle_deg_p999": 41.62822031185434,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9755064982759676,
+    1.0
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.9755064982759676,
+    1.0
+   ]
+  }
+ },
+ "scifact/minilm": {
+  "fp16": {
+   "bits_per_dim": 16,
+   "honest_angle_deg_median": 0.0,
+   "honest_angle_deg_max": 0.027976454840372228,
+   "honest_angle_deg_p999": 0.027976454840372228,
+   "hijack_at_max_tolerance": [
+    0.0,
+    0.0,
+    0.02480987021575597
+   ],
+   "hijack_at_p999_tolerance": [
+    0.0,
+    0.0,
+    0.02480987021575597
+   ]
+  },
+  "sq8": {
+   "bits_per_dim": 8,
+   "honest_angle_deg_median": 0.4334103763103485,
+   "honest_angle_deg_max": 0.47353952311706987,
+   "honest_angle_deg_p999": 0.4642831226878217,
+   "hijack_at_max_tolerance": [
+    0.033112582781456956,
+    0.014224835577160273,
+    0.07516716243887676
+   ],
+   "hijack_at_p999_tolerance": [
+    0.033112582781456956,
+    0.014224835577160273,
+    0.07516716243887676
+   ]
+  },
+  "sq4": {
+   "bits_per_dim": 4,
+   "honest_angle_deg_median": 7.3338751792907715,
+   "honest_angle_deg_max": 7.95690059059264,
+   "honest_angle_deg_p999": 7.881674594621411,
+   "hijack_at_max_tolerance": [
+    0.5827814569536424,
+    0.5030316539835458,
+    0.6584236655171569
+   ],
+   "hijack_at_p999_tolerance": [
+    0.5761589403973509,
+    0.4964097274610699,
+    0.6521291664795763
+   ]
+  },
+  "pq": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 27.39516258239746,
+   "honest_angle_deg_max": 37.10543296801198,
+   "honest_angle_deg_p999": 35.04182108388686,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9751901297842439,
+    0.9999999999999999
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.9751901297842439,
+    0.9999999999999999
+   ]
+  },
+  "binary": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 37.35691452026367,
+   "honest_angle_deg_max": 41.06996846042169,
+   "honest_angle_deg_p999": 40.48921455076843,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9751901297842439,
+    0.9999999999999999
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.9751901297842439,
+    0.9999999999999999
+   ]
+  }
+ },
+ "squad/bge_m3": {
+  "fp16": {
+   "bits_per_dim": 16,
+   "honest_angle_deg_median": 0.0,
+   "honest_angle_deg_max": 0.027976454840372228,
+   "honest_angle_deg_p999": 0.027976454840372228,
+   "hijack_at_max_tolerance": [
+    0.0038398244651673065,
+    0.002288705413898673,
+    0.006435399215737856
+   ],
+   "hijack_at_p999_tolerance": [
+    0.0038398244651673065,
+    0.002288705413898673,
+    0.006435399215737856
+   ]
+  },
+  "sq8": {
+   "bits_per_dim": 8,
+   "honest_angle_deg_median": 0.3292441964149475,
+   "honest_angle_deg_max": 0.34548425507161473,
+   "honest_angle_deg_p999": 0.34440751310155926,
+   "hijack_at_max_tolerance": [
+    0.031267142073505214,
+    0.026092672500486108,
+    0.03742833071236566
+   ],
+   "hijack_at_p999_tolerance": [
+    0.03099286889742183,
+    0.025842594545249172,
+    0.03713043968177044
+   ]
+  },
+  "sq4": {
+   "bits_per_dim": 4,
+   "honest_angle_deg_median": 5.586248874664307,
+   "honest_angle_deg_max": 5.834991334354165,
+   "honest_angle_deg_p999": 5.791273001024207,
+   "hijack_at_max_tolerance": [
+    0.565825562260011,
+    0.549675891126936,
+    0.5818366654727806
+   ],
+   "hijack_at_p999_tolerance": [
+    0.5611629182665935,
+    0.5449988088137085,
+    0.5771982750268614
+   ]
+  },
+  "pq": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 17.940767288208008,
+   "honest_angle_deg_max": 23.38126066113856,
+   "honest_angle_deg_p999": 23.063634666618164,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9989474611720135,
+    1.0
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.9989474611720135,
+    1.0
+   ]
+  },
+  "binary": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 39.68805694580078,
+   "honest_angle_deg_max": 42.0063737352521,
+   "honest_angle_deg_p999": 41.988734771720544,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9989474611720135,
+    1.0
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.9989474611720135,
+    1.0
+   ]
+  }
+ },
+ "squad/minilm": {
+  "fp16": {
+   "bits_per_dim": 16,
+   "honest_angle_deg_median": 0.0,
+   "honest_angle_deg_max": 0.03426402083239251,
+   "honest_angle_deg_p999": 0.028297120215712426,
+   "hijack_at_max_tolerance": [
+    0.0015883100381194409,
+    0.0006786059659375087,
+    0.0037129852866178226
+   ],
+   "hijack_at_p999_tolerance": [
+    0.0003176620076238882,
+    5.6075903056372134e-05,
+    0.0017973167293652572
+   ]
+  },
+  "sq8": {
+   "bits_per_dim": 8,
+   "honest_angle_deg_median": 0.39614182710647583,
+   "honest_angle_deg_max": 0.4215087428454995,
+   "honest_angle_deg_p999": 0.4206266879472158,
+   "hijack_at_max_tolerance": [
+    0.023824650571791613,
+    0.019049333772282885,
+    0.029760733332612234
+   ],
+   "hijack_at_p999_tolerance": [
+    0.023824650571791613,
+    0.019049333772282885,
+    0.029760733332612234
+   ]
+  },
+  "sq4": {
+   "bits_per_dim": 4,
+   "honest_angle_deg_median": 6.7179484367370605,
+   "honest_angle_deg_max": 7.240639142900912,
+   "honest_angle_deg_p999": 7.151296426575738,
+   "hijack_at_max_tolerance": [
+    0.548284625158831,
+    0.5308512927489305,
+    0.5656002548161502
+   ],
+   "hijack_at_p999_tolerance": [
+    0.5435196950444727,
+    0.5260768522498391,
+    0.5608564504897402
+   ]
+  },
+  "pq": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 21.872901916503906,
+   "honest_angle_deg_max": 28.49437100966137,
+   "honest_angle_deg_p999": 28.47850960286131,
+   "hijack_at_max_tolerance": [
+    0.9974587039390089,
+    0.9949930256500072,
+    0.9987117341323373
+   ],
+   "hijack_at_p999_tolerance": [
+    0.9974587039390089,
+    0.9949930256500072,
+    0.9987117341323373
+   ]
+  },
+  "binary": {
+   "bits_per_dim": 1,
+   "honest_angle_deg_median": 37.45835876464844,
+   "honest_angle_deg_max": 40.75085519220953,
+   "honest_angle_deg_p999": 40.66722635601189,
+   "hijack_at_max_tolerance": [
+    1.0,
+    0.9987811570226118,
+    1.0
+   ],
+   "hijack_at_p999_tolerance": [
+    1.0,
+    0.9987811570226118,
+    1.0
+   ]
+  }
+ }
+}

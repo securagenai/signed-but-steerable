@@ -1,0 +1,21 @@
+{
+ "seq_len": 128,
+ "kmax": 10,
+ "torch": "2.15.0+cu132",
+ "device": "cuda",
+ "models": {
+  "sentence-transformers/all-MiniLM-L6-v2": {
+   "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+   "seconds": 2.004667282104492
+  },
+  "cross-encoder/ms-marco-MiniLM-L-6-v2": {
+   "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+   "seconds": 25.068175792694092
+  },
+  "deepset/minilm-uncased-squad2": {
+   "revision": "934656cdda79824eabf503ed56e15c01ddbdbe3f",
+   "num_hidden_layers": 12,
+   "seconds": 37.197760343551636
+  }
+ }
+}

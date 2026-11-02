@@ -1,0 +1,14 @@
+{
+ "ort-fp32": {
+  "bit_identical": false,
+  "rows_identical": 0.0,
+  "max_abs_diff": 1.862645149230957e-07,
+  "min_cosine": 0.9999997615814209
+ },
+ "ort-int8": {
+  "bit_identical": false,
+  "rows_identical": 0.0,
+  "max_abs_diff": 0.022173505276441574,
+  "min_cosine": 0.9881802797317505
+ }
+}

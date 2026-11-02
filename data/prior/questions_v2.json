@@ -1,0 +1,3276 @@
+[
+ {
+  "qid": "5726c002708984140094d073",
+  "question": "Which Treaty protects the freedom of establishment and the freedom to provide services?",
+  "golds": [
+   "the Treaty on the Functioning of the European Union",
+   "the Treaty on the Functioning of the European Union",
+   "the Treaty on the Functioning of the European Union"
+  ],
+  "gold_pid": 234,
+  "title": "European_Union_law",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "56e181d9e3433e1400422fa0",
+  "question": "In a computational problem, what can be described as a string over an alphabet?",
+  "golds": [
+   "problem instance",
+   "a problem instance",
+   "problem instance"
+  ],
+  "gold_pid": 5,
+  "title": "Computational_complexity_theory",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "572905ce1d04691400778f84",
+  "question": "Phagocytes can be called to a specific location by what?",
+  "golds": [
+   "cytokines",
+   "cytokines",
+   "cytokines"
+  ],
+  "gold_pid": 556,
+  "title": "Immune_system",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5a550b52134fea001a0e1847",
+  "question": "Where is the data reassembled? ",
+  "golds": [],
+  "gold_pid": 292,
+  "title": "Packet_switching",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "570d391fb3d812140066d577",
+  "question": "In what direction does the mountain system extend?",
+  "golds": [
+   "east-west",
+   "east-west",
+   "east-west"
+  ],
+  "gold_pid": null,
+  "title": "Victoria_(Australia)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "570d30fdfed7b91900d45ce5",
+  "question": "How cold does this region of Victoria get in the winner?",
+  "golds": [
+   "15 \u00b0C",
+   "15 \u00b0C",
+   "15 \u00b0C (59 \u00b0F)"
+  ],
+  "gold_pid": null,
+  "title": "Victoria_(Australia)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57286ead2ca10214002da346",
+  "question": "When was Dali conquered by the Yuan?",
+  "golds": [
+   "1253",
+   "1253",
+   "1253"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad02d3077cf76001a686cf9",
+  "question": " Which historic empire used cultural imperialism to sway non-local elites?",
+  "golds": [],
+  "gold_pid": 785,
+  "title": "Imperialism",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad23fded7d075001a4288fc",
+  "question": "When did the Huguenot movement start?",
+  "golds": [],
+  "gold_pid": 87,
+  "title": "Huguenot",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad3a8fe604f3c001a3feb08",
+  "question": "What disagreement was made for trade with natives and British?",
+  "golds": [],
+  "gold_pid": 875,
+  "title": "French_and_Indian_War",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5733a45d4776f41900660f24",
+  "question": "What is Warsaw's symbol?",
+  "golds": [
+   "The mermaid",
+   "mermaid",
+   "The mermaid"
+  ],
+  "gold_pid": 856,
+  "title": "Warsaw",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5a667dae846392001a1e1c53",
+  "question": "What was developed for the RAND Corporation?",
+  "golds": [],
+  "gold_pid": 290,
+  "title": "Packet_switching",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5729f1c13f37b319004785e9",
+  "question": "What gender is less willing to travel or relocate for work?",
+  "golds": [
+   "women",
+   "women",
+   "women"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57097b50200fba140036804e",
+  "question": "How large was the audience BSkyB said they could reach?",
+  "golds": [
+   "25m",
+   "25m people",
+   "36% of households"
+  ],
+  "gold_pid": null,
+  "title": "Sky_(United_Kingdom)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5a2eb95ca83784001a7d242b",
+  "question": "How many people lived in China in the 1300s?",
+  "golds": [],
+  "gold_pid": 311,
+  "title": "Black_Death",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57339555d058e614000b5df4",
+  "question": "What is the second academic school of technology in Poland?",
+  "golds": [
+   "Warsaw University of Technology",
+   "Warsaw University of Technology",
+   "Warsaw University of Technology"
+  ],
+  "gold_pid": 845,
+  "title": "Warsaw",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "57115f652419e314009555b9",
+  "question": "Who received the first steam engine patent?",
+  "golds": [
+   "Jer\u00f3nimo de Ayanz y Beaumont",
+   "Jer\u00f3nimo de Ayanz y Beaumont",
+   "Jer\u00f3nimo de Ayanz y Beaumont",
+   "Jer\u00f3nimo de Ayanz y Beaumont"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57094d489928a8140047150c",
+  "question": "Who is the parent company of NDS?",
+  "golds": [
+   "Cisco Systems",
+   "Cisco Systems",
+   "Cisco Systems company"
+  ],
+  "gold_pid": null,
+  "title": "Sky_(United_Kingdom)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad3ade2604f3c001a3fec17",
+  "question": "Where was Marin's first fort constructed?",
+  "golds": [],
+  "gold_pid": 878,
+  "title": "French_and_Indian_War",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "572a13841d0469140077973c",
+  "question": "The Kuznets curve says with economic development, inequality will decrease after what?",
+  "golds": [
+   "first increases",
+   "inequality first increases",
+   "increases"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57309bfb8ab72b1400f9c5e9",
+  "question": "According to Lenin why must capitalistic countries have an imperialistic policy?",
+  "golds": [
+   "to constantly expand investment",
+   "to constantly expand investment",
+   "to constantly expand investment, material resources and manpower",
+   "need for capitalist economies to constantly expand investment, material resources and manpower",
+   "need for capitalist economies to constantly expand investment, material resources and manpower in such a way that necessitated colonial expansion."
+  ],
+  "gold_pid": 790,
+  "title": "Imperialism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "571156152419e3140095559e",
+  "question": "What was the ideal duty of a Newcomen engine?",
+  "golds": [
+   "7 million",
+   "7 million",
+   "7 million"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5728804b4b864d1900164a48",
+  "question": "What modern math concept did Zhu Shijie do work similar to?",
+  "golds": [
+   "matrices",
+   "matrices",
+   "matrices"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5705e33f52bb89140068964c",
+  "question": "What is the name of the region that is not defined by the eight or 10 county definitions?",
+  "golds": [
+   "Southern California Megaregion",
+   "the greater Southern California Megaregion",
+   "Southern California Megaregion"
+  ],
+  "gold_pid": 49,
+  "title": "Southern_California",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5729fa40af94a219006aa710",
+  "question": "Disruptions in sleep can lead to increase in what chronic conditions?",
+  "golds": [
+   "heart disease, chronic pain, and asthma",
+   "heart disease, chronic pain, and asthma",
+   "chronic pain"
+  ],
+  "gold_pid": 570,
+  "title": "Immune_system",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "572a1f086aef0514001552c1",
+  "question": "What would be lower if there were fewer people?",
+  "golds": [
+   "emissions per person",
+   "this multiplier",
+   "environmental degradation",
+   "environmental degradation"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5726c3da708984140094d0dc",
+  "question": "What did the Dutch health authorities regard as unnecessary in Geraets-Smits v Stichting Ziekenfonds?",
+  "golds": [
+   "the treatment",
+   "treatment",
+   "treatment"
+  ],
+  "gold_pid": 236,
+  "title": "European_Union_law",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5730ac782461fd1900a9cf76",
+  "question": "What was Germany's central interest?",
+  "golds": [
+   "Europe",
+   "Europe",
+   "Europe",
+   "Europe",
+   "Europe itself."
+  ],
+  "gold_pid": 799,
+  "title": "Imperialism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5726dcbddd62a815002e9320",
+  "question": "How were the men who did tasks like those of today's pharmacists viewed in Japan in the Asuka and Nara periods?",
+  "golds": [
+   "highly respected",
+   "highly respected",
+   "highly respected"
+  ],
+  "gold_pid": 362,
+  "title": "Pharmacy",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "56de3d594396321400ee26ca",
+  "question": "Where was Ralph earl of?",
+  "golds": [
+   "Hereford",
+   "Hereford",
+   "Hereford"
+  ],
+  "gold_pid": null,
+  "title": "Normans",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad031ef77cf76001a686df2",
+  "question": "When did France take control of London?",
+  "golds": [],
+  "gold_pid": 795,
+  "title": "Imperialism",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57286fa83acd2414000df9e7",
+  "question": "Who did Gegeen appoint as grand chancellor?",
+  "golds": [
+   "Baiju",
+   "Baiju",
+   "Baiju"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "572659ea5951b619008f7054",
+  "question": "What runs from the balancer in the statocyst to the comb rows?",
+  "golds": [
+   "ciliary groove",
+   "a ciliary groove",
+   "a ciliary groove"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5725c57a89a1e219009abe61",
+  "question": "Which species eggs are fertilized and kept inside the parents body until hatched?",
+  "golds": [
+   "platyctenids",
+   "platyctenids",
+   "platyctenids"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5a679cc7f038b7001ab0c346",
+  "question": "What is happening to the number of government schools in rural India?",
+  "golds": [],
+  "gold_pid": 442,
+  "title": "Private_school",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57378c9b1c456719005744aa",
+  "question": "Whatare the electrostatic and magnetic force awritten as the sum of?",
+  "golds": [
+   "electrostatic force",
+   "the electrostatic force (due to the electric field) and the magnetic force (due to the magnetic field).",
+   "electrostatic force (due to the electric field) and the magnetic force",
+   "the electrostatic force (due to the electric field) and the magnetic force"
+  ],
+  "gold_pid": 934,
+  "title": "Force",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "571156152419e3140095559b",
+  "question": "How was the efficiency of a steam engine typically evaluated?",
+  "golds": [
+   "duty",
+   "duty"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57377862c3c5551400e51ef5",
+  "question": "What has to accounted for that causes no net force being the cause of constant velocity motion?",
+  "golds": [
+   "kinetic friction",
+   "object started with a non-zero velocity",
+   "kinetic friction",
+   "kinetic friction"
+  ],
+  "gold_pid": 923,
+  "title": "Force",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5728fb6a1d04691400778ef5",
+  "question": "What needs to be avoided with civil disobedience?",
+  "golds": [
+   "general disobedience",
+   "undermine the law by encouraging general disobedience which is neither conscientious nor of social benefit",
+   "great amount of it",
+   "general disobedience",
+   "conscientious lawbreakers"
+  ],
+  "gold_pid": 407,
+  "title": "Civil_disobedience",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "57297547af94a219006aa45b",
+  "question": "What number did early Greeks not regard as a true number?",
+  "golds": [
+   "1",
+   "1",
+   "1",
+   "1",
+   "1"
+  ],
+  "gold_pid": 624,
+  "title": "Prime_number",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "572863c72ca10214002da2d6",
+  "question": "Who was Genghis's 3rd son?",
+  "golds": [
+   "\u00d6gedei Khan",
+   "\u00d6gedei Khan",
+   "\u00d6gedei Khan"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5a75066297ca42001a521dea",
+  "question": "What holiday did Syria and Egypt launch an attack? ",
+  "golds": [],
+  "gold_pid": 178,
+  "title": "1973_oil_crisis",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5728e3c33acd2414000e0133",
+  "question": "What is a recent civil disobedience done in a group form?",
+  "golds": [
+   "refuse to sign bail",
+   "collectively refuse to sign bail until certain demands are met",
+   "some activists who commit civil disobedience as a group collectively refuse to sign bail until certain demands are met",
+   "jail solidarity"
+  ],
+  "gold_pid": 395,
+  "title": "Civil_disobedience",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5a7b064b21c2de001afe9ce4",
+  "question": "What year was Chinatown founded?",
+  "golds": [],
+  "gold_pid": 261,
+  "title": "Fresno,_California",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad043a977cf76001a686f39",
+  "question": "The first vote of the ballot uses what method to tally the votes?",
+  "golds": [],
+  "gold_pid": 728,
+  "title": "Scottish_Parliament",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "573735e8c3c5551400e51e73",
+  "question": "Who had mathmatical insite?",
+  "golds": [
+   "Sir Isaac Newton",
+   "Sir Isaac Newton",
+   "Sir Isaac Newton",
+   "Sir Isaac Newton",
+   "Sir Isaac Newton",
+   "Sir Isaac Newton"
+  ],
+  "gold_pid": 906,
+  "title": "Force",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5a38cd93a4b263001a8c192d",
+  "question": "What increased demand for cars with six cylinder engines?",
+  "golds": [],
+  "gold_pid": 192,
+  "title": "1973_oil_crisis",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "570d2417fed7b91900d45c40",
+  "question": "What city in Victoria is called the sporting capital of Australia?",
+  "golds": [
+   "Melbourne",
+   "Melbourne",
+   "Melbourne"
+  ],
+  "gold_pid": null,
+  "title": "Victoria_(Australia)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57377ec7c3c5551400e51f09",
+  "question": "Matter particles are shown as what kind of lines in a Feynman diagram?",
+  "golds": [
+   "straight",
+   "straight line",
+   "straight",
+   "straight"
+  ],
+  "gold_pid": 926,
+  "title": "Force",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "57268f05dd62a815002e8992",
+  "question": "Which genus is considered the \"aunt\" of ctenophores?",
+  "golds": [
+   "Stromatoveris",
+   "Stromatoveris",
+   "Stromatoveris"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "570961aa200fba1400367f15",
+  "question": "Who was the chief executive officer when the service began?",
+  "golds": [
+   "Sam Chisholm",
+   "Sam Chisholm",
+   "Sam Chisholm and Rupert Murdoch"
+  ],
+  "gold_pid": null,
+  "title": "Sky_(United_Kingdom)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "571cb27fdd7acb1400e4c134",
+  "question": "How much heavier is oxygen 18 than oxygen 16?",
+  "golds": [
+   "12%",
+   "12%",
+   "12%",
+   "12%",
+   "12%"
+  ],
+  "gold_pid": 153,
+  "title": "Oxygen",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad25878d7d075001a428dc9",
+  "question": "What percentage of people in Australia regard themselves as Huguenots?",
+  "golds": [],
+  "gold_pid": 98,
+  "title": "Huguenot",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5a8944653b2508001a72a57e",
+  "question": "What is an additional meaning intended when the word component is used?",
+  "golds": [],
+  "gold_pid": 643,
+  "title": "Prime_number",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5705e3f252bb89140068966a",
+  "question": "Which coastline does Southern California touch?",
+  "golds": [
+   "Pacific",
+   "Pacific",
+   "Pacific"
+  ],
+  "gold_pid": 50,
+  "title": "Southern_California",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad26235d7d075001a429080",
+  "question": "What is CO? ",
+  "golds": [],
+  "gold_pid": 138,
+  "title": "Oxygen",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57265aaf5951b619008f706d",
+  "question": "How many auricles do most species have?",
+  "golds": [
+   "four",
+   "four",
+   "four"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57308cf88ab72b1400f9c576",
+  "question": "Which theory suggested people in the tropics were uncivilized?",
+  "golds": [
+   "environmental determinism",
+   "environmental determinism",
+   "environmental determinism",
+   "environmental determinism",
+   "environmental determinism"
+  ],
+  "gold_pid": 780,
+  "title": "Imperialism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "57265746dd62a815002e821b",
+  "question": "The long tentacles on the pleurbrachia are protected by what?",
+  "golds": [
+   "a sheath",
+   "a sheath",
+   "a sheath into which it can be withdrawn"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5a2ec77ba83784001a7d2463",
+  "question": "When did the Black Death spread into India?",
+  "golds": [],
+  "gold_pid": 317,
+  "title": "Black_Death",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "572a135daf94a219006aa7a1",
+  "question": "The idea of acquired immunity in jawed vertebrates is the basis of what medical treatment?",
+  "golds": [
+   "vaccination",
+   "vaccination",
+   "vaccination"
+  ],
+  "gold_pid": 593,
+  "title": "Immune_system",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5733a1854776f41900660f0c",
+  "question": "What type of theatre is the Warsaw Fotoplastikon?",
+  "golds": [
+   "stereoscopic",
+   "stereoscopic theatre",
+   "stereoscopic"
+  ],
+  "gold_pid": 853,
+  "title": "Warsaw",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad14573645df0001a2d14b4",
+  "question": "What is not stated in Article 5 of the EC Treaty?",
+  "golds": [],
+  "gold_pid": 217,
+  "title": "European_Union_law",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5726509bdd62a815002e815c",
+  "question": "What was Shrewsbury's conclusion?",
+  "golds": [
+   "contemporary accounts were exaggerations",
+   "contemporary accounts were exaggerations",
+   "contemporary accounts were exaggerations"
+  ],
+  "gold_pid": 323,
+  "title": "Black_Death",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "57096b66200fba1400367fa9",
+  "question": "What platform was Sentanta Sports planning on launching on?",
+  "golds": [
+   "digital terrestrial",
+   "digital terrestrial",
+   "digital terrestrial"
+  ],
+  "gold_pid": null,
+  "title": "Sky_(United_Kingdom)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad157cf645df0001a2d1814",
+  "question": "What did not set out the main provision on equal treatment of workers?",
+  "golds": [],
+  "gold_pid": 232,
+  "title": "European_Union_law",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57115ac550c2381900b54a77",
+  "question": "What type of engines became popular for power generation after piston steam engines?",
+  "golds": [
+   "steam turbines",
+   "internal combustion engines",
+   "Reciprocating piston",
+   "steam turbines"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "570960cf200fba1400367f04",
+  "question": "What did Microsoft announce that it would rename Sky Drive Pro to?",
+  "golds": [
+   "OneDrive for Business",
+   "OneDrive for Business",
+   "OneDrive for Business"
+  ],
+  "gold_pid": null,
+  "title": "Sky_(United_Kingdom)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "572a05eb3f37b31900478655",
+  "question": "Persistent unemployment has what effect on long-term economic growth?",
+  "golds": [
+   "negative",
+   "negative effect",
+   "negative"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "572a0d21af94a219006aa787",
+  "question": "What has given the American economy a tendency to go \"from bubble to bubble\"?",
+  "golds": [
+   "easier credit",
+   "easier credit",
+   "easier credit"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57287338ff5b5019007da234",
+  "question": "Why did Toghun Temur dismiss Toghtogha?",
+  "golds": [
+   "fear of betrayal",
+   "fear of betrayal",
+   "fear of betrayal"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57300a25a23a5019007fcc9b",
+  "question": "When was the Rhine crisis?",
+  "golds": [
+   "1840",
+   "1840",
+   "1840"
+  ],
+  "gold_pid": 690,
+  "title": "Rhine",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad146c0645df0001a2d1508",
+  "question": "How must legislation in member states which implements EU law must not be worded?",
+  "golds": [],
+  "gold_pid": 218,
+  "title": "European_Union_law",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "570953a7efce8f15003a7e01",
+  "question": "What additional srevice did BSkyB offer besides HD channels that they claimed offered \"substantially more value\"?",
+  "golds": [
+   "Video On Demand",
+   "Video On Demand content",
+   "HD channels and Video On Demand"
+  ],
+  "gold_pid": null,
+  "title": "Sky_(United_Kingdom)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5727f7523acd2414000df10d",
+  "question": "What country has low income inequality and high presence of unions?",
+  "golds": [
+   "Scandinavia",
+   "Scandinavia",
+   "Scandinavia"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "571156152419e3140095559c",
+  "question": "Who invented the notion of a steam engine's duty?",
+  "golds": [
+   "Watt",
+   "Watt",
+   "Watt"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5a3e3de4378766001a002516",
+  "question": "What substantial error put the IPCC research in doubt?",
+  "golds": [],
+  "gold_pid": 607,
+  "title": "Intergovernmental_Panel_on_Climate_Change",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "56de179dcffd8e1900b4b5db",
+  "question": "What country did the Normans invade in 1169?",
+  "golds": [
+   "Ireland",
+   "Ireland",
+   "Ireland"
+  ],
+  "gold_pid": null,
+  "title": "Normans",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad4caf45b96ef001a10a0d6",
+  "question": "Who set up what became the Second Warsaw Republic?",
+  "golds": [],
+  "gold_pid": 819,
+  "title": "Warsaw",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad241c7d7d075001a428978",
+  "question": "In what year was Swiss politician Besancon Hugues born?",
+  "golds": [],
+  "gold_pid": 88,
+  "title": "Huguenot",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad03c2977cf76001a686eb4",
+  "question": "What includes all subjects which are not stated in Schedule 6 to the Scotland Act?",
+  "golds": [],
+  "gold_pid": 717,
+  "title": "Scottish_Parliament",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5acfecc577cf76001a686513",
+  "question": " Where does HAMAS not want to establish an Islamic state?",
+  "golds": [],
+  "gold_pid": 758,
+  "title": "Islamism",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad4d9be5b96ef001a10a3b0",
+  "question": "What style was he Paris Philharmony edifice built in?",
+  "golds": [],
+  "gold_pid": 830,
+  "title": "Warsaw",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5a3e42de378766001a002529",
+  "question": "What did Karlen and Singer present to the US senate?",
+  "golds": [],
+  "gold_pid": 609,
+  "title": "Intergovernmental_Panel_on_Climate_Change",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad50fe55b96ef001a10ab4e",
+  "question": "Why is Kampinos's flora very rich in species?",
+  "golds": [],
+  "gold_pid": 834,
+  "title": "Warsaw",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5a8209f831013a001a335134",
+  "question": "During what period did Radcliffe become prominent as a university?",
+  "golds": [],
+  "gold_pid": 467,
+  "title": "Harvard_University",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5725b5a689a1e219009abd28",
+  "question": "Why did the European nations and Japan separated themselves from United States during the crisis?",
+  "golds": [
+   "to avoid being targeted by the boycott",
+   "to avoid being targeted by the boycott",
+   "to avoid being targeted by the boycott",
+   "to avoid being targeted by the boycott",
+   "to avoid being targeted by the boycott"
+  ],
+  "gold_pid": 175,
+  "title": "1973_oil_crisis",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5729f3883f37b319004785f5",
+  "question": "What may be possible for multiple Kuznets' cycles to be in at any given time?",
+  "golds": [
+   "effect",
+   "in effect",
+   "effect"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad279e5d7d075001a4295c4",
+  "question": "Who demonstrated that electric and magnetic forces were unified through two consistent theories?",
+  "golds": [],
+  "gold_pid": 928,
+  "title": "Force",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad0322877cf76001a686dfe",
+  "question": "How was france the same as Britain in managing its colonies?",
+  "golds": [],
+  "gold_pid": 796,
+  "title": "Imperialism",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57265aaf5951b619008f706b",
+  "question": "What does the lobata have pair of?",
+  "golds": [
+   "lobes",
+   "lobes",
+   "lobes"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57281bb84b864d190016449b",
+  "question": "In what part of the city did residents suffer from a lack of city services?",
+  "golds": [
+   "unincorporated suburbs",
+   "suburbs",
+   "unincorporated suburbs"
+  ],
+  "gold_pid": 499,
+  "title": "Jacksonville,_Florida",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5727b0892ca10214002d93e9",
+  "question": "After what higher learning model was the school designed?",
+  "golds": [
+   "English university model",
+   "English university",
+   "English university"
+  ],
+  "gold_pid": 462,
+  "title": "Harvard_University",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5726e5c95951b619008f81cd",
+  "question": "What are the components of drug therapy?",
+  "golds": [
+   "drug choice, dose, route, frequency, and duration of therapy",
+   "drug choice, dose, route, frequency, and duration of therapy",
+   "drug choice, dose, route, frequency, and duration of therapy"
+  ],
+  "gold_pid": 369,
+  "title": "Pharmacy",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "57097b50200fba1400368050",
+  "question": "What was the target percentage of households BSkyB wanted to reach?",
+  "golds": [
+   "36%",
+   "36% of households",
+   "2.4m customers"
+  ],
+  "gold_pid": null,
+  "title": "Sky_(United_Kingdom)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad3ae4f604f3c001a3fec4b",
+  "question": "Who was the reader of the tribal council?",
+  "golds": [],
+  "gold_pid": 879,
+  "title": "French_and_Indian_War",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57266193dd62a815002e832e",
+  "question": "Recently a more detailed model of the Earth was developed. Seismologists were able to create this using images of what from the interior of the Earth? ",
+  "golds": [
+   "wave speeds",
+   "wave speeds",
+   "wave speeds"
+  ],
+  "gold_pid": 336,
+  "title": "Geology",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5a7b44ae21c2de001afe9e21",
+  "question": "State Route 168 is called the Sierra Freeway and what other two names?",
+  "golds": [],
+  "gold_pid": 284,
+  "title": "Fresno,_California",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad0313b77cf76001a686dd2",
+  "question": "What can not be mostly predicted beforehand?",
+  "golds": [],
+  "gold_pid": 710,
+  "title": "Scottish_Parliament",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad4d91d5b96ef001a10a384",
+  "question": "What does the loss of the thymus at an early age prevent?",
+  "golds": [],
+  "gold_pid": 575,
+  "title": "Immune_system",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57294279af94a219006aa20c",
+  "question": "When did Singer dispute the graph at a Senate hearing?",
+  "golds": [
+   "18 July 2000",
+   "May 2000",
+   "18 July 2000"
+  ],
+  "gold_pid": 609,
+  "title": "Intergovernmental_Panel_on_Climate_Change",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5a2ebaada83784001a7d243f",
+  "question": "In what year did the Black Death spread into Iceland?",
+  "golds": [],
+  "gold_pid": 313,
+  "title": "Black_Death",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "572684365951b619008f7542",
+  "question": "Juvenile platyctenids act like what?",
+  "golds": [
+   "more like true larvae",
+   "true larvae",
+   "like true larvae"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "570d26efb3d812140066d492",
+  "question": "What is the term of office for each house member?",
+  "golds": [
+   "four years",
+   "four years",
+   "four years"
+  ],
+  "gold_pid": null,
+  "title": "Victoria_(Australia)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad0392577cf76001a686e51",
+  "question": "Mandatory Committees exists in the fifth session of what?",
+  "golds": [],
+  "gold_pid": 713,
+  "title": "Scottish_Parliament",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57113be3a58dae1900cd6d29",
+  "question": "What sort of motion did Watt's steam engine continuously produce?",
+  "golds": [
+   "rotary",
+   "rotary",
+   "rotary motion",
+   "continuous rotary motion"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad4b0f25b96ef001a109dbe",
+  "question": "What medicine can lead to a decline in fungi?",
+  "golds": [],
+  "gold_pid": 554,
+  "title": "Immune_system",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5730ab63396df91900096263",
+  "question": "What was the only region in Europe not conquered by the Germanic tribes?",
+  "golds": [
+   "Muslim Iberia",
+   "Muslim Iberia",
+   "Muslim Iberia",
+   "Muslim Iberia",
+   "Muslim Iberia"
+  ],
+  "gold_pid": 798,
+  "title": "Imperialism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "572fe4a304bcaa1900d76e57",
+  "question": "What delimits the delta of the Rhine in the west?",
+  "golds": [
+   "Alter Rhein",
+   "Alter Rhein",
+   "Alter Rhein",
+   "Alter Rhein"
+  ],
+  "gold_pid": 654,
+  "title": "Rhine",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "57281edd3acd2414000df4ef",
+  "question": "How did the Better Jacksonville Plan generate money?",
+  "golds": [
+   "authorized a half-penny sales tax",
+   "half-penny sales tax",
+   "a half-penny sales tax"
+  ],
+  "gold_pid": 501,
+  "title": "Jacksonville,_Florida",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5a82025a31013a001a3350b9",
+  "question": "What denomination was the Hollis Professor of Divinity connected to?",
+  "golds": [],
+  "gold_pid": 463,
+  "title": "Harvard_University",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5a2ed42fa83784001a7d24f7",
+  "question": "In what country is Seville located?",
+  "golds": [],
+  "gold_pid": 331,
+  "title": "Black_Death",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5729f1283f37b319004785da",
+  "question": "Compared to other causes, the effect of trade on inequality in America is what?",
+  "golds": [
+   "minor",
+   "minor",
+   "minor"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "572822233acd2414000df558",
+  "question": "What position did the tax collector that arrested Thoreau get?",
+  "golds": [
+   "rose to higher political office",
+   "higher political office",
+   "higher political office",
+   "rose to higher political office",
+   "higher political office"
+  ],
+  "gold_pid": 395,
+  "title": "Civil_disobedience",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5727c8863acd2414000dec49",
+  "question": "How far from state house in downtown Boston is Harvard Yard?",
+  "golds": [
+   "3 miles",
+   "3 miles",
+   "about 3 miles"
+  ],
+  "gold_pid": 468,
+  "title": "Harvard_University",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5727e6cbff5b5019007d97f2",
+  "question": "Why does Oxfam and Credit Suisse believe their findings are being doubted?",
+  "golds": [
+   "a diversion",
+   "the basis of the methodology used",
+   "there are more poor people in the United States and Western Europe than in China"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad5316b5b96ef001a10ab73",
+  "question": "What branch of theoretical computer class deals with broadly classifying computational problems by difficulty and class of relationship?",
+  "golds": [],
+  "gold_pid": 0,
+  "title": "Computational_complexity_theory",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57265360dd62a815002e819a",
+  "question": "Which country is the most dependent on Arab oil?",
+  "golds": [
+   "Japan",
+   "Japan",
+   "Japan",
+   "Japan",
+   "Japan"
+  ],
+  "gold_pid": 190,
+  "title": "1973_oil_crisis",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5728eef92ca10214002daab3",
+  "question": "What type of plea is sometimes taken as an act of disobedience?",
+  "golds": [
+   "blind plea",
+   "blind plea",
+   "blind plea",
+   "blind plea",
+   "blind plea"
+  ],
+  "gold_pid": 404,
+  "title": "Civil_disobedience",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad2424cd7d075001a42898b",
+  "question": "What religion was Hugues Capet?",
+  "golds": [],
+  "gold_pid": 121,
+  "title": "Huguenot",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57377083c3c5551400e51ee1",
+  "question": "What equals the spring reaction force on an object suspended on a spring reaction scale? ",
+  "golds": [
+   "gravity",
+   "object's weight",
+   "spring reaction force",
+   "the object's weight",
+   "the object's weight"
+  ],
+  "gold_pid": 921,
+  "title": "Force",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "57300137b2c2fd1400568718",
+  "question": "Though trained as a lawyer, what profession did Maududi pursue instead?",
+  "golds": [
+   "journalism",
+   "journalism",
+   "journalism"
+  ],
+  "gold_pid": 744,
+  "title": "Islamism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "572a0bfaaf94a219006aa77a",
+  "question": "Analysis of what kind of deposits from the Amazon Fan indicates a change in rainfall in the Amazon basin?",
+  "golds": [
+   "sediment deposits",
+   "sediment",
+   "sediment"
+  ],
+  "gold_pid": 241,
+  "title": "Amazon_rainforest",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad0331877cf76001a686e19",
+  "question": "What counties near Kern-Bakersfield County was population growth high?",
+  "golds": [],
+  "gold_pid": 63,
+  "title": "Southern_California",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5729d44b1d04691400779613",
+  "question": "What may explain why some Americans who've become rich may have had a head start?",
+  "golds": [
+   "Inherited wealth",
+   "Inherited wealth",
+   "Inherited wealth"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "571166352419e314009555f2",
+  "question": "What does the steam generated by a nuclear power plant drive?",
+  "golds": [
+   "turbine",
+   "turbine",
+   "a turbine connected to an electrical generator"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "572fffb1b2c2fd14005686fb",
+  "question": "When Iqbal promoted ideas of greater Islamic political unity, what did he encourage ending?",
+  "golds": [
+   "nationalist differences",
+   "nationalist differences",
+   "nationalist differences"
+  ],
+  "gold_pid": 743,
+  "title": "Islamism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "572a11663f37b31900478694",
+  "question": "Inequality in the presence of credit market imperfections has what kind of effect on human capital formation?",
+  "golds": [
+   "detrimental",
+   "long lasting detrimental effect",
+   "long lasting detrimental"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5a8917433b2508001a72a4b6",
+  "question": "What type of numbers are always multiples of distinct divisors?",
+  "golds": [],
+  "gold_pid": 623,
+  "title": "Prime_number",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad569c05b96ef001a10ae38",
+  "question": "What is an important solved problem in complexity theory?",
+  "golds": [],
+  "gold_pid": 36,
+  "title": "Computational_complexity_theory",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "571cc3dedd7acb1400e4c146",
+  "question": "What magnetic character do triplet O2 have?",
+  "golds": [
+   "paramagnetic",
+   "paramagnetic",
+   "paramagnetic",
+   "paramagnetic",
+   "paramagnetic"
+  ],
+  "gold_pid": 155,
+  "title": "Oxygen",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5725c69738643c19005accba",
+  "question": "What was introduces into the Black Sea?",
+  "golds": [
+   "Mnemiopsis",
+   "Mnemiopsis",
+   "Mnemiopsis"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5729d36b1d04691400779609",
+  "question": "How much was the combined wealth of the \"10 Million dollar millionaires\" in 2008?",
+  "golds": [
+   "nearly $41 trillion",
+   "$41 trillion",
+   "the \"10 million dollar millionaires\" grew to nearly $41 trillion in 2008",
+   "$41 trillion"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "571ce7f25efbb31900334e41",
+  "question": "What part of the Earth's geological structure is larger than the crust?",
+  "golds": [
+   "mantle",
+   "The Earth's mantle",
+   "mantle",
+   "The Earth's mantle",
+   "mantle"
+  ],
+  "gold_pid": 138,
+  "title": "Oxygen",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad4a049ba00c4001a268e43",
+  "question": "When is the latest known reference to immunity?",
+  "golds": [],
+  "gold_pid": 548,
+  "title": "Immune_system",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57335c20d058e614000b58fd",
+  "question": "What is the edge of the moraine plateau called?",
+  "golds": [
+   "Warsaw Escarpment",
+   "Warsaw Escarpment",
+   "Warsaw Escarpment"
+  ],
+  "gold_pid": 825,
+  "title": "Warsaw",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5727fd123acd2414000df188",
+  "question": "Who does the wage gap between genders provide an advantage?",
+  "golds": [
+   "males",
+   "males",
+   "males"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5a669ee5f038b7001ab0c068",
+  "question": "What does a great amount of self-gratification undermine?",
+  "golds": [],
+  "gold_pid": 407,
+  "title": "Civil_disobedience",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57287fec4b864d1900164a3e",
+  "question": "What was the Yuan's unofficial state religion?",
+  "golds": [
+   "Tibetan Buddhism",
+   "Tibetan Buddhism",
+   "Tibetan Buddhism"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5729e4291d04691400779655",
+  "question": "What does high inequality go hand-in-hand with?",
+  "golds": [
+   "weak labor movements",
+   "weak labor movements",
+   "weak labor movements"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57288428ff5b5019007da28f",
+  "question": "What Jewish practice did the Yuan ban?",
+  "golds": [
+   "Kosher butchering",
+   "Kosher butchering"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad55fe75b96ef001a10ad0c",
+  "question": "What cannot be defined by bounding the time or space used the the algorithm?",
+  "golds": [],
+  "gold_pid": 25,
+  "title": "Computational_complexity_theory",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57293d6d1d046914007791b8",
+  "question": "How many lead authors does an IPCC report chapter have?",
+  "golds": [
+   "ten to fifteen",
+   "ten to fifteen",
+   "ten to fifteen"
+  ],
+  "gold_pid": 600,
+  "title": "Intergovernmental_Panel_on_Climate_Change",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "571142b3a58dae1900cd6d5e",
+  "question": "Most power of what sort is generated by steam turbines today?",
+  "golds": [
+   "electric",
+   "electric",
+   "electric"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57332a734776f41900660728",
+  "question": "Whose army liberated Warsaw in 1806?",
+  "golds": [
+   "Napoleon's",
+   "Napoleon's",
+   "Napoleon's"
+  ],
+  "gold_pid": 818,
+  "title": "Warsaw",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "572647d0708984140094c14e",
+  "question": "Ctenophores, cnidarians and what other group are labelled diploblastic?",
+  "golds": [
+   "sponges",
+   "sponges",
+   "sponges"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5711669550c2381900b54ae1",
+  "question": "What does isobaric mean?",
+  "golds": [
+   "constant pressure",
+   "constant pressure",
+   "constant pressure"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "573088da069b53140083216e",
+  "question": "Friedrich Ratzel thought imperialism was what for the country?",
+  "golds": [
+   "geographical societies in Europe",
+   "necessary for a state\u2019s survival",
+   "survival",
+   "necessary",
+   "necessary"
+  ],
+  "gold_pid": 779,
+  "title": "Imperialism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5725bbec271a42140099d0d1",
+  "question": "Who applies European Union law?",
+  "golds": [
+   "courts of member states and the Court of Justice of the European Union",
+   "the courts of member states and the Court of Justice of the European Union",
+   "the courts of member states and the Court of Justice of the European Union",
+   "the courts of member states and the Court of Justice of the European Union"
+  ],
+  "gold_pid": 199,
+  "title": "European_Union_law",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5a6696d0f038b7001ab0c021",
+  "question": "The Australian Tax Office used AUSTPAC to access what remotely?",
+  "golds": [],
+  "gold_pid": 304,
+  "title": "Packet_switching",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57287ddf3acd2414000dfa40",
+  "question": "When had the Six Ministries existed?",
+  "golds": [
+   "since the Sui and Tang dynasties",
+   "Sui and Tang dynasties",
+   "since the Sui and Tang dynasties"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5726400589a1e219009ac5f0",
+  "question": "What do Beriods use as teeth?",
+  "golds": [
+   "groups of large, stiffened cilia",
+   "stiffened cilia",
+   "stiffened cilia"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "573028fa04bcaa1900d7728a",
+  "question": "When did the Democratic Republic of Afghanistan collapse?",
+  "golds": [
+   "1992",
+   "1992",
+   "1992"
+  ],
+  "gold_pid": 763,
+  "title": "Islamism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5a59002d3e1742001a15cf3c",
+  "question": "What are fossil sequences applied to?",
+  "golds": [],
+  "gold_pid": 341,
+  "title": "Geology",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5730aa52069b53140083221f",
+  "question": "Where did France lose a war in the 1950's?",
+  "golds": [
+   "Vietnam",
+   "Vietnam",
+   "Vietnam",
+   "Vietnam",
+   "Vietnam"
+  ],
+  "gold_pid": 797,
+  "title": "Imperialism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "571cda1bdd7acb1400e4c196",
+  "question": "What do oxygen tanks, cryogenics, and chemical compounds serve as for oxygen?",
+  "golds": [
+   "storage",
+   "storage",
+   "storage methods",
+   "storage",
+   "storage methods"
+  ],
+  "gold_pid": 168,
+  "title": "Oxygen",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "57300761947a6a140053cf9b",
+  "question": "The Rhine first formed a boundary between Gaul and what else?",
+  "golds": [
+   "Germania",
+   "Germania",
+   "Germania"
+  ],
+  "gold_pid": 685,
+  "title": "Rhine",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad2a58bd7d075001a429dcd",
+  "question": "When did the Holocene Rhine-Meuse delta stop forming?",
+  "golds": [],
+  "gold_pid": 682,
+  "title": "Rhine",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5733f410d058e614000b6665",
+  "question": "How did King Louis XV respond to British plans?",
+  "golds": [
+   "dispatched six regiments to New France under the command of Baron Dieskau in 1755.",
+   "dispatched six regiments to New France",
+   "dispatched six regiments to New France under the command of Baron Dieskau in 1755",
+   "six regiments to New France",
+   "dispatched six regiments to New France"
+  ],
+  "gold_pid": 884,
+  "title": "French_and_Indian_War",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "570d50a5fed7b91900d45e80",
+  "question": "How much land do farms use in Victoria?",
+  "golds": [
+   "136,000 square kilometres",
+   "136,000 square kilometres",
+   "136,000 square kilometres"
+  ],
+  "gold_pid": null,
+  "title": "Victoria_(Australia)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad03aa977cf76001a686e88",
+  "question": "What group is set up to scrutinize public bills submitted to the Scottish Parliament?",
+  "golds": [],
+  "gold_pid": 715,
+  "title": "Scottish_Parliament",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5a82370631013a001a3352e5",
+  "question": "What glass flowers exhibit is included in the Busch-Reisinger Museum?",
+  "golds": [],
+  "gold_pid": 479,
+  "title": "Harvard_University",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad3ad60604f3c001a3fec05",
+  "question": "How many weren't in Langlades expedition?",
+  "golds": [],
+  "gold_pid": 877,
+  "title": "French_and_Indian_War",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57284618ff5b5019007da0a9",
+  "question": "Why did the university see a drop in applicants? ",
+  "golds": [
+   "a result of increasing crime and poverty",
+   "increasing crime and poverty in the Hyde Park neighborhood",
+   "increasing crime and poverty in the Hyde Park neighborhood",
+   "increasing crime and poverty in the Hyde Park neighborhood"
+  ],
+  "gold_pid": 515,
+  "title": "University_of_Chicago",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad2b882d7d075001a42a042",
+  "question": "When was the Peace of Westphalia established?",
+  "golds": [],
+  "gold_pid": 690,
+  "title": "Rhine",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "572fdc34a23a5019007fca96",
+  "question": "Who announced she would step down as leader of the Conservatives? ",
+  "golds": [
+   "Annabel Goldie",
+   "Annabel Goldie",
+   "Annabel Goldie"
+  ],
+  "gold_pid": 731,
+  "title": "Scottish_Parliament",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5a0c6d26f5590b0018dab40e",
+  "question": "48 million tons of dust are blown onto what C every year?",
+  "golds": [],
+  "gold_pid": 242,
+  "title": "Amazon_rainforest",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5727cff1ff5b5019007d95c7",
+  "question": "What are Harvard's Pell grant reserves?",
+  "golds": [
+   "$4.093 million",
+   "$4.093 million",
+   "$4.093 million"
+  ],
+  "gold_pid": 472,
+  "title": "Harvard_University",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "570d2f5bfed7b91900d45ccf",
+  "question": "When did Victoria enact its constitution?",
+  "golds": [
+   "1975",
+   "1975",
+   "1975"
+  ],
+  "gold_pid": null,
+  "title": "Victoria_(Australia)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "572699db5951b619008f779d",
+  "question": "What does the EU's legitimacy rest on?",
+  "golds": [
+   "the ultimate authority of member states, its factual commitment to human rights, and the democratic will of the people.",
+   "the ultimate authority of member states, its factual commitment to human rights, and the democratic will of the people",
+   "the ultimate authority of member states",
+   "the ultimate authority of member states"
+  ],
+  "gold_pid": 210,
+  "title": "European_Union_law",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5a0c6d26f5590b0018dab40a",
+  "question": "What is the name of the satellite that measured the amount of vegetation from the so hard to the Amazon?",
+  "golds": [],
+  "gold_pid": 242,
+  "title": "Amazon_rainforest",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57263eaa38643c19005ad372",
+  "question": "How big can ctenophora grow?",
+  "golds": [
+   "1.5 m (4 ft 11 in)",
+   "1.5 m (4 ft 11 in)",
+   "a few millimeters to 1.5 m"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "573776eec3c5551400e51eed",
+  "question": "Where does a canonball dropped from the crow's nest of a ship actually land?",
+  "golds": [
+   "foot of the mast",
+   "the foot of the mast",
+   "at the foot of the mast",
+   "at the foot of the mast",
+   "at the foot of the mast"
+  ],
+  "gold_pid": 922,
+  "title": "Force",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "57287ccb2ca10214002da3da",
+  "question": "The Yuan was the first time all of China was ruled by whom?",
+  "golds": [
+   "non-native Chinese people",
+   "non-native Chinese people",
+   "non-native Chinese"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "56dde0ba66d3e219004dad75",
+  "question": "When was the Duchy of Normandy founded?",
+  "golds": [
+   "911",
+   "911",
+   "911"
+  ],
+  "gold_pid": null,
+  "title": "Normans",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5acfeba077cf76001a6864c7",
+  "question": " What monarchy did Eastern troops protect?",
+  "golds": [],
+  "gold_pid": 753,
+  "title": "Islamism",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5727ef664b864d1900164063",
+  "question": "What system has an impact on income inequality?",
+  "golds": [
+   "tax system",
+   "progressive tax system",
+   "progressive tax"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "572fbb04a23a5019007fc8f9",
+  "question": "How many seats must a political party have to be represented on the Parliamentary Bureau?",
+  "golds": [
+   "five",
+   "five or more",
+   "five or more seats"
+  ],
+  "gold_pid": 703,
+  "title": "Scottish_Parliament",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "57337f6ad058e614000b5bce",
+  "question": "What conviction did many Poles have regarding how the Varsovians thought of themselves?",
+  "golds": [
+   "as better",
+   "thought of themselves as better",
+   "better"
+  ],
+  "gold_pid": 837,
+  "title": "Warsaw",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5730ac782461fd1900a9cf77",
+  "question": "Who caused the dissolution of the Holy Roman Empire?",
+  "golds": [
+   "Napoleon",
+   "Napoleon",
+   "the defeat of Napoleon",
+   "Napoleon",
+   "defeat of Napoleon"
+  ],
+  "gold_pid": 799,
+  "title": "Imperialism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5729da0faf94a219006aa675",
+  "question": "What does many workers willing to work for a lot of time competing for a job that only requires a few workers result in?",
+  "golds": [
+   "low wage",
+   "competition",
+   "low wage"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57113f83b654c5140001fc2b",
+  "question": "In what field were double and triple expansion engines common?",
+  "golds": [
+   "shipping",
+   "shipping",
+   "shipping"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5a551492134fea001a0e18e0",
+  "question": "State educational and economic development where helped by what?",
+  "golds": [],
+  "gold_pid": 300,
+  "title": "Packet_switching",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5acf8bbd77cf76001a6851b5",
+  "question": "The third master plan led to the construction of buildings where?",
+  "golds": [],
+  "gold_pid": 519,
+  "title": "University_of_Chicago",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57097b50200fba1400368051",
+  "question": "What was happening to subscriber numbers in other areas of europe?",
+  "golds": [
+   "flattened",
+   "flattened",
+   "flattened"
+  ],
+  "gold_pid": null,
+  "title": "Sky_(United_Kingdom)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "573020f7b2c2fd14005688f7",
+  "question": "What organization has continued to be a major disruptive force in Palestine?",
+  "golds": [
+   "Hamas",
+   "Hamas",
+   "Hamas"
+  ],
+  "gold_pid": 759,
+  "title": "Islamism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5730042804bcaa1900d77013",
+  "question": "What country did the Rhine continue to rise during the holocene?",
+  "golds": [
+   "Netherlands",
+   "Netherlands",
+   "Netherlands"
+  ],
+  "gold_pid": 682,
+  "title": "Rhine",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5a6ce9ab4eec6b001a80a6c2",
+  "question": "Who are FDA laws against importing medications not aimed at?",
+  "golds": [],
+  "gold_pid": 375,
+  "title": "Pharmacy",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57376828c3c5551400e51ebd",
+  "question": "How do you determine the acceleration of a rope when two people are pulling it?",
+  "golds": [
+   "Associating forces with vectors",
+   "Associating forces with vectors",
+   "adding the two force magnitudes or subtracting one from the other",
+   "knowing the direction of the forces",
+   "it is impossible"
+  ],
+  "gold_pid": 917,
+  "title": "Force",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad286b4d7d075001a4298fa",
+  "question": "What does the Lek change its name to?",
+  "golds": [],
+  "gold_pid": 667,
+  "title": "Rhine",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "572681c1dd62a815002e8799",
+  "question": "Where do platycenida live?",
+  "golds": [
+   "on rocks, algae, or the body surfaces of other invertebrates",
+   "rocks, algae, or the body surfaces of other invertebrates",
+   "rocks, algae, or the body surfaces of other invertebrates"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "573312fcd058e614000b56ea",
+  "question": "What is the name of the European Union agency for external border security?",
+  "golds": [
+   "Frontex",
+   "Frontex",
+   "Frontex"
+  ],
+  "gold_pid": 812,
+  "title": "Warsaw",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "573003dd947a6a140053cf44",
+  "question": "How long has the Rhine coastline been in the same location?",
+  "golds": [
+   "last 7000 years",
+   "7000 years",
+   "last 7000 years"
+  ],
+  "gold_pid": 681,
+  "title": "Rhine",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "572750e8dd62a815002e9af2",
+  "question": "What is malum in se considerations?",
+  "golds": [
+   "the desire to prevent things that are indisputably bad",
+   "desire to prevent things that are indisputably bad",
+   "the desire to prevent things that are indisputably bad"
+  ],
+  "gold_pid": 423,
+  "title": "Construction",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "56de4a474396321400ee2787",
+  "question": "How many customaries does Norman customary law have?",
+  "golds": [
+   "two",
+   "two",
+   "two"
+  ],
+  "gold_pid": null,
+  "title": "Normans",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5acfe8e777cf76001a686424",
+  "question": " What year did Iqbal leave Lahore?",
+  "golds": [],
+  "gold_pid": 742,
+  "title": "Islamism",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad3ade2604f3c001a3fec18",
+  "question": "What wasn't Marin's orders?",
+  "golds": [],
+  "gold_pid": 878,
+  "title": "French_and_Indian_War",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad15d77645df0001a2d18c3",
+  "question": "When did the Court of Justice deny that the Commission could only propose that there must some criminal sanctions?",
+  "golds": [],
+  "gold_pid": 235,
+  "title": "European_Union_law",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57112686b654c5140001fbd3",
+  "question": "Along with geothermal and nuclear, what is a notable non-combustion heat source?",
+  "golds": [
+   "solar",
+   "solar power",
+   "solar power, nuclear power or geothermal energy",
+   "solar"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "572881022ca10214002da416",
+  "question": "Who were otachi?",
+  "golds": [
+   "non-Mongol physicians",
+   "non-Mongol physicians",
+   "non-Mongol physicians"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5a75028897ca42001a521db3",
+  "question": "What caused the crisis? ",
+  "golds": [],
+  "gold_pid": 174,
+  "title": "1973_oil_crisis",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "573368044776f41900660a2d",
+  "question": "When was a zoological garden established in the Praga Park?",
+  "golds": [
+   "1927",
+   "1927",
+   "1927"
+  ],
+  "gold_pid": 833,
+  "title": "Warsaw",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5705fc3a52bb89140068976a",
+  "question": "What kind of climate does southern California maintain?",
+  "golds": [
+   "Mediterranean",
+   "a Mediterranean climate",
+   "Mediterranean"
+  ],
+  "gold_pid": 64,
+  "title": "Southern_California",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "57337ea24776f41900660bd3",
+  "question": "How many of Warsaw's inhabitants spoke Polish in 1933?",
+  "golds": [
+   "833,500",
+   "833,500",
+   "833,500"
+  ],
+  "gold_pid": 836,
+  "title": "Warsaw",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "57115e532419e314009555b0",
+  "question": "Compounding was not popular in the construction of what machines?",
+  "golds": [
+   "railway locomotives",
+   "railway locomotives",
+   "railway locomotives"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57287e512ca10214002da3f8",
+  "question": "When was Phags-pa script invented?",
+  "golds": [
+   "1269",
+   "1269",
+   "1269"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad251d6d7d075001a428ce9",
+  "question": "What are the three main oxygen cycles on Earth?",
+  "golds": [],
+  "gold_pid": 160,
+  "title": "Oxygen",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "572fadcbb2c2fd140056832a",
+  "question": "How many of the Scottish electorate would need to for it on the referendum?",
+  "golds": [
+   "majority",
+   "40%",
+   "at least 40%"
+  ],
+  "gold_pid": 697,
+  "title": "Scottish_Parliament",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5729e1101d04691400779645",
+  "question": "What helps to unleash the productivity ability of the poor?",
+  "golds": [
+   "education",
+   "education",
+   "education"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5730bd00069b5314008322da",
+  "question": "Which country today is a remnant of the Ottoman empire?",
+  "golds": [
+   "Turkey",
+   "Turkey",
+   "Turkey",
+   "Turkey",
+   "Turkey"
+  ],
+  "gold_pid": 810,
+  "title": "Imperialism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5711651050c2381900b54acc",
+  "question": "In addition to recirculating water, what do condensers do?",
+  "golds": [
+   "recover the latent heat of vaporisation",
+   "recover the latent heat of vaporisation",
+   "recover the latent heat of vaporisation"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5a665870846392001a1e1af6",
+  "question": "What did Ghandi think that using your conscience accomplished?",
+  "golds": [],
+  "gold_pid": 394,
+  "title": "Civil_disobedience",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57286dfa2ca10214002da332",
+  "question": "When was Kublai's administration running out of money?",
+  "golds": [
+   "after 1279",
+   "after 1279",
+   "after 1279"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "572fe53104bcaa1900d76e6d",
+  "question": "What will cause the lake near the Rhine to silt up?",
+  "golds": [
+   "continuous input of sediment",
+   "continuous input of sediment",
+   "It is expected that the continuous input of sediment into the lake will silt up the lake",
+   "continuous input of sediment into the lake"
+  ],
+  "gold_pid": 655,
+  "title": "Rhine",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "57097c8fed30961900e841f5",
+  "question": "What was the UK governments benefits agenchy checking in 2012?",
+  "golds": [
+   "Sky TV bills",
+   "claimants' \"Sky TV bills",
+   "claimants"
+  ],
+  "gold_pid": null,
+  "title": "Sky_(United_Kingdom)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad27697d7d075001a429518",
+  "question": "What equilibrium occurs in fluctuating velocity motion?",
+  "golds": [],
+  "gold_pid": 923,
+  "title": "Force",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "571077ecb654c5140001f90c",
+  "question": "What trading company helped settle Huguenots near the Cape?",
+  "golds": [
+   "Dutch East India Company",
+   "Dutch East India Company",
+   "Dutch East India Company"
+  ],
+  "gold_pid": 91,
+  "title": "Huguenot",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "570d2f5bfed7b91900d45cd0",
+  "question": "On what is Victoria's constitution based ?",
+  "golds": [
+   "1855 colonial constitution",
+   "the 1855 colonial constitution",
+   "1855 colonial constitution"
+  ],
+  "gold_pid": null,
+  "title": "Victoria_(Australia)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad2866ed7d075001a4298e8",
+  "question": "Ideal strings transmit what delayed forces?",
+  "golds": [],
+  "gold_pid": 941,
+  "title": "Force",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "56de1563cffd8e1900b4b5c2",
+  "question": "When did the Normans attack Dyrrachium?",
+  "golds": [
+   "1185",
+   "in 1185",
+   "1185"
+  ],
+  "gold_pid": null,
+  "title": "Normans",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5728710c3acd2414000df9f2",
+  "question": "What was the most notable publication of Tugh's academy?",
+  "golds": [
+   "Jingshi Dadian",
+   "Jingshi Dadian",
+   "Jingshi Dadian"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57340d124776f419006617c3",
+  "question": "Where did many Spanish Catholic move after British takeover in Florida?",
+  "golds": [
+   "Most went to Cuba,",
+   "Most went to Cuba",
+   "Cuba",
+   "Cuba",
+   "Cuba"
+  ],
+  "gold_pid": 905,
+  "title": "French_and_Indian_War",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "571142b3a58dae1900cd6d5d",
+  "question": "What percentage of electrical power in the United States is made by steam turbines?",
+  "golds": [
+   "90",
+   "90%",
+   "90%"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad031cf77cf76001a686dec",
+  "question": "What debate lasts for 55 minutes?",
+  "golds": [],
+  "gold_pid": 711,
+  "title": "Scottish_Parliament",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57113639a58dae1900cd6d1a",
+  "question": "In what century was the Yarrow-Schlick-Tweedy balancing system used?",
+  "golds": [
+   "19th",
+   "19th",
+   "19th"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5705fb7f52bb891400689751",
+  "question": "Other than the San Diego metropolitan area, what other area are the communities along Interstates 15 and 215 connected with?",
+  "golds": [
+   "Inland Empire",
+   "Temecula and Murrieta"
+  ],
+  "gold_pid": 63,
+  "title": "Southern_California",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad25e99d7d075001a428f32",
+  "question": "In what year did New Netherland split into New York and New Jersey?",
+  "golds": [],
+  "gold_pid": 92,
+  "title": "Huguenot",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "572659ea5951b619008f7052",
+  "question": "Where are the rows of combs located?",
+  "golds": [
+   "from near the mouth to the opposite end",
+   "near the mouth to the opposite end",
+   "near the mouth to the opposite end"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad2895bd7d075001a429985",
+  "question": "A flow of water can not be considered an artifact of what?",
+  "golds": [],
+  "gold_pid": 946,
+  "title": "Force",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad5719f5b96ef001a10aef0",
+  "question": "Who was pioneer and studied specific complexity measure in 1948?",
+  "golds": [],
+  "gold_pid": 45,
+  "title": "Computational_complexity_theory",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57264cc6dd62a815002e80e8",
+  "question": "What is another plague thought to have spread the same way?",
+  "golds": [
+   "the Justinian plague that was prevalent in the Eastern Roman Empire from 541 to 700 CE.",
+   "Justinian plague",
+   "Justinian plague"
+  ],
+  "gold_pid": 318,
+  "title": "Black_Death",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "57287f6a3acd2414000dfa54",
+  "question": "What form of poetry was developed in the Yuan?",
+  "golds": [
+   "the qu",
+   "the qu",
+   "qu"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57264e66dd62a815002e811c",
+  "question": "What does pumping water into the mesoglea do?",
+  "golds": [
+   "increase its bulk and decrease its density",
+   "increase its bulk and decrease its density",
+   "increase its bulk and decrease its density"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad53e615b96ef001a10abde",
+  "question": "Is the output of a functional solution typically characterized by a simple or complex answer?",
+  "golds": [],
+  "gold_pid": 8,
+  "title": "Computational_complexity_theory",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "571144d1a58dae1900cd6d70",
+  "question": "Along with nuclear, geothermal and internal combustion engine waste heat, what sort of energy might supply the heat for a steam engine?",
+  "golds": [
+   "solar",
+   "solar",
+   "solar"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57286bb84b864d19001649cc",
+  "question": "Who described Kublai's China to Europe?",
+  "golds": [
+   "Marco Polo",
+   "Marco Polo",
+   "Marco Polo"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5a1c8d0bb4fb5d00187146bc",
+  "question": "What is Jacksonville's highest recorded monthly temperature?",
+  "golds": [],
+  "gold_pid": 505,
+  "title": "Jacksonville,_Florida",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "572759dbdd62a815002e9b96",
+  "question": "What notable private school has an endowment of several hundred million dollars?",
+  "golds": [
+   "Groton School",
+   "Groton School",
+   "Groton School"
+  ],
+  "gold_pid": 457,
+  "title": "Private_school",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad03b4677cf76001a686ea5",
+  "question": " The Ottoman empire controlled territory on four continents, Africa, Asia and which other?",
+  "golds": [],
+  "gold_pid": 809,
+  "title": "Imperialism",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "572f5875947a6a140053c89e",
+  "question": "What is expected with the continuous input of sediment into the Dornbirner Ach?",
+  "golds": [
+   "silt",
+   "silt up the lake",
+   "the continuous input of sediment into the lake will silt up the lake",
+   "silt up the lake"
+  ],
+  "gold_pid": 655,
+  "title": "Rhine",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "572a11663f37b31900478697",
+  "question": "What do extremely unequal societies tend to be?",
+  "golds": [
+   "politically and socially unstable",
+   "politically and socially unstable",
+   "politically and socially unstable"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "571c4132dd7acb1400e4c0b0",
+  "question": "What chemical did Priestley use in his experiments on oxygen?",
+  "golds": [
+   "mercuric oxide",
+   "mercuric oxide",
+   "mercuric oxide",
+   "mercuric oxide (HgO)",
+   "mercuric oxide"
+  ],
+  "gold_pid": 134,
+  "title": "Oxygen",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5a7b093b21c2de001afe9d0a",
+  "question": "When was the Fresno County Courthouse demolished?",
+  "golds": [],
+  "gold_pid": 265,
+  "title": "Fresno,_California",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5acfa29c77cf76001a685667",
+  "question": "Who serves as Attorney General as well as top political advisor to the President?",
+  "golds": [],
+  "gold_pid": 537,
+  "title": "University_of_Chicago",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57287ddf3acd2414000dfa41",
+  "question": "Who were exempt from the Ministry of Justice?",
+  "golds": [
+   "Mongols and Semuren",
+   "Mongols and Semuren",
+   "Mongols and Semuren"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5730088e947a6a140053cfac",
+  "question": "Who was the ideologue of the Iranian Revolution?",
+  "golds": [
+   "Ali Shariati",
+   "Ali Shariati",
+   "Ali Shariati"
+  ],
+  "gold_pid": 750,
+  "title": "Islamism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "56e1b754cd28a01900c67abd",
+  "question": "A complexity resource can also be described as what other type of resource?",
+  "golds": [
+   "computational resource",
+   "computational",
+   "computational"
+  ],
+  "gold_pid": 18,
+  "title": "Computational_complexity_theory",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "570d29c2b3d812140066d4bd",
+  "question": "What percentage of Victorians are Christian?",
+  "golds": [
+   "61.1%",
+   "61.1%",
+   "61.1%"
+  ],
+  "gold_pid": null,
+  "title": "Victoria_(Australia)",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "573407d7d058e614000b6813",
+  "question": "In Sept 1760 who negotiated a capitulation from Montreal?",
+  "golds": [
+   "Governor Vaudreuil",
+   "Governor Vaudreuil",
+   "Governor Vaudreuil",
+   "Governor Vaudreuil",
+   "Governor Vaudreuil"
+  ],
+  "gold_pid": 901,
+  "title": "French_and_Indian_War",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5acfee4777cf76001a68655d",
+  "question": " Where did rejection from governmental and religious groups come from?",
+  "golds": [],
+  "gold_pid": 764,
+  "title": "Islamism",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5728661e2ca10214002da2eb",
+  "question": "Who was Shi Tianze's father?",
+  "golds": [
+   "Shi Bingzhi",
+   "Shi Bingzhi",
+   "Shi Bingzhi"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5a580070770dc0001aeeff3a",
+  "question": "What does continuous motion along dike swarms create for sediment to be deposited?",
+  "golds": [],
+  "gold_pid": 345,
+  "title": "Geology",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "572fe9b3947a6a140053cde1",
+  "question": "What is the major tributary for the Rhine? ",
+  "golds": [
+   "Aare",
+   "Aare",
+   "river Aare"
+  ],
+  "gold_pid": 658,
+  "title": "Rhine",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "572fcb6da23a5019007fc9f2",
+  "question": "If a matter is not specifically reserved, who is it devolved to?",
+  "golds": [
+   "Scottish Parliament",
+   "Scottish Parliament",
+   "the Scottish Parliament"
+  ],
+  "gold_pid": 717,
+  "title": "Scottish_Parliament",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5728d5793acd2414000dffb6",
+  "question": "What was the protest in Antigone about?",
+  "golds": [
+   "giving her brother Polynices a proper burial",
+   "giving her brother Polynices a proper burial",
+   "the current King of Thebes, who is trying to stop her from giving her brother Polynices a proper burial",
+   "Creon, the current King of Thebes, who is trying to stop her from giving her brother Polynices a proper burial",
+   "giving her brother Polynices a proper burial"
+  ],
+  "gold_pid": 385,
+  "title": "Civil_disobedience",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad55ee35b96ef001a10ace8",
+  "question": "What thesis specifies that a trinomial relationship exists within time complexities in a computational model?",
+  "golds": [],
+  "gold_pid": 24,
+  "title": "Computational_complexity_theory",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "572fe9b3947a6a140053cde0",
+  "question": "When the Rhine emerges from Lake Constance which way does it flow?",
+  "golds": [
+   "westward",
+   "westward",
+   "westward"
+  ],
+  "gold_pid": 658,
+  "title": "Rhine",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5a7b33b821c2de001afe9dbe",
+  "question": "On what street was the golf course built?",
+  "golds": [],
+  "gold_pid": 275,
+  "title": "Fresno,_California",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5726400589a1e219009ac5ee",
+  "question": "How much do ctenophore eat in a day?",
+  "golds": [
+   "ten times their own weight",
+   "ten times their own weight",
+   "ten times their own weight"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57112686b654c5140001fbd5",
+  "question": "In the Rankine cycle, what does water turn into when heated?",
+  "golds": [
+   "steam",
+   "steam",
+   "steam",
+   "steam"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "572fbf21a23a5019007fc93a",
+  "question": "Who presented the mac to the Scottish Parliament when it was initially opened?",
+  "golds": [
+   "the Queen",
+   "the Queen",
+   "the Queen"
+  ],
+  "gold_pid": 705,
+  "title": "Scottish_Parliament",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "572646655951b619008f6ec0",
+  "question": "What do ctenophores have that no other animals have?",
+  "golds": [
+   "colloblasts",
+   "colloblasts",
+   "colloblasts"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5a2eb84ba83784001a7d241f",
+  "question": "In what year did the Black Death originate in Central Asia?",
+  "golds": [],
+  "gold_pid": 310,
+  "title": "Black_Death",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57286192ff5b5019007da1dc",
+  "question": "When did Khan establish the Great Yuan?",
+  "golds": [
+   "1271",
+   "1271",
+   "1271"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad24eb1d7d075001a428c64",
+  "question": "What is red in both the liquid and solid states?",
+  "golds": [],
+  "gold_pid": 157,
+  "title": "Oxygen",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5acff36377cf76001a6865ee",
+  "question": "The word imperialism has it's origins in which modern language?",
+  "golds": [],
+  "gold_pid": 772,
+  "title": "Imperialism",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad500e95b96ef001a10a914",
+  "question": "When is the Midsummer's festival held?",
+  "golds": [],
+  "gold_pid": 851,
+  "title": "Warsaw",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "57113ba6b654c5140001fc20",
+  "question": "What happens to the lead fusible plugs if the water level of the boiler drops?",
+  "golds": [
+   "melts",
+   "melts",
+   "the lead melts"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57287c2bff5b5019007da26c",
+  "question": "What process attributes new wealth to those that already have it?",
+  "golds": [
+   "Wealth concentration",
+   "Wealth concentration",
+   "Wealth concentration"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "56de15104396321400ee25b7",
+  "question": "Where did the Normans and Byzantines sign the peace treaty?",
+  "golds": [
+   "Deabolis",
+   "Deabolis",
+   "Deabolis"
+  ],
+  "gold_pid": null,
+  "title": "Normans",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5726449f1125e71900ae192b",
+  "question": "What do current ctenophores have that fossils found did not have?",
+  "golds": [
+   "tentacles",
+   "tentacles",
+   "tentacles"
+  ],
+  "gold_pid": null,
+  "title": "Ctenophora",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57283f014b864d19001647e9",
+  "question": "What person helped establish the school with a donation?",
+  "golds": [
+   "John D. Rockefeller",
+   "John D. Rockefeller",
+   "John D. Rockefeller",
+   "John D. Rockefeller"
+  ],
+  "gold_pid": 511,
+  "title": "University_of_Chicago",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad4f0675b96ef001a10a6ea",
+  "question": "Who were the main detractors of the humoral theory of immunity?",
+  "golds": [],
+  "gold_pid": 585,
+  "title": "Immune_system",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5a581adb770dc0001aeefff6",
+  "question": "Where did Ibna Sina believe the origin of geology science was?",
+  "golds": [],
+  "gold_pid": 354,
+  "title": "Geology",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5728827b2ca10214002da42e",
+  "question": "When did the Il-khanate experiment with paper money?",
+  "golds": [
+   "1294",
+   "1294",
+   "1294"
+  ],
+  "gold_pid": null,
+  "title": "Yuan_dynasty",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57264a8cdd62a815002e808d",
+  "question": "Who is the sole governing authority capable of initiating legislative proposals?",
+  "golds": [
+   "the Commission",
+   "The European Commission",
+   "the Commission",
+   "the Commission"
+  ],
+  "gold_pid": 204,
+  "title": "European_Union_law",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "572a0bf96aef051400155207",
+  "question": "What is the chemical that mediates Type 1 hypersensitivity?",
+  "golds": [
+   "IgE",
+   "IgE",
+   "IgE"
+  ],
+  "gold_pid": 587,
+  "title": "Immune_system",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "57302a3aa23a5019007fced2",
+  "question": "What did the Taliban want to subject the entire country to?",
+  "golds": [
+   "Sharia",
+   "an idealized and systematized version of conservative tribal village customs",
+   "Sharia"
+  ],
+  "gold_pid": 764,
+  "title": "Islamism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "572a0e0e1d04691400779709",
+  "question": "What happens to the GDP growth of a country if the income share of the top 20 percent increases, according to IMF staff economists? ",
+  "golds": [
+   "declines",
+   "declines",
+   "declines"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "57300200b2c2fd140056872a",
+  "question": "Maududi believed that Islam needed what to be established?",
+  "golds": [
+   "an Islamic state",
+   "an Islamic state",
+   "an Islamic state"
+  ],
+  "gold_pid": 745,
+  "title": "Islamism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5733a2a9d058e614000b5f28",
+  "question": "What castle currently houses the Centre for Contemporary Art?",
+  "golds": [
+   "Royal Ujazd\u00f3w Castle",
+   "Royal Ujazd\u00f3w Castle",
+   "Royal Ujazd\u00f3w"
+  ],
+  "gold_pid": 854,
+  "title": "Warsaw",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5727aa413acd2414000de922",
+  "question": "When did the undergraduate program become coeducational?",
+  "golds": [
+   "1977",
+   "1977",
+   "1977"
+  ],
+  "gold_pid": 458,
+  "title": "Harvard_University",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad4d55f5b96ef001a10a275",
+  "question": "What does Warsaw Palace's mixture of architectural styles reflect?",
+  "golds": [],
+  "gold_pid": 827,
+  "title": "Warsaw",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5a7b32e621c2de001afe9db2",
+  "question": "Whos is Kerman, California named after?",
+  "golds": [],
+  "gold_pid": 274,
+  "title": "Fresno,_California",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5711651050c2381900b54ace",
+  "question": "What is another name for a coal supply bin?",
+  "golds": [
+   "bunker",
+   "bunker",
+   "bunker"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "571cd88ddd7acb1400e4c18f",
+  "question": "What type of reaction is present in the emergency oxygen generator of an airplane?",
+  "golds": [
+   "exothermic",
+   "exothermic",
+   "exothermic",
+   "exothermic",
+   "exothermic reaction"
+  ],
+  "gold_pid": 167,
+  "title": "Oxygen",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad5719f5b96ef001a10aeee",
+  "question": "What year did Dick Sullivan publish a study on rudimentary sets?",
+  "golds": [],
+  "gold_pid": 45,
+  "title": "Computational_complexity_theory",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5711669550c2381900b54ae0",
+  "question": "Where does heat rejection occur in the Rankine cycle?",
+  "golds": [
+   "in the condenser",
+   "in the condenser",
+   "in the condenser"
+  ],
+  "gold_pid": null,
+  "title": "Steam_engine",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5ad4dd325b96ef001a10a49f",
+  "question": "How far from Czerniakow does the Vistula river's environment change noticeably?",
+  "golds": [],
+  "gold_pid": 835,
+  "title": "Warsaw",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "573092088ab72b1400f9c598",
+  "question": "Which is older the British Empire or the Ethiopian Empire?",
+  "golds": [
+   "Ethiopian Empire",
+   "the Ethiopian Empire",
+   "Ethiopian",
+   "Ethiopian"
+  ],
+  "gold_pid": 784,
+  "title": "Imperialism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad510be5b96ef001a10ab5a",
+  "question": "King Sigimund's Column is an example of what kind of attraction in UNESCO?",
+  "golds": [],
+  "gold_pid": 814,
+  "title": "Warsaw",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5a1c8a1eb4fb5d0018714698",
+  "question": "Was services were not consolidated under the new government?",
+  "golds": [],
+  "gold_pid": 501,
+  "title": "Jacksonville,_Florida",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5ad268a9d7d075001a429281",
+  "question": "What is one of the mammal animals that lives in the nature reserve and bird sanctuary?",
+  "golds": [],
+  "gold_pid": 654,
+  "title": "Rhine",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "56e1bd4acd28a01900c67aff",
+  "question": "Big O notation provides autonomy to upper and lower bounds with relationship to what? ",
+  "golds": [
+   "the computational model",
+   "specific details of the computational model used",
+   "the specific details of the computational model used"
+  ],
+  "gold_pid": 22,
+  "title": "Computational_complexity_theory",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "572a07a86aef0514001551d6",
+  "question": "What does child well-being in rich countries correlate most to?",
+  "golds": [
+   "greater equality",
+   "greater equality",
+   "greater equality but not per capita income"
+  ],
+  "gold_pid": null,
+  "title": "Economic_inequality",
+  "condition": "out_of_corpus"
+ },
+ {
+  "qid": "5730005db2c2fd1400568705",
+  "question": "When did Maududi found the Jamaat-e-Islami party?",
+  "golds": [
+   "1941",
+   "1941",
+   "1941"
+  ],
+  "gold_pid": 744,
+  "title": "Islamism",
+  "condition": "in_answerable"
+ },
+ {
+  "qid": "5ad275ccd7d075001a429510",
+  "question": "Which side won the First World War Battle of Tannenberg?",
+  "golds": [],
+  "gold_pid": 130,
+  "title": "Huguenot",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5a89464f3b2508001a72a58e",
+  "question": "What theorem remains valid in unique Gaussian primes?",
+  "golds": [],
+  "gold_pid": 645,
+  "title": "Prime_number",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5a0c7edcf5590b0018dab43a",
+  "question": "The biodiversity of what is the lowest on earth?",
+  "golds": [],
+  "gold_pid": 247,
+  "title": "Amazon_rainforest",
+  "condition": "in_unanswerable"
+ },
+ {
+  "qid": "5a234eef82b03a001a4aa76c",
+  "question": "What does comprise 69 percent of?",
+  "golds": [],
+  "gold_pid": 410,
+  "title": "Construction",
+  "condition": "in_unanswerable"
+ }
+]

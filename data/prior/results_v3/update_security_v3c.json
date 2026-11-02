@@ -1,0 +1,112 @@
+[
+ {
+  "case": "valid_newer",
+  "should_accept": true,
+  "signature_only": true,
+  "signature_only_reason": "accepted",
+  "layered": true,
+  "layered_reason": "accepted",
+  "layered_ms_median": 4.551035500071521,
+  "baseline_ms_median": 4.5304150000902155
+ },
+ {
+  "case": "rollback_older",
+  "should_accept": false,
+  "signature_only": true,
+  "signature_only_reason": "accepted",
+  "layered": false,
+  "layered_reason": "rollback/replay: sequence not newer",
+  "layered_ms_median": 4.523581999819726,
+  "baseline_ms_median": 4.522007499872416
+ },
+ {
+  "case": "replay_same_version",
+  "should_accept": false,
+  "signature_only": true,
+  "signature_only_reason": "accepted",
+  "layered": false,
+  "layered_reason": "rollback/replay: sequence not newer",
+  "layered_ms_median": 4.49703600020257,
+  "baseline_ms_median": 4.4952395001018886
+ },
+ {
+  "case": "expired",
+  "should_accept": false,
+  "signature_only": true,
+  "signature_only_reason": "accepted",
+  "layered": false,
+  "layered_reason": "expired",
+  "layered_ms_median": 4.514813500009041,
+  "baseline_ms_median": 4.501563500070915
+ },
+ {
+  "case": "incompatible_embedding",
+  "should_accept": false,
+  "signature_only": true,
+  "signature_only_reason": "accepted",
+  "layered": false,
+  "layered_reason": "incompatible: embedding model/dimension",
+  "layered_ms_median": 4.507118499986973,
+  "baseline_ms_median": 4.476979999708419
+ },
+ {
+  "case": "unknown_signer",
+  "should_accept": false,
+  "signature_only": false,
+  "signature_only_reason": "bad signature",
+  "layered": false,
+  "layered_reason": "declared signing key not in trust store",
+  "layered_ms_median": 0.08979600033853785,
+  "baseline_ms_median": 0.3822685000614001
+ },
+ {
+  "case": "revoked_key",
+  "should_accept": false,
+  "signature_only": true,
+  "signature_only_reason": "accepted",
+  "layered": false,
+  "layered_reason": "declared signing key revoked",
+  "layered_ms_median": 0.15759249981783796,
+  "baseline_ms_median": 4.578536000281019
+ },
+ {
+  "case": "revoked_key_claims_current_id",
+  "should_accept": false,
+  "signature_only": true,
+  "signature_only_reason": "accepted",
+  "layered": false,
+  "layered_reason": "signature does not verify with declared key",
+  "layered_ms_median": 0.3193700001702382,
+  "baseline_ms_median": 4.586313500340111
+ },
+ {
+  "case": "tampered_passage",
+  "should_accept": false,
+  "signature_only": false,
+  "signature_only_reason": "hash mismatch: corpus.json",
+  "layered": false,
+  "layered_reason": "hash mismatch: corpus.json",
+  "layered_ms_median": 0.8947960000114108,
+  "baseline_ms_median": 0.8943515001647029
+ },
+ {
+  "case": "mixed_version_index",
+  "should_accept": false,
+  "signature_only": false,
+  "signature_only_reason": "hash mismatch: index.hnsw",
+  "layered": false,
+  "layered_reason": "hash mismatch: index.hnsw",
+  "layered_ms_median": 4.448915500006478,
+  "baseline_ms_median": 4.4440169999688806
+ },
+ {
+  "case": "poisoned_signed",
+  "should_accept": false,
+  "signature_only": true,
+  "signature_only_reason": "accepted",
+  "layered": true,
+  "layered_reason": "accepted",
+  "layered_ms_median": 5.130590999897322,
+  "baseline_ms_median": 5.106943000100728
+ }
+]
