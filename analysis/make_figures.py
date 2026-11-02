@@ -58,8 +58,9 @@ if mdir.exists():
         ax.set_title(title)
         ax.set_xlabel("Tolerated deviation of a shipped vector (degrees)")
     axes[0].set_ylabel("Share of queries hijackable (rank 1)")
-    axes[1].legend(loc="upper left", frameon=False)
-    fig.tight_layout()
+    h, l = axes[1].get_legend_handles_labels()
+    fig.legend(h, l, loc="lower center", ncol=6, frameon=False)
+    fig.tight_layout(rect=[0, 0.09, 1, 1])
     fig.savefig(OUT / "fig_margin_law.pdf")
     made.append("fig_margin_law.pdf")
 
