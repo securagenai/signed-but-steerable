@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Runs inside the network namespace (or directly when OFFLINE_NETNS=0). One llama-server for all
+# For an offline run, start this script inside a network namespace (for example with `unshare -n`);
+# it reports whether the network is reachable. One llama-server for all
 # configurations: same model, same build, same request format as the prior study.
 set -uo pipefail
 cd "$(dirname "$0")/.."; ROOT="$(pwd)"

@@ -11,7 +11,7 @@
   "n_answerable": 100,
   "correct": 0.44,
   "abstained": 0.43,
-  "wrong": 0.13000000000000006,
+  "wrong": 0.13,
   "abstained_in_unanswerable": 0.8,
   "abstained_out_of_corpus": 0.99
  },
@@ -19,7 +19,7 @@
   "n_answerable": 100,
   "correct": 0.45,
   "abstained": 0.3,
-  "wrong": 0.25000000000000006,
+  "wrong": 0.25,
   "abstained_in_unanswerable": 0.74,
   "abstained_out_of_corpus": 1.0
  },
@@ -27,7 +27,7 @@
   "n_answerable": 100,
   "correct": 0.44,
   "abstained": 0.43,
-  "wrong": 0.13000000000000006,
+  "wrong": 0.13,
   "abstained_in_unanswerable": 0.84,
   "abstained_out_of_corpus": 0.99
  },
@@ -43,7 +43,7 @@
   "n_answerable": 100,
   "correct": 0.41,
   "abstained": 0.47,
-  "wrong": 0.1200000000000001,
+  "wrong": 0.12,
   "abstained_in_unanswerable": 0.83,
   "abstained_out_of_corpus": 0.99
  },
@@ -51,7 +51,7 @@
   "n_answerable": 100,
   "correct": 0.49,
   "abstained": 0.36,
-  "wrong": 0.15000000000000002,
+  "wrong": 0.15,
   "abstained_in_unanswerable": 0.71,
   "abstained_out_of_corpus": 0.96
  },
@@ -59,7 +59,7 @@
   "n_answerable": 100,
   "correct": 0.33,
   "abstained": 0.54,
-  "wrong": 0.1299999999999999,
+  "wrong": 0.13,
   "abstained_in_unanswerable": 0.79,
   "abstained_out_of_corpus": 0.98
  }

@@ -22,7 +22,7 @@ for name, path in CFGS.items():
     A = [s for c, s in rows if c == "in_answerable"]
     share = lambda X, f: sum(bool(f(s)) for s in X) / len(X) if X else None
     corr, ab = share(A, lambda s: s["lenient"]), share(A, lambda s: s["model_abstained"])
-    out[name] = {"n_answerable": len(A), "correct": corr, "abstained": ab, "wrong": None if corr is None else 1 - corr - ab,
+    out[name] = {"n_answerable": len(A), "correct": corr, "abstained": ab, "wrong": None if corr is None else round(1 - corr - ab, 4),
                  "abstained_in_unanswerable": share([s for c, s in rows if c == "in_unanswerable"], lambda s: s["model_abstained"]),
                  "abstained_out_of_corpus": share([s for c, s in rows if c == "out_of_corpus"], lambda s: s["model_abstained"])}
     o = out[name]
