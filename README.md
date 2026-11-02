@@ -61,6 +61,17 @@ On the Raspberry Pi, after `cp device/config.env.example device/config.env` (ada
 Some analysis scripts load caches that they created themselves with `numpy.load(..., allow_pickle=True)`;
 load such files only from your own runs, never from untrusted sources.
 
+## Third-party resources
+Models, datasets and their licences are listed in `DATA_LICENSES.md`. Please also cite SQuAD 2.0 (Rajpurkar et al., 2018),
+BEIR (Thakur et al., 2021), MS MARCO (Bajaj et al., 2016), BGE-M3 (Chen et al., 2024) and Sentence-BERT (Reimers and
+Gurevych, 2019) when you use the corresponding parts.
+
+## Notes
+- FAISS behaves as designed throughout: it provides storage formats and search, not integrity audits. The threat model
+  is a compromised publisher or writer of the stored vectors, not a defect of any library or product.
+- This is research code, provided as is and without warranty (see `LICENSE`).
+- Raspberry Pi is a trademark of Raspberry Pi Ltd. Other product names are trademarks of their respective owners.
+
 ## Licence
-MIT for code and our results; SQuAD-derived data and results files that contain SQuAD text keep CC BY-SA 4.0.
-See `LICENSE` and `DATA_LICENSES.md`.
+MIT for code and our results; SQuAD-derived data, results files that contain SQuAD text and the generated answers keep
+CC BY-SA 4.0; see `LICENSE` and `DATA_LICENSES.md` for the details and for the terms of the other datasets and models.
