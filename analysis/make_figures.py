@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt  # noqa: E402
 plt.rcParams.update({"font.family": "serif", "font.serif": ["Times New Roman", "Times", "Nimbus Roman", "DejaVu Serif"],
                      "font.size": 8, "axes.titlesize": 8.5, "axes.labelsize": 8, "legend.fontsize": 6.5,
                      "xtick.labelsize": 7, "ytick.labelsize": 7, "pdf.fonttype": 42, "axes.spines.top": False,
-                     "axes.spines.right": False})
+                     "axes.spines.right": False, "mathtext.fontset": "stix"})
 OUT = out_dir("figures")
 REF = {"FP32 x86/ARM noise": 0.04, r"$\tau=0.999$": 2.56, "MiniLM CPU INT8 threshold": 25.3}
 CORPORA = [("squad", "SQuAD"), ("scifact", "SciFact"), ("nfcorpus", "NFCorpus"), ("fiqa", "FiQA"), ("arguana", "ArguAna")]
@@ -71,7 +71,7 @@ if vq.exists():
     schemes = ["fp16", "sq8", "sq4", "pq", "binary"]
     labels = ["FP16", "SQ8", "SQ4", "PQ", "Binary"]
     vals = {s: [v[s]["hijack_at_max_tolerance"][0] for v in V.values() if s in v] for s in schemes}
-    fig, axes = plt.subplots(1, 2, figsize=(6.8, 2.5))
+    fig, axes = plt.subplots(1, 2, figsize=(6.8, 3.0))
     ax = axes[0]
     x = np.arange(len(schemes))
     med = [np.median(vals[s]) for s in schemes]
@@ -89,7 +89,7 @@ if vq.exists():
     ax.set_ylim(0, 1.05)
     ax.set_ylabel("Share of queries hijackable")
     ax.set_title("(a) Tolerance-based audit of stored vectors")
-    ax.legend(frameon=False, loc="center left")
+    ax.legend(frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.12), ncol=1)
     gb = RESULTS / "e7" / "guard_budget.json"
     ax = axes[1]
     if gb.exists():
@@ -104,7 +104,7 @@ if vq.exists():
         ax.set_ylim(1e-4, 1.5)
         ax.set_xticks(x, [n for n, _ in sch])
         ax.set_title("(b) SQuAD, BGE-M3: before and after the defence")
-        ax.legend(frameon=False, loc="upper right")
+        ax.legend(frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.12), ncol=1)
     fig.tight_layout()
     fig.savefig(OUT / "fig_vdb.pdf")
     made.append("fig_vdb.pdf")
