@@ -21,8 +21,8 @@
  },
  {
   "path": "PROTOCOL.md",
-  "bytes": 18322,
-  "sha256": "a72f1a96dc28b3c58a70dccf5b3e0559fb18db7836b51b777431d12b33af38c6"
+  "bytes": 19014,
+  "sha256": "c4459070e2c5a998694ae058bb2b1d81a28776b9998e9e1615ffd2d4b78ceca1"
  },
  {
   "path": "README.md",
@@ -53,6 +53,11 @@
   "path": "analysis/cpu_int8_exposure.py",
   "bytes": 2029,
   "sha256": "1377c9d9fa7ceaa3a61979d016cecfb6673119ac6d27194bbeb4f04e28a99ed6"
+ },
+ {
+  "path": "analysis/e2_decomposition.py",
+  "bytes": 2056,
+  "sha256": "f8418181c58d587e78a8d7fadcd8a96e3a7fc8f5d19a7966cb65d5763c971f4d"
  },
  {
   "path": "analysis/e4_ci.py",
@@ -735,6 +740,11 @@
   "sha256": "cd97ea3447b5f9057e3c080c6360028c51a9bebe93381f6548e7027c0e003983"
  },
  {
+  "path": "results/e2/decomposition.json",
+  "bytes": 1440,
+  "sha256": "29ff2f6b443ef83b795efd6835d5bbf26031f055f4844112c5f4e3cb7d23f1c6"
+ },
+ {
   "path": "results/e2/gen_e7_payload_tau0.999.jsonl",
   "bytes": 86036,
   "sha256": "5842ce15686867bda228ee23c4af31951ba755a027dda841b4086eafbe8fcfea"
@@ -942,7 +952,7 @@
  {
   "path": "results/e7/desync_tolerance.pdf",
   "bytes": 16630,
-  "sha256": "1aed2aadd60e8c463415634770d53d2cb15575ff5b3890c22be132a6922feeba"
+  "sha256": "fbe9ba25fe7a2223e3a49a983117c108443dbe3f2a57121f6c39cfc5f583499c"
  },
  {
   "path": "results/e7/e2e_checks.json",
@@ -1707,12 +1717,12 @@
  {
   "path": "results/figures/fig_margin_law.pdf",
   "bytes": 36281,
-  "sha256": "b8a2e0f0c09e92848d3a03498ee914761e6d1e2ec0d8c29b9ae9329b2a30dfb4"
+  "sha256": "e02ca2e98938ba055f54f7bd80e2bcbd4cf869438e5d84ebd9653a90d6221030"
  },
  {
   "path": "results/figures/fig_vdb.pdf",
   "bytes": 24666,
-  "sha256": "cf7724fef1bff12877642dedb29c34af9fdd17ff256acb6fba6c05698f95a2cc"
+  "sha256": "d79ab348203b9a294da448fa812ee7246eee2890f3e0b298e8381c61905817b0"
  },
  {
   "path": "tests/test_codeverify.py",
