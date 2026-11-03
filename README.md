@@ -73,5 +73,6 @@ Gurevych, 2019) when you use the corresponding parts.
 - Raspberry Pi is a trademark of Raspberry Pi Ltd. Other product names are trademarks of their respective owners.
 
 ## Licence
-MIT for code and our results; SQuAD-derived data, results files that contain SQuAD text and the generated answers keep
-CC BY-SA 4.0; see `LICENSE` and `DATA_LICENSES.md` for the details and for the terms of the other datasets and models.
+Copyright 2026 securagen.ai P.C. MIT for code and our results; SQuAD-derived data, results files that contain SQuAD
+text and the generated answers keep CC BY-SA 4.0; see `LICENSE` and `DATA_LICENSES.md` for the details and for the terms
+of the other datasets and models.
