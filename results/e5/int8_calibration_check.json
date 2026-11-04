@@ -1,0 +1,34 @@
+{
+ "n_windows": 1745,
+ "norms_int8_min_max": [
+  0.9999998881151452,
+  1.0000000914620295
+ ],
+ "norms_fp32_min_max": [
+  0.9999998995070203,
+  1.0000000930883104
+ ],
+ "tau_p001_linear": 0.9040001569191123,
+ "tau_in_summary": 0.9040001630783081,
+ "min_cosine": 0.8975571748834154,
+ "n_below_tau": 2,
+ "n_below_0.904": 2,
+ "lowest_five": [
+  0.8975571748834154,
+  0.9035276286350029,
+  0.9041627472964403,
+  0.9074703812643825,
+  0.9163382707962626
+ ],
+ "angle_deg_at_tau": 25.311044125957565,
+ "rerun_batch64": {
+  "max_abs_coordinate_difference": 0.029547616839408875,
+  "identical": false,
+  "min_cosine_to_saved": 0.9854937281761603
+ },
+ "rerun_batch32": {
+  "max_abs_coordinate_difference": 0.0,
+  "identical": true,
+  "min_cosine_to_saved": 0.9999997762303028
+ }
+}

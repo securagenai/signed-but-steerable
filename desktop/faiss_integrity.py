@@ -12,9 +12,11 @@ device could run after loading the index:
   (B) code check (our defence): recompute, quantise with the index's own codebook, require identical
       codes with a guard band at decision boundaries, then CANONICALISE (replace ambiguous entries with
       the verifier's codes). We report honest acceptance and the residual hijack rate.
-The attack is executed against the actual FAISS index: for a sample of target queries we replace the
-stored code of a carrier document (honest rank 11-60) with the in-tolerance code that best raises
-it, rebuild the index, and check whether FAISS now returns the carrier at rank 1.
+The attack is executed against the codes of the actual FAISS PQ index: for a sample of target queries we replace
+the stored code of a carrier document (honest rank 11-60) with the in-tolerance code that best raises it, and
+check whether the carrier then ranks first under the index's own scoring, the inner product of the query with
+the decoded PQ vectors (the ranking IndexPQ computes with METRIC_INNER_PRODUCT). The tolerance-check columns use
+the cosine margins of the uncompressed vectors (the exposure of the audit), not the index's search.
 Corpus: BEIR FiQA (all documents) with all-MiniLM-L6-v2; publisher vectors on GPU, verifier on CPU.
 Outputs results/e7/faiss_integrity.json. Usage: python desktop/faiss_integrity.py [--n-targets 300]"""
 import argparse, json, sys, time
@@ -140,7 +142,7 @@ res["indexes"]["IndexBinaryFlat"] = {"honest_tol_deg": float(np.degrees(alpha_bi
                                      "tolerance_hijack": margin_hijack(rec_bin, alpha_bin)}
 
 # ---- Executed attack against the real PQ index: swap carrier codes to the best in-tolerance choice,
-#      rebuild, and let FAISS rank. Defence: code check + canonicalise on the verifier (CPU) vectors.
+#      and rank by the index's inner products with the decoded vectors. Defence: code check + canonicalise on the verifier (CPU) vectors.
 def pq_codes(index):
     n, m = index.ntotal, index.pq.M
     codes = faiss.vector_to_array(index.codes).reshape(n, -1)[:, :m].astype(np.int64)

@@ -39,14 +39,17 @@ On the Raspberry Pi, after `cp device/config.env.example device/config.env` (ada
   `k5_ce3w`, `k3_ce3` and `k3_ce3w` run with `python device/e2_generate.py --config <name>` while llama-server is
   running (started as in `device/inner_generate.sh`). A configuration is skipped when `results/e2/status_<name>.json`
   exists; move those files aside to regenerate the released results.
-- E4: `python device/e4_contention.py`; E5: `python device/e5_reindex.py --backends ort-fp32,ort-int8`;
+- E4: `python device/e4_contention.py`; E5: `python device/e5_reindex.py --backends ort-fp32,ort-int8 --batch 32` (the
+  batch size of the released results: dynamic INT8 depends on the batch, and batches of 64 give different vectors);
   E8: `python device/e8_device_verify.py --vector-backend ort-fp32`.
 - From the desktop, `remote/pi_sync.sh` copies the repository to the Pi and `remote/pi_fetch.sh` fetches results.
 
 ## Where the paper's numbers are
 - Margin law on SQuAD (Table 2): `results/e7/margin_law_squad.json`; other corpora and Fig. 1: `results/e7/beir_margins.json`
   and `results/e7/margins/`; exposure at the CPU-INT8 reference threshold: `results/e7/cpu_int8_exposure.json`;
-  numerical precision and unit checks: `results/e7/margin_precision_check.json`.
+  numerical precision and unit checks: `results/e7/margin_precision_check.json`; calibration of the INT8 reference
+  threshold (exact quantile, honest windows below it, bit-for-bit re-encoding at batch 32):
+  `results/e5/int8_calibration_check.json` (`analysis/e5_int8_calibration_check.py`).
 - Compressed stores: `results/e7/vecdb_quant.json`; FAISS audit and executed attack: `results/e7/faiss_integrity.json`;
   residual budget: `results/e7/guard_budget.json`.
 - End to end on the device: `results/e7/analysis.json` (correct answers and refusals) and `results/e7/e2e_checks.json`

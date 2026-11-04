@@ -31,13 +31,13 @@
  },
  {
   "path": "PROTOCOL.md",
-  "bytes": 19136,
-  "sha256": "343e4ce9f84efaf2586c8f69b92bd41661a5e3da5e574d65bccd5218279fc5d2"
+  "bytes": 19823,
+  "sha256": "5340ab0903dd7b182697b7e4604b325991f8defc9b554906272c169092d08a66"
  },
  {
   "path": "README.md",
-  "bytes": 6254,
-  "sha256": "622356c80cfaf8f64b48af0f368a2c03f72b9822b57a4455de555eeec0b7d756"
+  "bytes": 6597,
+  "sha256": "42e01d27c3cfe421b765323ded35accb4c179ebd54d2a58cf06235aac9dca83f"
  },
  {
   "path": "analysis/analyze_e1.py",
@@ -73,6 +73,11 @@
   "path": "analysis/e4_ci.py",
   "bytes": 2055,
   "sha256": "15c797e6c39f7456aa3bbc75f5e866e37f2c2617d895a238a54931cba68b343d"
+ },
+ {
+  "path": "analysis/e5_int8_calibration_check.py",
+  "bytes": 2606,
+  "sha256": "d1c78d187997b6585e56a7f261771799691dc50f23ca859113cd2ac711c55d56"
  },
  {
   "path": "analysis/e7_e2e_checks.py",
@@ -471,8 +476,8 @@
  },
  {
   "path": "desktop/faiss_integrity.py",
-  "bytes": 10421,
-  "sha256": "ff3651912d5b247026ac705406efec8c5308784f67825b7657d54e8c38f9aa5b"
+  "bytes": 10722,
+  "sha256": "15f5ca318bdf9acd64951dbdb3f6a38fb217d5012769880aa237a62c1422c24e"
  },
  {
   "path": "desktop/freeze_pins.py",
@@ -920,6 +925,11 @@
   "sha256": "308394271613d79371ebd9f6fc0bfcaad153868e530e8542e4a6437e2d489e49"
  },
  {
+  "path": "results/e5/int8_calibration_check.json",
+  "bytes": 768,
+  "sha256": "60eac6e99c16bc8cd1e2ccfa40cdcb2c8769e7b199a16cbae58853f07479fe9b"
+ },
+ {
   "path": "results/e5/summary.json",
   "bytes": 3188,
   "sha256": "6e772cf36fa49a33abe06ebf8fc0e56b5517c79f24c07b9a4b56ee1a90664069"
@@ -962,7 +972,7 @@
  {
   "path": "results/e7/desync_tolerance.pdf",
   "bytes": 16630,
-  "sha256": "ff00448d7fc5aa5e54015211442ef9873b25e77d84b0f8e45049c0632d92add9"
+  "sha256": "0bf3b4931ec40c743ca529318a987fd5d8098c216880a050d82d54aa4dc28efc"
  },
  {
   "path": "results/e7/e2e_checks.json",
@@ -1727,12 +1737,12 @@
  {
   "path": "results/figures/fig_margin_law.pdf",
   "bytes": 33629,
-  "sha256": "a3b228e9fe05e6a3d57d3dba6b75ed362636f5330e84c38e2bfea9c906de4d7f"
+  "sha256": "7708b88fa67cfa8f20318d5cb0d398ad6d0fc0c6566d5f0cc8043d40e5b50248"
  },
  {
   "path": "results/figures/fig_vdb.pdf",
   "bytes": 21583,
-  "sha256": "5df2ddf5b2a6a48c75162dc2c0d76b1e9f2cba3d5258339ae792aaa3b24a0bfa"
+  "sha256": "09ab40b0b0d6963296cb348bc624ab14903bee4b69ab6414cb5ca8c0b1f009b8"
  },
  {
   "path": "tests/test_codeverify.py",
