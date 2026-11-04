@@ -1,13 +1,18 @@
 [
  {
+  "path": ".gitattributes",
+  "bytes": 45,
+  "sha256": "67974b58af7f24fc956e31cf9e2b39a3cfb9b315d06ea900f9290104b21d4195"
+ },
+ {
   "path": ".gitignore",
   "bytes": 59,
   "sha256": "273cbb401b93ef4dd5d1b70dc3bb80b3d8b080a7681cd2ae7d07b4390ad47b59"
  },
  {
   "path": "CITATION.cff",
-  "bytes": 653,
-  "sha256": "505e0c38661433232e5c5a2c9b2e193290483d033b7a9d01a015d11577021c2b"
+  "bytes": 1666,
+  "sha256": "c6b63f1324ff27a2a7a164ec1e5b8f450c45d328b56fcf0e1540aa77400f0c9b"
  },
  {
   "path": "DATA_LICENSES.md",
@@ -21,13 +26,13 @@
  },
  {
   "path": "PROTOCOL.md",
-  "bytes": 19131,
-  "sha256": "e04444e99dd2649d1ea2d423b83c9ae0b0fe8d10af0fdde741b23c29e35b498a"
+  "bytes": 19136,
+  "sha256": "343e4ce9f84efaf2586c8f69b92bd41661a5e3da5e574d65bccd5218279fc5d2"
  },
  {
   "path": "README.md",
-  "bytes": 5878,
-  "sha256": "770df39bff66c572ed82c9bca7b440c82a58dcaaa7a4bc00f93d9db3377314d3"
+  "bytes": 6024,
+  "sha256": "a977896716a9f6158425272d19101c247b48dc57d67014ea1a2fa7c7ec219cd7"
  },
  {
   "path": "analysis/analyze_e1.py",
@@ -566,8 +571,8 @@
  },
  {
   "path": "ragtrust/paths.py",
-  "bytes": 3021,
-  "sha256": "e404d84ebab9a5749d928644ea9cc00a987259e6587f3fbf6a916291f3f3712e"
+  "bytes": 3438,
+  "sha256": "bed6b759f30483c695b0ed0c6ada750d44e76e284e0ac0d80e6456a558aa5da8"
  },
  {
   "path": "ragtrust/power.py",
@@ -952,7 +957,7 @@
  {
   "path": "results/e7/desync_tolerance.pdf",
   "bytes": 16630,
-  "sha256": "21584a44b8000ca34b4d695e506e4056b5bf91dce1316ffbe55973cd85bd1217"
+  "sha256": "0ae12a6684feea896798f8d53b1130992d580c79deb91fcaede2f0baeeeb423f"
  },
  {
   "path": "results/e7/e2e_checks.json",
@@ -1717,12 +1722,12 @@
  {
   "path": "results/figures/fig_margin_law.pdf",
   "bytes": 33629,
-  "sha256": "1283d493693ce84ee785f223e3def4d6c231f745fcc286f23cb48883c2bb1b7f"
+  "sha256": "e3c9308132e2aaf5bd24b7998d61e60ef394ef3272664dd7384f42fd977eaa24"
  },
  {
   "path": "results/figures/fig_vdb.pdf",
   "bytes": 21583,
-  "sha256": "3546c08b067d9d283d8a1a85fb9c6c1ed547ec6da775a3d6dac4ca4f35fcd5db"
+  "sha256": "6485af9bd01262169331f9aebf1e78792b93b17003e4c8d70b4848ca01ee84fa"
  },
  {
   "path": "tests/test_codeverify.py",

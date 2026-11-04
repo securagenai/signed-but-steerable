@@ -31,11 +31,22 @@ def read_json(p):
         return json.load(f)
 
 
+def _json_safe(o):
+    """Replace NaN and infinities with None, so that every written file is strict JSON."""
+    if isinstance(o, float) and (o != o or o in (float("inf"), float("-inf"))):
+        return None
+    if isinstance(o, dict):
+        return {k: _json_safe(v) for k, v in o.items()}
+    if isinstance(o, (list, tuple)):
+        return [_json_safe(v) for v in o]
+    return o
+
+
 def write_json(p, obj, indent=1):
     p = Path(p)
     p.parent.mkdir(parents=True, exist_ok=True)
     with open(p, "w") as f:
-        json.dump(obj, f, indent=indent)
+        json.dump(_json_safe(obj), f, indent=indent, allow_nan=False)
     return p
 
 
