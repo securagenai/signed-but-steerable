@@ -5,9 +5,9 @@ in Offline Retrieval-Augmented Generation* (G. Feretzakis, A. Papaspyridis, secu
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23945569.svg)](https://doi.org/10.5281/zenodo.23945569)
 
-Archived on Zenodo: [10.5281/zenodo.23945569](https://doi.org/10.5281/zenodo.23945569) (all versions; release v1.0.1:
-[10.5281/zenodo.23945570](https://doi.org/10.5281/zenodo.23945570)). The arXiv identifier of the paper will be added when
-it is available.
+Archived on Zenodo: [10.5281/zenodo.23945569](https://doi.org/10.5281/zenodo.23945569) (all versions; release v1.0.2,
+cited in the paper: [10.5281/zenodo.23948839](https://doi.org/10.5281/zenodo.23948839)). The arXiv identifier of the paper
+will be added when it is available.
 
 ## What is here
 - `ragtrust/` shared library, including `codeverify.py`, the reference code-level verifier used for every

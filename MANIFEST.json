@@ -36,8 +36,8 @@
  },
  {
   "path": "README.md",
-  "bytes": 6597,
-  "sha256": "42e01d27c3cfe421b765323ded35accb4c179ebd54d2a58cf06235aac9dca83f"
+  "bytes": 6617,
+  "sha256": "4c3b85b8fc22009269f0fbff11eb8d8a363a2cadff26af935e1158ada0badc50"
  },
  {
   "path": "analysis/analyze_e1.py",
@@ -972,7 +972,7 @@
  {
   "path": "results/e7/desync_tolerance.pdf",
   "bytes": 16630,
-  "sha256": "420ea2a1088d769fb219d55694ce73ccdeac74a27fb08d707036909d7da4f31a"
+  "sha256": "9c9814527a61d69c68e517288a18173400ce67ff25dcf994121ef14cdc59ad6a"
  },
  {
   "path": "results/e7/e2e_checks.json",
@@ -1737,12 +1737,12 @@
  {
   "path": "results/figures/fig_margin_law.pdf",
   "bytes": 33629,
-  "sha256": "7b74b4a8d022367bca02ce7406cb8c464f656d7a182e79b7067c4823b414f278"
+  "sha256": "d90aa6e110823530f737e7c29c4ce13dddb8167b00dc0177289b9a66536beb2a"
  },
  {
   "path": "results/figures/fig_vdb.pdf",
   "bytes": 21583,
-  "sha256": "57715723256927224f90e57d1b53a12263eec01d194925be43b3d6d3da494334"
+  "sha256": "0e65df680e0971a3b661e224f5c948a62fc9cceb10e18ebbddfbd913f9d45c17"
  },
  {
   "path": "tests/test_codeverify.py",
