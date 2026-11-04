@@ -11,8 +11,8 @@
  },
  {
   "path": "DATA_LICENSES.md",
-  "bytes": 2919,
-  "sha256": "87a0a9494715bfb666344609f542d6909374b8c26211358c6f40e1869398a3d7"
+  "bytes": 3123,
+  "sha256": "ca90bce2c73331bb4d9edc84a1e64f117702877e7b4547904ed7522f9e052981"
  },
  {
   "path": "LICENSE",
@@ -21,8 +21,8 @@
  },
  {
   "path": "PROTOCOL.md",
-  "bytes": 19068,
-  "sha256": "379829ad72c5c2c125fd2579cb1cd311584004ab279492bce7976bd88ab2ccf7"
+  "bytes": 19122,
+  "sha256": "b1473e820fb388caade92c47ef2be651415d7a697a35510e3bc8ec78e3ee4d05"
  },
  {
   "path": "README.md",
@@ -952,7 +952,7 @@
  {
   "path": "results/e7/desync_tolerance.pdf",
   "bytes": 16630,
-  "sha256": "7dd6d320d1ec50782c068bd1fa94ca4e62b47eff32ccbd226af905a85a6a808c"
+  "sha256": "f321b1b8db2ffc111b214e69c9064be2bedd67ca6978ea27a211a34f02145113"
  },
  {
   "path": "results/e7/e2e_checks.json",
@@ -1717,12 +1717,12 @@
  {
   "path": "results/figures/fig_margin_law.pdf",
   "bytes": 33629,
-  "sha256": "007774a5f2b4c745939e3bb385f037c7eb12e6c782e01cf16181fbebc8a6cf2f"
+  "sha256": "ac84917bd941a082413adaf06ed3596b629433e41a9a0b37a808f7c2a81c90a1"
  },
  {
   "path": "results/figures/fig_vdb.pdf",
   "bytes": 21583,
-  "sha256": "0d883f63e44c86394d9ce48e50ef5ea8d2778e8a2ffc366466446278cf1fc6e2"
+  "sha256": "261762a46631fffd9a5977a267c6893376019c4fae1bf58464707377a8aa7fa0"
  },
  {
   "path": "tests/test_codeverify.py",
