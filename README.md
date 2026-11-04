@@ -2,7 +2,8 @@
 
 Code, data and results for the paper *Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap
 in Offline Retrieval-Augmented Generation* (G. Feretzakis, A. Papaspyridis, securagen.ai).
-arXiv identifier and Zenodo DOI: to be added at release.
+The archived version of this repository has a Zenodo DOI (see the Zenodo record); the arXiv identifier will be added in
+a later version.
 
 ## What is here
 - `ragtrust/` shared library, including `codeverify.py`, the reference code-level verifier used for every

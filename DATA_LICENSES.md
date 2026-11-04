@@ -18,7 +18,7 @@ windows, questions were sampled, and texts were combined with generated answers 
 ## Generated answers (Qwen2.5-3B-Instruct)
 The answers in `results/e2/gen_*.jsonl` were generated with Qwen2.5-3B-Instruct
 (https://huggingface.co/Qwen/Qwen2.5-3B-Instruct), which we used for research under the Qwen Research License
-Agreement. The model itself is not included.
+Agreement; the model's own terms also apply to the generated answers. The model itself is not included.
 
 ## BEIR datasets and MS MARCO (no text included)
 For these datasets the repository contains only numbers derived from them and their identifiers, no text:

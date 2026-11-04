@@ -4,12 +4,15 @@ title: "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Ga
 authors:
   - family-names: Feretzakis
     given-names: Georgios
-    affiliation: securagen.ai
+    orcid: "https://orcid.org/0000-0002-3597-1187"
+    affiliation: securagen.ai P.C.
   - family-names: Papaspyridis
     given-names: Alexandros
-    affiliation: securagen.ai
+    orcid: "https://orcid.org/0000-0001-9234-8984"
+    affiliation: securagen.ai P.C.
 license:
   - MIT
   - CC-BY-SA-4.0
 version: 1.0.0
+date-released: 2026-11-04
 repository-code: "https://github.com/securagenai/signed-but-steerable"

@@ -128,22 +128,22 @@
    "acc_answerable_strict": 0.3,
    "M": {
     "correct_lenient": 0.74,
-    "unans_abstained": NaN,
-    "ooc_abstained": NaN,
+    "unans_abstained": null,
+    "ooc_abstained": null,
     "coverage": 0.87,
     "risk": 0.14942528735632185
    },
    "M+V": {
     "correct_lenient": 0.74,
-    "unans_abstained": NaN,
-    "ooc_abstained": NaN,
+    "unans_abstained": null,
+    "ooc_abstained": null,
     "coverage": 0.86,
     "risk": 0.13953488372093023
    },
    "M+V+G": {
     "correct_lenient": 0.65,
-    "unans_abstained": NaN,
-    "ooc_abstained": NaN,
+    "unans_abstained": null,
+    "ooc_abstained": null,
     "coverage": 0.77,
     "risk": 0.15584415584415584
    },
@@ -160,22 +160,22 @@
    "acc_answerable_strict": 0.12,
    "M": {
     "correct_lenient": 0.34,
-    "unans_abstained": NaN,
-    "ooc_abstained": NaN,
+    "unans_abstained": null,
+    "ooc_abstained": null,
     "coverage": 0.47,
     "risk": 0.2765957446808511
    },
    "M+V": {
     "correct_lenient": 0.34,
-    "unans_abstained": NaN,
-    "ooc_abstained": NaN,
+    "unans_abstained": null,
+    "ooc_abstained": null,
     "coverage": 0.46,
     "risk": 0.2608695652173913
    },
    "M+V+G": {
     "correct_lenient": 0.34,
-    "unans_abstained": NaN,
-    "ooc_abstained": NaN,
+    "unans_abstained": null,
+    "ooc_abstained": null,
     "coverage": 0.42,
     "risk": 0.19047619047619047
    },
@@ -304,7 +304,7 @@
     "coverage": 0.45,
     "risk": 0.37037037037037035
    },
-   "N_tau": -Infinity
+   "N_tau": null
   },
   "k5_bi3": {
    "n": 300,
