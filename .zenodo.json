@@ -1,0 +1,31 @@
+{
+  "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
+  "upload_type": "software",
+  "description": "<p>Code, data and results for the paper. Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text and precomputed embedding vectors. A signature proves who published a pack, not that its vectors encode its text. The paper measures this text-vector integrity gap: a verifier that accepts vectors within a cosine tolerance concedes a share of queries given by the distribution of angular retrieval margins (the margin law); tolerance-based audits of compressed vector stores leave up to all queries exposed, as an executed attack on a FAISS product-quantisation index shows; and code-level verification with verifier-decided ambiguity and canonicalisation closes the gap. The repository contains the reference verifier, the experiment and analysis scripts, the SQuAD-derived data, all per-query results and the protocol. Code: MIT; SQuAD-derived data and results containing SQuAD text: CC BY-SA 4.0 (see DATA_LICENSES.md).</p>",
+  "creators": [
+    {
+      "name": "Feretzakis, Georgios",
+      "affiliation": "securagen.ai P.C.",
+      "orcid": "0000-0002-3597-1187"
+    },
+    {
+      "name": "Papaspyridis, Alexandros",
+      "affiliation": "securagen.ai P.C.",
+      "orcid": "0000-0001-9234-8984"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "version": "1.0.1",
+  "keywords": [
+    "retrieval-augmented generation",
+    "RAG",
+    "vector database",
+    "embeddings",
+    "AI security",
+    "LLM security",
+    "FAISS",
+    "product quantization",
+    "edge AI"
+  ]
+}
