@@ -17,6 +17,10 @@ version: 1.0.2
 date-released: 2026-11-04
 doi: 10.5281/zenodo.23945569
 repository-code: "https://github.com/securagenai/signed-but-steerable"
+identifiers:
+  - type: doi
+    value: 10.48550/arXiv.2611.06498
+    description: arXiv preprint of the paper
 abstract: >-
   Code, data and results for the paper. Offline retrieval-augmented generation (RAG) on edge devices is updated
   through signed knowledge packs that carry text and precomputed embedding vectors. A signature proves who
