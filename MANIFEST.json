@@ -40,6 +40,11 @@
   "sha256": "2bed3abe77e5f892c3b7733ec0f1c03490071560768d40241878007b5eb8c3e4"
  },
  {
+  "path": "RELEASING.md",
+  "bytes": 1629,
+  "sha256": "d521cadbaeb09aea39050260ae75b7e3ce9485cf14cee668716ad59160dffcd2"
+ },
+ {
   "path": "analysis/analyze_e1.py",
   "bytes": 6884,
   "sha256": "8b30129b1c4eb1f7dbf87a3a2885c3471b29b53bc11174cd4c01249c8b64c6fc"
