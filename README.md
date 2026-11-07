@@ -6,7 +6,9 @@ in Offline Retrieval-Augmented Generation* (G. Feretzakis, A. Papaspyridis, secu
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23945569.svg)](https://doi.org/10.5281/zenodo.23945569)
 
 Archived on Zenodo: [10.5281/zenodo.23945569](https://doi.org/10.5281/zenodo.23945569) (all versions; release v1.0.2,
-cited in the paper: [10.5281/zenodo.23948839](https://doi.org/10.5281/zenodo.23948839)).
+cited in the paper: [10.5281/zenodo.23948839](https://doi.org/10.5281/zenodo.23948839)). Release v1.0.3 changes only the
+licence notices and metadata (`DATA_LICENSES.md`, this README, the citation metadata and `MANIFEST.json`); code, data
+and results are identical to v1.0.2.
 
 Paper: [arXiv:2611.06498](https://arxiv.org/abs/2611.06498) (doi:
 [10.48550/arXiv.2611.06498](https://doi.org/10.48550/arXiv.2611.06498)).
