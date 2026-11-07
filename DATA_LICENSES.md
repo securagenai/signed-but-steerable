@@ -3,17 +3,25 @@
 The code and the results we produced are released under the MIT licence (`LICENSE`), except the files listed
 below, which contain third-party material and keep its terms.
 
+securagen.ai P.C. used all third-party datasets and models in this repository for non-commercial research within
+its research and development activities, and releases the code and results openly.
+
 ## SQuAD 2.0 (CC BY-SA 4.0)
 SQuAD 2.0 (Rajpurkar, Jia and Liang, 2018; https://rajpurkar.github.io/SQuAD-explorer/) is licensed under the Creative
 Commons Attribution-ShareAlike 4.0 International licence (https://creativecommons.org/licenses/by-sa/4.0/).
 - `data/dev-v2.0.json` is the unmodified SQuAD 2.0 development set.
 - Modified material derived from it: the corpus, sentence, window and question files in `data/` and `data/prior/`, and
-  the results files that contain SQuAD text: `results/e1/sentences_top10.jsonl`, `results/e1/qa_passages.jsonl`
+  the results files that contain SQuAD text: `results/e1/qa_passages.jsonl`
   (answer spans extracted from SQuAD passages), `results/e2/contexts/`,
   `results/e2/gen_*.jsonl` (including the end-to-end E7 configurations), `results/e8/packs/*/chunks.json`,
   `results/e8/cases.json` and `results/e8/semantic_variants.json`.
+- Embedding vectors computed from these texts: `data/vec_bge_m3.npz`, `data/vec_minilm_L128.npz`,
+  `results/e5/vectors_ort-fp32.npz`, `results/e5/vectors_ort-int8.npz`, `results/e7/vectors_x86_ort-fp32.npy` and
+  `results/e8/packs/*/vectors.npy`.
+
 These files are released under CC BY-SA 4.0. Changes: passages were selected and segmented into sentences and
-windows, questions were sampled, and texts were combined with generated answers and scores.
+windows, questions were sampled, texts were embedded with the models listed below, and texts were combined with
+generated answers and scores.
 
 ## Generated answers (Qwen2.5-3B-Instruct)
 The answers in `results/e2/gen_*.jsonl` were generated with Qwen2.5-3B-Instruct
@@ -22,7 +30,8 @@ Agreement; the model's own terms also apply to the generated answers. The model 
 
 ## BEIR datasets and MS MARCO (no text included)
 For these datasets the repository contains only numbers derived from them and their identifiers, no text:
-`results/e7/margins/*.npz` and `results/e7/beir_margins.json` (per-query retrieval margins) and
+`results/e7/margins/*.npz` and `results/e7/beir_margins.json` (per-query retrieval margins),
+`results/e7/margin_precision_check.json` (query and document identifiers of near-tie cases) and
 `results/e1/ood_msmarco_rows.jsonl` and `results/e1/ood_msmarco.json` (MS MARCO query IDs and scores).
 Each dataset keeps its own terms: SciFact (claims CC BY 4.0, abstracts ODC-By 1.0), ArguAna (CC BY 4.0), NFCorpus
 (free for academic use; other uses follow NutritionFacts.org's terms), FiQA-2018 (non-commercial use) and MS MARCO
