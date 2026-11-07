@@ -11,18 +11,18 @@
  },
  {
   "path": ".zenodo.json",
-  "bytes": 1726,
-  "sha256": "369ff4f681419490c6b2a6b563d124229bc0686e3c4ffa889834f75b933febb9"
+  "bytes": 2001,
+  "sha256": "5f9d341826479623b2ce81eb7fefe49c5cf1a7d0847ac5854317213f3003d7aa"
  },
  {
   "path": "CITATION.cff",
-  "bytes": 1804,
-  "sha256": "5be621295c81f2e32a375e276e6f3dacdaf8e601d36d57aa02f2819844473608"
+  "bytes": 1931,
+  "sha256": "4756e1192b6d9b6de7359e1086038c559cd8ce6eb68727a8758c6c487a8a9d88"
  },
  {
   "path": "DATA_LICENSES.md",
-  "bytes": 3182,
-  "sha256": "2a3c8bcd7bd8bbc98c862f3e3d3c0744adc75cf63343c9c4ec76a02a8a070253"
+  "bytes": 3735,
+  "sha256": "6b957f003785c39d6bdd8bd0dccf800a6438b004e4a350e2b50df2d5de345649"
  },
  {
   "path": "LICENSE",
@@ -36,8 +36,8 @@
  },
  {
   "path": "README.md",
-  "bytes": 6687,
-  "sha256": "69633df41740455af1ce6037fbb6f72ca9688ba7aaef63128228a992c1cb8dee"
+  "bytes": 6983,
+  "sha256": "2bed3abe77e5f892c3b7733ec0f1c03490071560768d40241878007b5eb8c3e4"
  },
  {
   "path": "analysis/analyze_e1.py",
